@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "level": "N5",
+  "completed_lessons": 20,
+  "grammar": 100,
+  "vocabulary": 800,
+  "kanji": 100,
+  "srs": "enabled",
+  "analytics": "enabled",
+  "github_pages": "enabled",
+  "next": "N4"
+}
