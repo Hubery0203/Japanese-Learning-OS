@@ -1,12 +1,13 @@
 {
   "version": "2.0.0",
+  "learner": "Hubery",
   "level": "N5",
-  "completed_lessons": 20,
-  "grammar": 100,
-  "vocabulary": 800,
+  "completed_lessons": 25,
+  "grammar": "particles は が を で へ の",
+  "vocabulary": "daily words, travel, food, study expressions",
   "kanji": 100,
   "srs": "enabled",
   "analytics": "enabled",
   "github_pages": "enabled",
-  "next": "N4"
+  "next": "N5 conversation practice → N4"
 }
