@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "learner": "Hubery",
   "level": "N5",
   "completed_lessons": 25,
@@ -9,5 +9,10 @@
   "srs": "enabled",
   "analytics": "enabled",
   "github_pages": "enabled",
-  "next": "N5 conversation practice → N4"
+  "next": "N5 conversation practice → N4",
+  "current_lesson": "conversation_012",
+  "memory_file": "Data/learner_memory.json",
+  "knowledge_graph": "Data/knowledge_graph.json",
+  "srs_queue": "Data/srs_queue.json",
+  "teacher_rules": "Teacher_Engine/rules.md"
 }

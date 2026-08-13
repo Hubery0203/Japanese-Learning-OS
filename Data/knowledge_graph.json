@@ -1,0 +1,21 @@
+{
+  "version": "2.1.0",
+  "nodes": [
+    {"id": "grammar_001", "type": "grammar", "label": "は topic marker", "depends_on": []},
+    {"id": "grammar_002", "type": "grammar", "label": "が preference marker", "depends_on": []},
+    {"id": "grammar_003", "type": "grammar", "label": "を object marker", "depends_on": []},
+    {"id": "grammar_004", "type": "grammar", "label": "へ direction marker", "depends_on": []},
+    {"id": "grammar_005", "type": "grammar", "label": "で place of action", "depends_on": []},
+    {"id": "grammar_006", "type": "grammar", "label": "の noun connection", "depends_on": []},
+    {"id": "grammar_021", "type": "grammar", "label": "好きです preference pattern", "depends_on": ["grammar_002"]},
+    {"id": "grammar_034", "type": "grammar", "label": "たいです desire pattern", "depends_on": ["grammar_003"]},
+    {"id": "grammar_041", "type": "grammar", "label": "から reason", "depends_on": ["grammar_001", "grammar_002"]},
+    {"id": "grammar_042", "type": "grammar", "label": "ので soft reason", "depends_on": ["grammar_001", "grammar_002"]},
+    {"id": "conversation_012", "type": "conversation", "label": "Travel and study goals", "depends_on": ["grammar_004", "grammar_005", "grammar_021", "grammar_034", "grammar_042"]}
+  ],
+  "teaching_policy": {
+    "must_check_dependencies": true,
+    "if_dependency_missing": "review prerequisite before teaching target node",
+    "stable_id_format": "category_###"
+  }
+}

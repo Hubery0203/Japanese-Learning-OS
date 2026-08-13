@@ -1,0 +1,53 @@
+{
+  "version": "2.1.0",
+  "learner_profile": {
+    "name": "Hubery",
+    "current_level": "JLPT N5",
+    "long_term_goal": "JLPT N1",
+    "next_goal": "N5 conversation accuracy before N4 expansion"
+  },
+  "learning_state": {
+    "current_lesson_id": "conversation_012",
+    "current_focus": ["particles", "たいです", "から", "ので"],
+    "recent_grammar": [
+      "日本料理が好きです。",
+      "日本へ行きたいです。",
+      "日本語が好きなので、来年東京へ行きたいです。",
+      "東京で日本語を勉強したいです。",
+      "寿司を食べたいです。"
+    ]
+  },
+  "preferences": {
+    "teaching_style": "output-first",
+    "correction_priority": ["particles", "sentence ending", "word choice"],
+    "max_new_sentences_per_turn": 1,
+    "explanation_level": "short N5-friendly English"
+  },
+  "weaknesses": [
+    {
+      "id": "weakness_particle_ga_wo",
+      "target": "が vs を",
+      "priority": "high",
+      "example_contrast": ["日本料理が好きです。", "寿司を食べたいです。"]
+    },
+    {
+      "id": "weakness_reason_kara_node",
+      "target": "から vs ので",
+      "priority": "high",
+      "example_contrast": ["日本語が好きだから勉強します。", "日本語が好きなので、東京へ行きたいです。"]
+    },
+    {
+      "id": "weakness_tai_desu",
+      "target": "たいです",
+      "priority": "high",
+      "example_contrast": ["食べます", "食べたいです"]
+    }
+  ],
+  "learning_history": [
+    {
+      "date": "2026-07-28",
+      "summary": "Practiced self-introduction, N5 particles, time words, adjectives, and travel/study sentences.",
+      "source": "Reviews/Daily_Log.md"
+    }
+  ]
+}
