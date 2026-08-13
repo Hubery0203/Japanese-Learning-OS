@@ -1,0 +1,17 @@
+{
+  "name": "japanese-learning",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress docs --config .vitepress/config.ts --host 0.0.0.0",
+    "docs:build": "vitepress build docs --config .vitepress/config.ts",
+    "docs:preview": "vitepress preview docs --config .vitepress/config.ts --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "typescript": "latest",
+    "vitepress": "latest",
+    "autoprefixer": "latest"
+  }
+}
