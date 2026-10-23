@@ -4,7 +4,9 @@
     "name": "Hubery",
     "current_level": "JLPT N5",
     "long_term_goal": "JLPT N1",
-    "next_goal": "N5 conversation accuracy before N4 expansion"
+    "next_goal": "N5 conversation accuracy before N4 expansion",
+    "historical_strengths": ["understands patterns well", "prefers systematic learning"],
+    "historical_focus_areas": ["vocabulary accumulation", "listening speed", "Japanese output practice"]
   },
   "learning_state": {
     "current_lesson_id": "conversation_012",

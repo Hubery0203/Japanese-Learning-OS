@@ -26,6 +26,8 @@
 .dashboard-heading h2 { margin:0; border:0; }
 .eyebrow { margin:0 0 .35rem; color:var(--vp-c-brand-1); font-size:.72rem; font-weight:700; letter-spacing:.14em; }
 .progress-pill,.count { border-radius:999px; background:var(--vp-c-bg); padding:.4rem .75rem; font-weight:700; }
+.metric-row,.data-actions { display:flex; flex-wrap:wrap; gap:.55rem; margin-top:1rem; }
+.metric-row span { padding:.4rem .65rem; border-radius:8px; background:var(--vp-c-bg); font-size:.82rem; color:var(--vp-c-text-2); }
 .dashboard-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1rem; margin-top:1rem; }
 .dashboard-card { padding:1.2rem; border:1px solid var(--vp-c-divider); border-radius:14px; background:var(--vp-c-bg); }
 .dashboard-card h3 { margin:.65rem 0 .35rem; }
@@ -38,6 +40,8 @@
 .review-panel textarea { box-sizing:border-box; width:100%; margin:.4rem 0; padding:.7rem; border:1px solid var(--vp-c-divider); border-radius:8px; color:var(--vp-c-text-1); background:var(--vp-c-bg); }
 .feedback { padding:.75rem; border-radius:8px; background:var(--vp-c-bg-soft); }
 .grade-row { display:flex; gap:.5rem; }
+.grade-row button { min-width:2.4rem; }
+.done-button:disabled { cursor:not-allowed; opacity:.45; }
 .lesson-list { padding:0; list-style:none; }
 .lesson-list li { display:flex; align-items:center; justify-content:space-between; gap:.5rem; padding:.6rem 0; border-bottom:1px solid var(--vp-c-divider); }
 .done-label { color:var(--vp-c-brand-1); font-size:.85rem; }

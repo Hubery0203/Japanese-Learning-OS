@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/Japanese-Learning-OS/',
   title: '日本語学習 Database',
   description: 'A structured Japanese learning knowledge base for kana, verbs, grammar, kanji, and study resources.',
   cleanUrls: true,
@@ -24,6 +25,7 @@ export default defineConfig({
       { text: 'Grammar', link: '/03-grammar/n5-n4-core' },
       { text: 'Kanji', link: '/04-kanji/phonetic-rules' },
       { text: 'Lessons', link: '/06-lessons/' },
+      { text: 'N5 Milestone', link: '/07-milestones/n5' },
       { text: 'Resources', link: '/05-resources/' }
     ],
     sidebar: [
@@ -62,13 +64,18 @@ export default defineConfig({
         ]
       },
       {
+        text: '07 Milestones',
+        collapsed: true,
+        items: [{ text: 'N5 Milestone', link: '/07-milestones/n5' }, { text: 'N5 Final Assessment Plan', link: '/06-lessons/n5-final-assessment' }]
+      },
+      {
         text: '05 Resources',
         collapsed: false,
         items: [{ text: 'Learning Tools', link: '/05-resources/' }]
       }
     ],
     outline: { level: [2, 3], label: 'On this page' },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Hubery0203/Japanese-Learning-OS' }],
     footer: {
       message: 'Built with VitePress for systematic Japanese learning.',
       copyright: 'Content designed for learners from kana through JLPT N4.'

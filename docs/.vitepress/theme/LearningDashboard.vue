@@ -1,66 +1,87 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
 import catalog from '../../../Data/lessons.json'
+import progressSource from '../../../Data/progress.json'
 import queueSource from '../../../Data/srs_queue.json'
+import { scheduleReview } from '../../../scripts/srs-core.mjs'
 
 type Review = { id: string; target: string; prompt: string; expected_pattern: string; priority: number; due: string; scheduling?: { interval_index: number; repetitions: number; lapses: number; last_quality: number; last_reviewed: string } }
-type State = { completed: string[]; queue: Review[]; sessions: number }
-const storageKey = 'japanese-learning-os:v1'
-const state = ref<State>({ completed: [], queue: structuredClone(queueSource.review_queue) as Review[], sessions: 0 })
+type StudyEvent = { type: 'lesson' | 'review'; date: string; id: string; quality?: number; correct?: boolean; prompt?: string; response?: string }
+type State = { completed: string[]; queue: Review[]; events: StudyEvent[] }
+const storageKey = 'japanese-learning-os:v2'
+const defaults = (): State => ({ completed: [], queue: structuredClone(queueSource.review_queue) as Review[], events: [] })
+const state = ref<State>(defaults())
 const selected = ref<Review | null>(null)
 const answer = ref('')
 const feedback = ref('')
+const importInput = ref<HTMLInputElement>()
 const today = new Date().toISOString().slice(0, 10)
+const lessons = catalog.lessons as Array<{id:string;title:string;path:string;prerequisites:string[]}>
 const due = computed(() => state.value.queue.filter(item => item.due === 'next_session' || item.due <= today))
-const completion = computed(() => Math.round(state.value.completed.length / catalog.lessons.length * 100))
+const completion = computed(() => Math.round(state.value.completed.length / lessons.length * 100))
+const weekEvents = computed(() => state.value.events.filter(event => { const age = (Date.parse(`${today}T00:00:00Z`) - Date.parse(`${event.date}T00:00:00Z`)) / 86400000; return age >= 0 && age < 7 }))
+const reviewsThisWeek = computed(() => weekEvents.value.filter(event => event.type === 'review'))
+const accuracy = computed(() => reviewsThisWeek.value.length ? Math.round(reviewsThisWeek.value.filter(event => event.correct).length / reviewsThisWeek.value.length * 100) : null)
+const completedLessons = computed(() => state.value.completed.length)
 onMounted(() => {
   try {
     const saved = localStorage.getItem(storageKey)
-    if (saved) state.value = JSON.parse(saved)
-  } catch { /* Start with repository defaults if local data is unreadable. */ }
+    if (!saved) return
+    const parsed = JSON.parse(saved) as Partial<State>
+    const validIds = new Set(lessons.map(item => item.id))
+    state.value = { completed: (parsed.completed ?? []).filter(id => validIds.has(id)), queue: Array.isArray(parsed.queue) ? parsed.queue : defaults().queue, events: Array.isArray(parsed.events) ? parsed.events : [] }
+  } catch { state.value = defaults() }
 })
-function persist() { localStorage.setItem(storageKey, JSON.stringify(state.value)) }
+function persist() { localStorage.setItem(storageKey, JSON.stringify(state.value)); }
 function startReview() { selected.value = due.value[0] ?? null; answer.value = ''; feedback.value = '' }
-function checkAnswer() {
-  if (!selected.value || !answer.value.trim()) return
-  feedback.value = `参考答案：${selected.value.expected_pattern}。请对本次回忆评分（0–5），再选择下方评分。`
-}
+function checkAnswer() { if (!selected.value || !answer.value.trim()) return; feedback.value = `参考答案：${selected.value.expected_pattern}` }
 function grade(quality: number) {
   if (!selected.value) return
   const item = selected.value
-  const old = item.scheduling ?? { interval_index: -1, repetitions: 0, lapses: 0, last_quality: quality, last_reviewed: today }
-  const intervals: number[] = queueSource.schedule_intervals_days
-  const index = quality < 3 ? 0 : Math.min(old.interval_index + 1, intervals.length - 1)
-  const next = new Date(`${today}T12:00:00Z`); next.setUTCDate(next.getUTCDate() + intervals[index])
-  item.due = next.toISOString().slice(0, 10)
-  item.scheduling = { interval_index: index, repetitions: quality < 3 ? 0 : old.repetitions + 1, lapses: quality < 3 ? old.lapses + 1 : old.lapses, last_quality: quality, last_reviewed: today }
+  const result = scheduleReview(item, quality, today, queueSource.schedule_intervals_days)
+  Object.assign(item, result)
+  state.value.events.push({ type: 'review', date: today, id: item.id, quality, correct: quality >= 3, prompt: item.prompt, response: answer.value.trim() })
   persist(); startReview()
 }
-function markComplete(id: string) { if (!state.value.completed.includes(id)) state.value.completed.push(id); state.value.sessions++; persist() }
+function canComplete(lesson: typeof lessons[number]) { return lesson.prerequisites.every(id => state.value.completed.includes(id)) }
+function markComplete(lesson: typeof lessons[number]) {
+  if (!canComplete(lesson) || state.value.completed.includes(lesson.id)) return
+  state.value.completed.push(lesson.id); state.value.events.push({ type: 'lesson', date: today, id: lesson.id }); persist()
+}
+function exportData() {
+  const blob = new Blob([JSON.stringify({ format: 'Japanese-Learning-OS-local-state', version: 2, exported_at: new Date().toISOString(), ...state.value }, null, 2)], { type: 'application/json' })
+  const link = document.createElement('a'); link.href = URL.createObjectURL(blob); link.download = `japanese-learning-state-${today}.json`; link.click(); URL.revokeObjectURL(link.href)
+}
+function importData(event: globalThis.Event) {
+  const file = (event.target as HTMLInputElement).files?.[0]; if (!file) return
+  const reader = new FileReader()
+  reader.onload = () => {
+    try {
+      const parsed = JSON.parse(String(reader.result)); const valid = new Set(lessons.map(item => item.id))
+      if (!Array.isArray(parsed.completed) || !Array.isArray(parsed.queue) || !Array.isArray(parsed.events)) throw new Error('格式错误')
+      state.value = { completed: parsed.completed.filter((id: string) => valid.has(id)), queue: parsed.queue, events: parsed.events }; persist(); selected.value = null; feedback.value = '学习数据已导入。'
+    } catch { feedback.value = '文件无效或格式不兼容，未导入。' }
+  }
+  reader.readAsText(file); (event.target as HTMLInputElement).value = ''
+}
 </script>
 
 <template>
   <section class="learning-dashboard">
-    <div class="dashboard-heading"><div><p class="eyebrow">YOUR STUDY SPACE</p><h2>今日学习</h2></div><span class="progress-pill">{{ completion }}% 课程完成</span></div>
+    <div class="dashboard-heading"><div><p class="eyebrow">YOUR STUDY SPACE</p><h2>今日学习</h2></div><span class="progress-pill">{{ completion }}% 当前课程完成</span></div>
+    <div class="metric-row"><span>当前课程 {{ completedLessons }}/{{ lessons.length }}</span><span>本周复习 {{ reviewsThisWeek.length }} 次</span><span>本周自评达标率 {{ accuracy === null ? '暂无数据' : `${accuracy}%` }}</span><span>历史汇总：{{ progressSource.completed_lessons }} 课（未计入当前课程）</span></div>
     <div class="dashboard-grid">
-      <article class="dashboard-card review-card">
-        <div class="card-top"><span class="card-icon">復</span><span class="count">{{ due.length }}</span></div>
-        <h3>到期复习</h3><p>先回忆，再查看参考答案。自评分数会安排下一次复习。</p>
-        <button class="primary-button" @click="startReview">{{ selected ? '重新开始' : '开始复习' }}</button>
-        <div v-if="selected" class="review-panel">
-          <strong>{{ selected.target }}</strong><p>{{ selected.prompt }}</p>
-          <textarea v-model="answer" placeholder="输入你的日语答案" rows="3" />
-          <button class="secondary-button" @click="checkAnswer">查看参考答案</button>
-          <p v-if="feedback" class="feedback">{{ feedback }}</p>
-          <div v-if="feedback" class="grade-row"><button v-for="score in [1, 3, 4, 5]" :key="score" @click="grade(score)">{{ score }}</button></div>
-        </div>
-      </article>
       <article class="dashboard-card">
-        <div class="card-top"><span class="card-icon">学</span><span class="count">{{ catalog.lessons.length - state.completed.length }}</span></div>
-        <h3>课程</h3><p>按前置知识循序学习，完成后在这里记录。</p>
-        <ul class="lesson-list"><li v-for="lesson in catalog.lessons" :key="lesson.id"><a :href="`/${lesson.path.replace(/^docs\//, '').replace(/\.md$/, '')}`">{{ lesson.title }}</a><button v-if="!state.completed.includes(lesson.id)" class="done-button" @click="markComplete(lesson.id)">完成</button><span v-else class="done-label">已完成</span></li></ul>
+        <div class="card-top"><span class="card-icon">復</span><span class="count">{{ due.length }}</span></div><h3>到期复习</h3><p>先回忆，再查看答案。自评 0–5 分会安排下一次复习。</p>
+        <button class="primary-button" @click="startReview">{{ selected ? '换一题' : '开始复习' }}</button>
+        <div v-if="selected" class="review-panel"><strong>{{ selected.target }}</strong><p>{{ selected.prompt }}</p><textarea v-model="answer" placeholder="先尝试输入日语答案" rows="3" /><button class="secondary-button" @click="checkAnswer">查看参考答案</button><p v-if="feedback" class="feedback">{{ feedback }}</p><div v-if="feedback" class="grade-row"><button v-for="score in [0,1,2,3,4,5]" :key="score" @click="grade(score)">{{ score }}</button></div></div>
+        <p v-if="!due.length" class="local-note">当前没有到期复习。</p>
       </article>
+      <article class="dashboard-card"><div class="card-top"><span class="card-icon">学</span><span class="count">{{ lessons.length - completedLessons }}</span></div><h3>课程路径</h3><ul class="lesson-list"><li v-for="lesson in lessons" :key="lesson.id"><a :href="`/${lesson.path.replace(/^docs\//, '').replace(/\.md$/, '')}`">{{ lesson.title }}</a><button v-if="!state.completed.includes(lesson.id)" class="done-button" :disabled="!canComplete(lesson)" :title="canComplete(lesson) ? '标记为完成' : '先完成前置课程'" @click="markComplete(lesson)">完成</button><span v-else class="done-label">已完成</span></li></ul></article>
+      <article class="dashboard-card"><span class="eyebrow">WEEKLY REPORT</span><h3>本周学习</h3><p>课程完成 {{ weekEvents.filter(e => e.type === 'lesson').length }} 次，复习 {{ reviewsThisWeek.length }} 次。</p><p>复习自评达标率：{{ accuracy === null ? '暂无记录' : `${accuracy}%` }}</p><p>待复习：{{ due.length }} 项</p></article>
     </div>
-    <p class="local-note">学习进度仅保存在此浏览器。当前不会同步回 GitHub 仓库。</p>
+    <div class="data-actions"><button class="secondary-button" @click="exportData">导出学习数据</button><button class="secondary-button" @click="importInput?.click()">导入学习数据</button><input ref="importInput" type="file" accept="application/json" hidden @change="importData" /></div>
+    <p class="local-note">数据保存在当前浏览器。跨设备使用时请手动导出并导入 JSON 文件；尚未连接账号或云同步。</p>
+    <p v-if="feedback && !selected" class="feedback">{{ feedback }}</p>
   </section>
 </template>

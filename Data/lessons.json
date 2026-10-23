@@ -6,7 +6,9 @@
       "title": "日语拍与特殊音",
       "level": "N5",
       "path": "docs/06-lessons/L001-mora-and-long-vowels.md",
-      "knowledge_nodes": ["mora_001"],
+      "knowledge_nodes": [
+        "mora_001"
+      ],
       "prerequisites": [],
       "estimated_minutes": 10
     },
@@ -15,7 +17,10 @@
       "title": "识别动词类别并变ます形",
       "level": "N5",
       "path": "docs/06-lessons/L002-verb-groups-and-masu.md",
-      "knowledge_nodes": ["verbgroup_001", "verbmasu_001"],
+      "knowledge_nodes": [
+        "verbgroup_001",
+        "verbmasu_001"
+      ],
       "prerequisites": [],
       "estimated_minutes": 12
     },
@@ -24,8 +29,168 @@
       "title": "用「たいです」表达愿望",
       "level": "N5",
       "path": "docs/06-lessons/L003-desire-tai-desu.md",
-      "knowledge_nodes": ["grammar_034"],
-      "prerequisites": ["lesson_002"],
+      "knowledge_nodes": [
+        "grammar_034"
+      ],
+      "prerequisites": [
+        "lesson_002"
+      ],
+      "estimated_minutes": 10
+    },
+    {
+      "id": "lesson_004",
+      "title": "〜てはいけない",
+      "level": "N5",
+      "path": "docs/06-lessons/L004-prohibition-tewa-ikenai.md",
+      "knowledge_nodes": [
+        "grammarcard_001"
+      ],
+      "prerequisites": [
+        "lesson_002"
+      ],
+      "estimated_minutes": 10
+    },
+    {
+      "id": "lesson_005",
+      "title": "〜なくてもいい",
+      "level": "N5",
+      "path": "docs/06-lessons/L005-permission-nakutemoii.md",
+      "knowledge_nodes": [
+        "grammarcard_002"
+      ],
+      "prerequisites": [
+        "lesson_004"
+      ],
+      "estimated_minutes": 10
+    },
+    {
+      "id": "lesson_006",
+      "title": "〜ほうがいい",
+      "level": "N5",
+      "path": "docs/06-lessons/L006-advice-houga-ii.md",
+      "knowledge_nodes": [
+        "grammarcard_003"
+      ],
+      "prerequisites": [
+        "lesson_005"
+      ],
+      "estimated_minutes": 10
+    },
+    {
+      "id": "lesson_007",
+      "title": "〜ようになる",
+      "level": "N4",
+      "path": "docs/06-lessons/L007-change-you-ni-naru.md",
+      "knowledge_nodes": [
+        "grammarcard_004"
+      ],
+      "prerequisites": [
+        "lesson_006"
+      ],
+      "estimated_minutes": 10
+    },
+    {
+      "id": "lesson_008",
+      "title": "〜ことにする",
+      "level": "N4",
+      "path": "docs/06-lessons/L008-decision-koto-ni-suru.md",
+      "knowledge_nodes": [
+        "grammarcard_005"
+      ],
+      "prerequisites": [
+        "lesson_007"
+      ],
+      "estimated_minutes": 10
+    },
+    {
+      "id": "lesson_009",
+      "title": "〜ために / 〜ように",
+      "level": "N4",
+      "path": "docs/06-lessons/L009-purpose-tameni-youni.md",
+      "knowledge_nodes": [
+        "grammarcard_006"
+      ],
+      "prerequisites": [
+        "lesson_008"
+      ],
+      "estimated_minutes": 10
+    },
+    {
+      "id": "lesson_010",
+      "title": "〜てから",
+      "level": "N4",
+      "path": "docs/06-lessons/L010-sequence-te-kara.md",
+      "knowledge_nodes": [
+        "grammarcard_007"
+      ],
+      "prerequisites": [
+        "lesson_009"
+      ],
+      "estimated_minutes": 10
+    },
+    {
+      "id": "lesson_011",
+      "title": "〜たり〜たりする",
+      "level": "N4",
+      "path": "docs/06-lessons/L011-listing-tari-tari.md",
+      "knowledge_nodes": [
+        "grammarcard_008"
+      ],
+      "prerequisites": [
+        "lesson_010"
+      ],
+      "estimated_minutes": 10
+    },
+    {
+      "id": "lesson_012",
+      "title": "〜かもしれない",
+      "level": "N4",
+      "path": "docs/06-lessons/L012-possibility-kamoshirenai.md",
+      "knowledge_nodes": [
+        "grammarcard_009"
+      ],
+      "prerequisites": [
+        "lesson_011"
+      ],
+      "estimated_minutes": 10
+    },
+    {
+      "id": "lesson_013",
+      "title": "〜と思う",
+      "level": "N4",
+      "path": "docs/06-lessons/L013-opinion-to-omou.md",
+      "knowledge_nodes": [
+        "grammarcard_010"
+      ],
+      "prerequisites": [
+        "lesson_012"
+      ],
+      "estimated_minutes": 10
+    },
+    {
+      "id": "lesson_014",
+      "title": "〜ながら",
+      "level": "N4",
+      "path": "docs/06-lessons/L014-simultaneous-nagara.md",
+      "knowledge_nodes": [
+        "grammarcard_011"
+      ],
+      "prerequisites": [
+        "lesson_013"
+      ],
+      "estimated_minutes": 10
+    },
+    {
+      "id": "lesson_015",
+      "title": "〜そうだ（样态）",
+      "level": "N4",
+      "path": "docs/06-lessons/L015-appearance-souda.md",
+      "knowledge_nodes": [
+        "grammarcard_012"
+      ],
+      "prerequisites": [
+        "lesson_014"
+      ],
       "estimated_minutes": 10
     }
   ]

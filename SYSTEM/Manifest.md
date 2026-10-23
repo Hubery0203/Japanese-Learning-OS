@@ -40,7 +40,7 @@ Dashboard and analytics files are derived views. They must not become a second w
 
 ## Current scope and boundaries
 
-The current site is a static VitePress website. `Data/*.json` and Markdown records are repository data, not a live multi-user database. Do not describe login, cloud sync, automatic analytics, or interactive SRS as implemented until application code provides those capabilities.
+The current site is a static VitePress website. The dashboard stores new learner events and browser SRS scheduling in local storage; export/import JSON supports manual transfer between browsers. CLI SRS grading updates `Data/srs_queue.json`. There is no account service or automatic cloud sync. Dashboard reports summarize only events recorded by that browser, not the legacy self-reported totals.
 
 ## Change checklist
 

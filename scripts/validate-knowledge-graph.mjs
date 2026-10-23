@@ -2,8 +2,10 @@ import { access, readFile } from 'node:fs/promises'
 
 const graphPath = new URL('../Data/knowledge_graph.json', import.meta.url)
 const catalogPath = new URL('../Data/lessons.json', import.meta.url)
+const queuePath = new URL('../Data/srs_queue.json', import.meta.url)
 const graph = JSON.parse(await readFile(graphPath, 'utf8'))
 const catalog = JSON.parse(await readFile(catalogPath, 'utf8'))
+const queue = JSON.parse(await readFile(queuePath, 'utf8'))
 const errors = []
 const nodes = new Map()
 
@@ -23,6 +25,7 @@ for (const node of nodes.values()) {
 
 const lessonIds = new Set()
 for (const lesson of catalog.lessons ?? []) {
+  if (!/^lesson_[0-9]{3}$/.test(lesson.id ?? '')) errors.push(`Invalid lesson ID: ${lesson.id}`)
   if (lessonIds.has(lesson.id)) errors.push(`Duplicate lesson ID: ${lesson.id}`)
   lessonIds.add(lesson.id)
   const graphNode = nodes.get(lesson.id)
@@ -39,6 +42,17 @@ for (const lesson of catalog.lessons ?? []) {
     await access(new URL(`../${lesson.path}`, import.meta.url))
   } catch {
     errors.push(`${lesson.id} points to missing file ${lesson.path}`)
+  }
+}
+
+const reviewIds = new Set()
+for (const item of queue.review_queue ?? []) {
+  if (!/^[a-z][a-z0-9]*_[0-9]{3}$/.test(item.id ?? '')) errors.push(`Invalid SRS item ID: ${item.id}`)
+  if (reviewIds.has(item.id)) errors.push(`Duplicate SRS item ID: ${item.id}`)
+  reviewIds.add(item.id)
+  if (item.due !== 'next_session' && !/^\d{4}-\d{2}-\d{2}$/.test(item.due ?? '')) errors.push(`${item.id} has invalid due date ${item.due}`)
+  if (item.scheduling && (item.scheduling.interval_index < 0 || item.scheduling.interval_index >= queue.schedule_intervals_days.length)) {
+    errors.push(`${item.id} has an interval index outside the configured schedule`)
   }
 }
 

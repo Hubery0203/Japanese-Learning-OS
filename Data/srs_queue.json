@@ -7,8 +7,8 @@
     "max_new_items_when_reviews_due": 0
   },
   "review_queue": [
-    {"id": "srs_ga_wo_001", "target": "が vs を", "prompt": "Say: I like Japanese food.", "expected_pattern": "日本料理が好きです。", "priority": 5, "due": "next_session"},
-    {"id": "srs_tai_001", "target": "たいです", "prompt": "Say: I want to eat sushi.", "expected_pattern": "寿司を食べたいです。", "priority": 5, "due": "next_session"},
-    {"id": "srs_node_001", "target": "ので", "prompt": "Say: Because I like Japanese, I want to go to Tokyo next year.", "expected_pattern": "日本語が好きなので、来年東京へ行きたいです。", "priority": 5, "due": "next_session"}
+    {"id": "srsgawo_001", "target": "が vs を", "prompt": "Say: I like Japanese food.", "expected_pattern": "日本料理が好きです。", "priority": 5, "due": "next_session"},
+    {"id": "srstai_001", "target": "たいです", "prompt": "Say: I want to eat sushi.", "expected_pattern": "寿司を食べたいです。", "priority": 5, "due": "next_session"},
+    {"id": "srsnode_001", "target": "ので", "prompt": "Say: Because I like Japanese, I want to go to Tokyo next year.", "expected_pattern": "日本語が好きなので、来年東京へ行きたいです。", "priority": 5, "due": "next_session"}
   ]
 }

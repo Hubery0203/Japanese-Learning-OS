@@ -14,9 +14,11 @@ The JSON files in `Data/` are the canonical machine-readable learner state. JSON
 
 ## Compatibility and follow-up migration
 
-The current `progress.json` mixes counts with free-text summaries (for example `grammar`, `vocabulary`, `kanji`) and feature flags. This is retained in this cleanup to avoid losing data. A later migration should replace those summaries with typed records and derive completion counts from lesson events or explicit lesson IDs. Until then, treat these fields as legacy summary fields, not precise analytics.
+The current `progress.json` mixes counts with free-text summaries (for example `grammar`, `vocabulary`, `kanji`) and feature flags. The existing `completed_lessons: 25` is preserved as a historical self-reported baseline and is labeled as such; it is not added to the new course completion count. New completions come from actual lesson events in browser state. Treat the remaining free-text fields as legacy summaries, not precise analytics.
 
-The current SRS file uses `due: "next_session"`; future queue records should use an ISO date for calendar scheduling, while retaining an explicit session-relative mode only if the scheduler supports it.
+The initial SRS items use `due: "next_session"`; their first grade converts them to an ISO date. Both the command-line scheduler and website call `scripts/srs-core.mjs` so interval behavior stays consistent.
+
+Materials in the retired version folders were compared before removal. Generic templates and placeholder reports are superseded by current templates and live dashboard summaries. Learner-specific notes and the old N5 target list were carried into `Data/learner_memory.json`, `Reviews/Legacy_Notes.md`, and `docs/07-milestones/n5.md`. The prior final test contained only section names; its scope is retained as a blueprint, not misrepresented as a functioning exam.
 
 Knowledge graph nodes currently use `depends_on`; each dependency is a directed prerequisite edge. All referenced IDs must exist, IDs must be unique, and prerequisite cycles are invalid. `type` and `depends_on` values must be validated against the schema.
 

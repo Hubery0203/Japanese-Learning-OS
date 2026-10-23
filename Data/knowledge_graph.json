@@ -1,23 +1,314 @@
 {
   "version": "2.1.0",
   "nodes": [
-    {"id": "mora_001", "type": "grammar", "label": "Japanese mora and special sounds", "depends_on": []},
-    {"id": "verbgroup_001", "type": "grammar", "label": "Verb groups", "depends_on": []},
-    {"id": "verbmasu_001", "type": "grammar", "label": "ます form", "depends_on": ["verbgroup_001"]},
-    {"id": "grammar_001", "type": "grammar", "label": "は topic marker", "depends_on": []},
-    {"id": "grammar_002", "type": "grammar", "label": "が preference marker", "depends_on": []},
-    {"id": "grammar_003", "type": "grammar", "label": "を object marker", "depends_on": []},
-    {"id": "grammar_004", "type": "grammar", "label": "へ direction marker", "depends_on": []},
-    {"id": "grammar_005", "type": "grammar", "label": "で place of action", "depends_on": []},
-    {"id": "grammar_006", "type": "grammar", "label": "の noun connection", "depends_on": []},
-    {"id": "grammar_021", "type": "grammar", "label": "好きです preference pattern", "depends_on": ["grammar_002"]},
-    {"id": "grammar_034", "type": "grammar", "label": "たいです desire pattern", "depends_on": ["grammar_003"]},
-    {"id": "grammar_041", "type": "grammar", "label": "から reason", "depends_on": ["grammar_001", "grammar_002"]},
-    {"id": "grammar_042", "type": "grammar", "label": "ので soft reason", "depends_on": ["grammar_001", "grammar_002"]},
-    {"id": "conversation_012", "type": "conversation", "label": "Travel and study goals", "depends_on": ["grammar_004", "grammar_005", "grammar_021", "grammar_034", "grammar_042"]},
-    {"id": "lesson_001", "type": "lesson", "label": "Mora and special sounds", "depends_on": ["mora_001"]},
-    {"id": "lesson_002", "type": "lesson", "label": "Verb groups and ます form", "depends_on": ["verbgroup_001", "verbmasu_001"]},
-    {"id": "lesson_003", "type": "lesson", "label": "Desire with たいです", "depends_on": ["lesson_002", "grammar_034"]}
+    {
+      "id": "mora_001",
+      "type": "grammar",
+      "label": "Japanese mora and special sounds",
+      "depends_on": []
+    },
+    {
+      "id": "verbgroup_001",
+      "type": "grammar",
+      "label": "Verb groups",
+      "depends_on": []
+    },
+    {
+      "id": "verbmasu_001",
+      "type": "grammar",
+      "label": "ます form",
+      "depends_on": [
+        "verbgroup_001"
+      ]
+    },
+    {
+      "id": "grammar_001",
+      "type": "grammar",
+      "label": "は topic marker",
+      "depends_on": []
+    },
+    {
+      "id": "grammar_002",
+      "type": "grammar",
+      "label": "が preference marker",
+      "depends_on": []
+    },
+    {
+      "id": "grammar_003",
+      "type": "grammar",
+      "label": "を object marker",
+      "depends_on": []
+    },
+    {
+      "id": "grammar_004",
+      "type": "grammar",
+      "label": "へ direction marker",
+      "depends_on": []
+    },
+    {
+      "id": "grammar_005",
+      "type": "grammar",
+      "label": "で place of action",
+      "depends_on": []
+    },
+    {
+      "id": "grammar_006",
+      "type": "grammar",
+      "label": "の noun connection",
+      "depends_on": []
+    },
+    {
+      "id": "grammar_021",
+      "type": "grammar",
+      "label": "好きです preference pattern",
+      "depends_on": [
+        "grammar_002"
+      ]
+    },
+    {
+      "id": "grammar_034",
+      "type": "grammar",
+      "label": "たいです desire pattern",
+      "depends_on": [
+        "grammar_003"
+      ]
+    },
+    {
+      "id": "grammar_041",
+      "type": "grammar",
+      "label": "から reason",
+      "depends_on": [
+        "grammar_001",
+        "grammar_002"
+      ]
+    },
+    {
+      "id": "grammar_042",
+      "type": "grammar",
+      "label": "ので soft reason",
+      "depends_on": [
+        "grammar_001",
+        "grammar_002"
+      ]
+    },
+    {
+      "id": "conversation_012",
+      "type": "conversation",
+      "label": "Travel and study goals",
+      "depends_on": [
+        "grammar_004",
+        "grammar_005",
+        "grammar_021",
+        "grammar_034",
+        "grammar_042"
+      ]
+    },
+    {
+      "id": "lesson_001",
+      "type": "lesson",
+      "label": "Mora and special sounds",
+      "depends_on": [
+        "mora_001"
+      ]
+    },
+    {
+      "id": "lesson_002",
+      "type": "lesson",
+      "label": "Verb groups and ます form",
+      "depends_on": [
+        "verbgroup_001",
+        "verbmasu_001"
+      ]
+    },
+    {
+      "id": "lesson_003",
+      "type": "lesson",
+      "label": "Desire with たいです",
+      "depends_on": [
+        "lesson_002",
+        "grammar_034"
+      ]
+    },
+    {
+      "id": "grammarcard_001",
+      "type": "grammar",
+      "label": "〜てはいけない",
+      "depends_on": []
+    },
+    {
+      "id": "lesson_004",
+      "type": "lesson",
+      "label": "〜てはいけない",
+      "depends_on": [
+        "grammarcard_001",
+        "lesson_002"
+      ]
+    },
+    {
+      "id": "grammarcard_002",
+      "type": "grammar",
+      "label": "〜なくてもいい",
+      "depends_on": []
+    },
+    {
+      "id": "lesson_005",
+      "type": "lesson",
+      "label": "〜なくてもいい",
+      "depends_on": [
+        "grammarcard_002",
+        "lesson_004"
+      ]
+    },
+    {
+      "id": "grammarcard_003",
+      "type": "grammar",
+      "label": "〜ほうがいい",
+      "depends_on": []
+    },
+    {
+      "id": "lesson_006",
+      "type": "lesson",
+      "label": "〜ほうがいい",
+      "depends_on": [
+        "grammarcard_003",
+        "lesson_005"
+      ]
+    },
+    {
+      "id": "grammarcard_004",
+      "type": "grammar",
+      "label": "〜ようになる",
+      "depends_on": []
+    },
+    {
+      "id": "lesson_007",
+      "type": "lesson",
+      "label": "〜ようになる",
+      "depends_on": [
+        "grammarcard_004",
+        "lesson_006"
+      ]
+    },
+    {
+      "id": "grammarcard_005",
+      "type": "grammar",
+      "label": "〜ことにする",
+      "depends_on": []
+    },
+    {
+      "id": "lesson_008",
+      "type": "lesson",
+      "label": "〜ことにする",
+      "depends_on": [
+        "grammarcard_005",
+        "lesson_007"
+      ]
+    },
+    {
+      "id": "grammarcard_006",
+      "type": "grammar",
+      "label": "〜ために / 〜ように",
+      "depends_on": []
+    },
+    {
+      "id": "lesson_009",
+      "type": "lesson",
+      "label": "〜ために / 〜ように",
+      "depends_on": [
+        "grammarcard_006",
+        "lesson_008"
+      ]
+    },
+    {
+      "id": "grammarcard_007",
+      "type": "grammar",
+      "label": "〜てから",
+      "depends_on": []
+    },
+    {
+      "id": "lesson_010",
+      "type": "lesson",
+      "label": "〜てから",
+      "depends_on": [
+        "grammarcard_007",
+        "lesson_009"
+      ]
+    },
+    {
+      "id": "grammarcard_008",
+      "type": "grammar",
+      "label": "〜たり〜たりする",
+      "depends_on": []
+    },
+    {
+      "id": "lesson_011",
+      "type": "lesson",
+      "label": "〜たり〜たりする",
+      "depends_on": [
+        "grammarcard_008",
+        "lesson_010"
+      ]
+    },
+    {
+      "id": "grammarcard_009",
+      "type": "grammar",
+      "label": "〜かもしれない",
+      "depends_on": []
+    },
+    {
+      "id": "lesson_012",
+      "type": "lesson",
+      "label": "〜かもしれない",
+      "depends_on": [
+        "grammarcard_009",
+        "lesson_011"
+      ]
+    },
+    {
+      "id": "grammarcard_010",
+      "type": "grammar",
+      "label": "〜と思う",
+      "depends_on": []
+    },
+    {
+      "id": "lesson_013",
+      "type": "lesson",
+      "label": "〜と思う",
+      "depends_on": [
+        "grammarcard_010",
+        "lesson_012"
+      ]
+    },
+    {
+      "id": "grammarcard_011",
+      "type": "grammar",
+      "label": "〜ながら",
+      "depends_on": []
+    },
+    {
+      "id": "lesson_014",
+      "type": "lesson",
+      "label": "〜ながら",
+      "depends_on": [
+        "grammarcard_011",
+        "lesson_013"
+      ]
+    },
+    {
+      "id": "grammarcard_012",
+      "type": "grammar",
+      "label": "〜そうだ（样态）",
+      "depends_on": []
+    },
+    {
+      "id": "lesson_015",
+      "type": "lesson",
+      "label": "〜そうだ（样态）",
+      "depends_on": [
+        "grammarcard_012",
+        "lesson_014"
+      ]
+    }
   ],
   "teaching_policy": {
     "must_check_dependencies": true,

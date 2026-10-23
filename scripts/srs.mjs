@@ -1,5 +1,6 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
+import { scheduleReview } from './srs-core.mjs'
 
 const queuePath = resolve('Data/srs_queue.json')
 const [command, ...args] = process.argv.slice(2)
@@ -25,21 +26,7 @@ if (command === 'due') {
   const item = queue.review_queue.find(entry => entry.id === id)
   if (!item) throw new Error(`Unknown review item: ${id}`)
 
-  const previous = item.scheduling ?? { interval_index: -1, repetitions: 0, lapses: 0 }
-  const schedule = queue.schedule_intervals_days
-  let intervalIndex
-  if (quality < 3) {
-    intervalIndex = 0
-    previous.repetitions = 0
-    previous.lapses += 1
-  } else {
-    intervalIndex = Math.min(previous.interval_index + 1, schedule.length - 1)
-    previous.repetitions += 1
-  }
-  const dueDate = new Date(`${date}T12:00:00Z`)
-  dueDate.setUTCDate(dueDate.getUTCDate() + schedule[intervalIndex])
-  item.scheduling = { interval_index: intervalIndex, repetitions: previous.repetitions, lapses: previous.lapses, last_quality: quality, last_reviewed: date }
-  item.due = dueDate.toISOString().slice(0, 10)
+  Object.assign(item, scheduleReview(item, quality, date, queue.schedule_intervals_days))
   await writeFile(queuePath, `${JSON.stringify(queue, null, 2)}\n`)
   console.log(JSON.stringify({ id, quality, due: item.due, scheduling: item.scheduling }, null, 2))
 } else {
