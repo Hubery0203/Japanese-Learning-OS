@@ -25,8 +25,8 @@ export default defineConfig({
       { text: 'Grammar', link: '/03-grammar/n5-n4-core' },
       { text: 'Kanji', link: '/04-kanji/phonetic-rules' },
       { text: 'Lessons', link: '/06-lessons/' },
-      { text: 'N5 Milestone', link: '/07-milestones/n5' },
-      { text: 'N5 Test', link: '/08-assessment/' },
+      { text: 'N4 Milestone', link: '/07-milestones/n4' },
+      { text: 'Assessments', link: '/08-assessment/' },
       { text: 'Lexicon', link: '/09-lexicon/' },
       { text: 'Resources', link: '/05-resources/' }
     ],
@@ -68,9 +68,9 @@ export default defineConfig({
       {
         text: '07 Milestones',
         collapsed: true,
-        items: [{ text: 'N5 Milestone', link: '/07-milestones/n5' }, { text: 'N5 Final Assessment Plan', link: '/06-lessons/n5-final-assessment' }]
+        items: [{ text: 'N5 Milestone', link: '/07-milestones/n5' }, { text: 'N4 Milestone', link: '/07-milestones/n4' }, { text: 'N5 Final Assessment Plan', link: '/06-lessons/n5-final-assessment' }]
       },
-      { text: '08 Assessment', collapsed: true, items: [{ text: 'N5 Practice Test', link: '/08-assessment/' }] },
+      { text: '08 Assessment', collapsed: true, items: [{ text: 'N5 Practice Test', link: '/08-assessment/' }, { text: 'N4 Practice Test', link: '/08-assessment/n4' }] },
       { text: '09 Lexicon', collapsed: true, items: [{ text: 'Vocabulary & Kanji', link: '/09-lexicon/' }] },
       {
         text: '05 Resources',

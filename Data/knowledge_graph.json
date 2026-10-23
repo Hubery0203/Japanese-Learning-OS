@@ -308,6 +308,210 @@
         "grammarcard_012",
         "lesson_014"
       ]
+    },
+    {
+      "id": "grammarcard_013",
+      "type": "grammar",
+      "label": "〜たことがある",
+      "depends_on": [
+        "grammarcard_012"
+      ]
+    },
+    {
+      "id": "lesson_016",
+      "type": "lesson",
+      "label": "〜たことがある",
+      "depends_on": [
+        "grammarcard_013",
+        "lesson_015"
+      ]
+    },
+    {
+      "id": "grammarcard_014",
+      "type": "grammar",
+      "label": "〜てみる",
+      "depends_on": [
+        "grammarcard_013"
+      ]
+    },
+    {
+      "id": "lesson_017",
+      "type": "lesson",
+      "label": "〜てみる",
+      "depends_on": [
+        "grammarcard_014",
+        "lesson_016"
+      ]
+    },
+    {
+      "id": "grammarcard_015",
+      "type": "grammar",
+      "label": "〜ておく",
+      "depends_on": [
+        "grammarcard_014"
+      ]
+    },
+    {
+      "id": "lesson_018",
+      "type": "lesson",
+      "label": "〜ておく",
+      "depends_on": [
+        "grammarcard_015",
+        "lesson_017"
+      ]
+    },
+    {
+      "id": "grammarcard_016",
+      "type": "grammar",
+      "label": "〜てしまう",
+      "depends_on": [
+        "grammarcard_015"
+      ]
+    },
+    {
+      "id": "lesson_019",
+      "type": "lesson",
+      "label": "〜てしまう",
+      "depends_on": [
+        "grammarcard_016",
+        "lesson_018"
+      ]
+    },
+    {
+      "id": "grammarcard_017",
+      "type": "grammar",
+      "label": "〜ことになる",
+      "depends_on": [
+        "grammarcard_016"
+      ]
+    },
+    {
+      "id": "lesson_020",
+      "type": "lesson",
+      "label": "〜ことになる",
+      "depends_on": [
+        "grammarcard_017",
+        "lesson_019"
+      ]
+    },
+    {
+      "id": "grammarcard_018",
+      "type": "grammar",
+      "label": "〜なければならない",
+      "depends_on": [
+        "grammarcard_017"
+      ]
+    },
+    {
+      "id": "lesson_021",
+      "type": "lesson",
+      "label": "〜なければならない",
+      "depends_on": [
+        "grammarcard_018",
+        "lesson_020"
+      ]
+    },
+    {
+      "id": "grammarcard_019",
+      "type": "grammar",
+      "label": "〜ようと思う",
+      "depends_on": [
+        "grammarcard_018"
+      ]
+    },
+    {
+      "id": "lesson_022",
+      "type": "lesson",
+      "label": "〜ようと思う",
+      "depends_on": [
+        "grammarcard_019",
+        "lesson_021"
+      ]
+    },
+    {
+      "id": "grammarcard_020",
+      "type": "grammar",
+      "label": "〜んです",
+      "depends_on": [
+        "grammarcard_019"
+      ]
+    },
+    {
+      "id": "lesson_023",
+      "type": "lesson",
+      "label": "〜んです",
+      "depends_on": [
+        "grammarcard_020",
+        "lesson_022"
+      ]
+    },
+    {
+      "id": "grammarcard_021",
+      "type": "grammar",
+      "label": "〜かどうか",
+      "depends_on": [
+        "grammarcard_020"
+      ]
+    },
+    {
+      "id": "lesson_024",
+      "type": "lesson",
+      "label": "〜かどうか",
+      "depends_on": [
+        "grammarcard_021",
+        "lesson_023"
+      ]
+    },
+    {
+      "id": "grammarcard_022",
+      "type": "grammar",
+      "label": "〜間 / 〜間に",
+      "depends_on": [
+        "grammarcard_021"
+      ]
+    },
+    {
+      "id": "lesson_025",
+      "type": "lesson",
+      "label": "〜間 / 〜間に",
+      "depends_on": [
+        "grammarcard_022",
+        "lesson_024"
+      ]
+    },
+    {
+      "id": "grammarcard_023",
+      "type": "grammar",
+      "label": "〜そうだ（传闻）",
+      "depends_on": [
+        "grammarcard_022"
+      ]
+    },
+    {
+      "id": "lesson_026",
+      "type": "lesson",
+      "label": "〜そうだ（传闻）",
+      "depends_on": [
+        "grammarcard_023",
+        "lesson_025"
+      ]
+    },
+    {
+      "id": "grammarcard_024",
+      "type": "grammar",
+      "label": "〜らしい",
+      "depends_on": [
+        "grammarcard_023"
+      ]
+    },
+    {
+      "id": "lesson_027",
+      "type": "lesson",
+      "label": "〜らしい",
+      "depends_on": [
+        "grammarcard_024",
+        "lesson_026"
+      ]
     }
   ],
   "teaching_policy": {

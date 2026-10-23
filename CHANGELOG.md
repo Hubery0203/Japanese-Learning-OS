@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.2.0
+
+- Added the first 12 atomic N4 grammar lessons with prerequisite links and lesson practice.
+- Added an N4 practice assessment; incorrect answers enter the local review queue.
+- Added N4 milestone, course progress, and assessment navigation.
+- Replaced the bare roadmap with a sequenced N4 implementation plan.
+
 ## v2.1.0
 
 - Added shared AI boot sequence for ChatGPT, Claude, Gemini, and Codex.

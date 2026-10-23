@@ -20,7 +20,19 @@ const exercises: Record<string, { prompt: string; expected: string; target: stri
   lesson_012: { prompt: '说“下午可能会下雨”。', expected: '午後から雨が降るかもしれません。', target: 'grammarcard_009' },
   lesson_013: { prompt: '说“我认为日语发音很重要”。', expected: '日本語の発音は大切だと思います。', target: 'grammarcard_010' },
   lesson_014: { prompt: '说“一边听音乐一边背单词”。', expected: '音楽を聞きながら、単語を覚えます。', target: 'grammarcard_011' },
-  lesson_015: { prompt: '说“这个蛋糕看起来很好吃”。', expected: 'このケーキはおいしそうです。', target: 'grammarcard_012' }
+  lesson_015: { prompt: '说“这个蛋糕看起来很好吃”。', expected: 'このケーキはおいしそうです。', target: 'grammarcard_012' },
+  lesson_016: { prompt: '问对方“你去过京都吗？”，并给出肯定回答。', expected: '京都へ行ったことがありますか。はい、あります。', target: 'grammarcard_013' },
+  lesson_017: { prompt: '说“我想试着穿这件衣服”。', expected: 'この服を着てみたいです。', target: 'grammarcard_014' },
+  lesson_018: { prompt: '说“为了旅行，先订好酒店”。', expected: '旅行のために、ホテルを予約しておきます。', target: 'grammarcard_015' },
+  lesson_019: { prompt: '说“我不小心忘带钱包了”。', expected: '財布を忘れてしまいました。', target: 'grammarcard_016' },
+  lesson_020: { prompt: '说“我已经决定下个月去大阪工作（外部安排）”。', expected: '来月から大阪で働くことになりました。', target: 'grammarcard_017' },
+  lesson_021: { prompt: '说“明天必须早起”。', expected: '明日は早く起きなければなりません。', target: 'grammarcard_018' },
+  lesson_022: { prompt: '说“我打算周末做饭”。', expected: '週末に料理をしようと思っています。', target: 'grammarcard_019' },
+  lesson_023: { prompt: '解释“因为电车停运了，所以迟到了”。', expected: '電車が止まったんです。', target: 'grammarcard_020' },
+  lesson_024: { prompt: '说“我不知道他来不来”。', expected: '彼が来るかどうか分かりません。', target: 'grammarcard_021' },
+  lesson_025: { prompt: '说“妈妈购物期间，我把房间打扫了”（期间内完成）。', expected: '母が買い物に行っている間に、部屋を掃除しました。', target: 'grammarcard_022' },
+  lesson_026: { prompt: '转述天气预报：“听说明天会下雨”。', expected: '天気予報によると、明日は雨が降るそうです。', target: 'grammarcard_023' },
+  lesson_027: { prompt: '说“听说那家店的拉面很好吃”。', expected: 'あの店のラーメンはおいしいらしいです。', target: 'grammarcard_024' }
 }
 const exercise = computed(() => exercises[props.lessonId])
 const lesson = lessons.lessons.find(item => item.id === props.lessonId)

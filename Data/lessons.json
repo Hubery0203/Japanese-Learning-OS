@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "lessons": [
     {
       "id": "lesson_001",
@@ -192,6 +192,162 @@
         "lesson_014"
       ],
       "estimated_minutes": 10
+    },
+    {
+      "id": "lesson_016",
+      "title": "〜たことがある",
+      "level": "N4",
+      "path": "docs/06-lessons/L016-experience-ta-koto-ga-aru.md",
+      "knowledge_nodes": [
+        "grammarcard_013"
+      ],
+      "prerequisites": [
+        "lesson_015"
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "id": "lesson_017",
+      "title": "〜てみる",
+      "level": "N4",
+      "path": "docs/06-lessons/L017-trying-te-miru.md",
+      "knowledge_nodes": [
+        "grammarcard_014"
+      ],
+      "prerequisites": [
+        "lesson_016"
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "id": "lesson_018",
+      "title": "〜ておく",
+      "level": "N4",
+      "path": "docs/06-lessons/L018-preparation-te-oku.md",
+      "knowledge_nodes": [
+        "grammarcard_015"
+      ],
+      "prerequisites": [
+        "lesson_017"
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "id": "lesson_019",
+      "title": "〜てしまう",
+      "level": "N4",
+      "path": "docs/06-lessons/L019-completion-regret-te-shimau.md",
+      "knowledge_nodes": [
+        "grammarcard_016"
+      ],
+      "prerequisites": [
+        "lesson_018"
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "id": "lesson_020",
+      "title": "〜ことになる",
+      "level": "N4",
+      "path": "docs/06-lessons/L020-external-decision-koto-ni-naru.md",
+      "knowledge_nodes": [
+        "grammarcard_017"
+      ],
+      "prerequisites": [
+        "lesson_019"
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "id": "lesson_021",
+      "title": "〜なければならない",
+      "level": "N4",
+      "path": "docs/06-lessons/L021-obligation-nakereba-naranai.md",
+      "knowledge_nodes": [
+        "grammarcard_018"
+      ],
+      "prerequisites": [
+        "lesson_020"
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "id": "lesson_022",
+      "title": "〜ようと思う",
+      "level": "N4",
+      "path": "docs/06-lessons/L022-intention-you-to-omou.md",
+      "knowledge_nodes": [
+        "grammarcard_019"
+      ],
+      "prerequisites": [
+        "lesson_021"
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "id": "lesson_023",
+      "title": "〜んです",
+      "level": "N4",
+      "path": "docs/06-lessons/L023-explanatory-ndesu.md",
+      "knowledge_nodes": [
+        "grammarcard_020"
+      ],
+      "prerequisites": [
+        "lesson_022"
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "id": "lesson_024",
+      "title": "〜かどうか",
+      "level": "N4",
+      "path": "docs/06-lessons/L024-whether-ka-douka.md",
+      "knowledge_nodes": [
+        "grammarcard_021"
+      ],
+      "prerequisites": [
+        "lesson_023"
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "id": "lesson_025",
+      "title": "〜間 / 〜間に",
+      "level": "N4",
+      "path": "docs/06-lessons/L025-duration-aida-aidani.md",
+      "knowledge_nodes": [
+        "grammarcard_022"
+      ],
+      "prerequisites": [
+        "lesson_024"
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "id": "lesson_026",
+      "title": "〜そうだ（传闻）",
+      "level": "N4",
+      "path": "docs/06-lessons/L026-hearsay-souda.md",
+      "knowledge_nodes": [
+        "grammarcard_023"
+      ],
+      "prerequisites": [
+        "lesson_025"
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "id": "lesson_027",
+      "title": "〜らしい",
+      "level": "N4",
+      "path": "docs/06-lessons/L027-rashii.md",
+      "knowledge_nodes": [
+        "grammarcard_024"
+      ],
+      "prerequisites": [
+        "lesson_026"
+      ],
+      "estimated_minutes": 12
     }
   ]
 }

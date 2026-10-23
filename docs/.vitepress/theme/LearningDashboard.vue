@@ -18,13 +18,15 @@ const answer = ref('')
 const feedback = ref('')
 const importInput = ref<HTMLInputElement>()
 const today = new Date().toISOString().slice(0, 10)
-const lessons = catalog.lessons as Array<{id:string;title:string;path:string;prerequisites:string[]}>
+const lessons = catalog.lessons as Array<{id:string;title:string;path:string;prerequisites:string[];level:string}>
+const n4Lessons = computed(() => lessons.filter(lesson => lesson.level === 'N4'))
 const due = computed(() => state.value.queue.filter(item => item.due === 'next_session' || item.due <= today))
 const completion = computed(() => Math.round(state.value.completed.length / lessons.length * 100))
 const weekEvents = computed(() => state.value.events.filter(event => { const age = (Date.parse(`${today}T00:00:00Z`) - Date.parse(`${event.date}T00:00:00Z`)) / 86400000; return age >= 0 && age < 7 }))
 const reviewsThisWeek = computed(() => weekEvents.value.filter(event => event.type === 'review'))
 const accuracy = computed(() => reviewsThisWeek.value.length ? Math.round(reviewsThisWeek.value.filter(event => event.correct).length / reviewsThisWeek.value.length * 100) : null)
 const completedLessons = computed(() => state.value.completed.length)
+const n4Completed = computed(() => n4Lessons.value.filter(lesson => state.value.completed.includes(lesson.id)).length)
 const latestAssessment = computed(() => [...state.value.events].reverse().find(event => event.type === 'assessment'))
 onMounted(() => {
   try {
@@ -68,7 +70,7 @@ function importData(event: globalThis.Event) {
 <template>
   <section class="learning-dashboard">
     <div class="dashboard-heading"><div><p class="eyebrow">YOUR STUDY SPACE</p><h2>今日学习</h2></div><span class="progress-pill">{{ completion }}% 当前课程完成</span></div>
-    <div class="metric-row"><span>当前课程 {{ completedLessons }}/{{ lessons.length }}</span><span>词汇条目 {{ vocabulary.items.length }}/{{ vocabulary.target_count }}</span><span>汉字条目 {{ kanji.items.length }}/{{ kanji.target_count }}</span><span>本周复习 {{ reviewsThisWeek.length }} 次</span><span>本周自评达标率 {{ accuracy === null ? '暂无数据' : `${accuracy}%` }}</span><span>历史汇总：{{ progressSource.completed_lessons }} 课（未计入当前课程）</span></div>
+    <div class="metric-row"><span>课程总进度 {{ completedLessons }}/{{ lessons.length }}</span><span>N4 课程 {{ n4Completed }}/{{ n4Lessons.length }}</span><span>词汇条目 {{ vocabulary.items.length }}/{{ vocabulary.target_count }}</span><span>汉字条目 {{ kanji.items.length }}/{{ kanji.target_count }}</span><span>本周复习 {{ reviewsThisWeek.length }} 次</span><span>本周复习达标率 {{ accuracy === null ? '暂无数据' : `${accuracy}%` }}</span><span>历史汇总：{{ progressSource.completed_lessons }} 课（未计入当前课程）</span></div>
     <div class="dashboard-grid">
       <article class="dashboard-card">
         <div class="card-top"><span class="card-icon">復</span><span class="count">{{ due.length }}</span></div><h3>到期复习</h3><p>先回忆，再查看答案。自评 0–5 分会安排下一次复习。</p>
@@ -77,7 +79,7 @@ function importData(event: globalThis.Event) {
         <p v-if="!due.length" class="local-note">当前没有到期复习。</p>
       </article>
       <article class="dashboard-card"><div class="card-top"><span class="card-icon">学</span><span class="count">{{ lessons.length - completedLessons }}</span></div><h3>课程路径</h3><ul class="lesson-list"><li v-for="lesson in lessons" :key="lesson.id"><a :href="`/${lesson.path.replace(/^docs\//, '').replace(/\.md$/, '')}`">{{ lesson.title }}</a><span v-if="state.completed.includes(lesson.id)" class="done-label">已完成</span><span v-else class="pending-label">{{ canComplete(lesson) ? '待学习' : '有先修课' }}</span></li></ul></article>
-      <article class="dashboard-card"><span class="eyebrow">WEEKLY REPORT</span><h3>本周学习</h3><p>课程完成 {{ weekEvents.filter(e => e.type === 'lesson').length }} 次，复习 {{ reviewsThisWeek.length }} 次。</p><p>复习自评达标率：{{ accuracy === null ? '暂无记录' : `${accuracy}%` }}</p><p>待复习：{{ due.length }} 项</p><p v-if="latestAssessment">最近 N5 自测：{{ latestAssessment.correct }}/{{ latestAssessment.total }}</p><a :href="`/08-assessment/`">参加 N5 自测 →</a></article>
+      <article class="dashboard-card"><span class="eyebrow">WEEKLY REPORT</span><h3>本周学习</h3><p>课程完成 {{ weekEvents.filter(e => e.type === 'lesson').length }} 次，复习 {{ reviewsThisWeek.length }} 次。</p><p>复习自评达标率：{{ accuracy === null ? '暂无记录' : `${accuracy}%` }}</p><p>待复习：{{ due.length }} 项</p><p v-if="latestAssessment">最近{{ latestAssessment.id.startsWith('n4_') ? 'N4' : 'N5' }}自测：{{ latestAssessment.correct }}/{{ latestAssessment.total }}</p><a :href="`/08-assessment/`">参加 N5 / N4 自测 →</a></article>
     </div>
     <div class="data-actions"><button class="secondary-button" @click="exportData">导出学习数据</button><button class="secondary-button" @click="importInput?.click()">导入学习数据</button><input ref="importInput" type="file" accept="application/json" hidden @change="importData" /></div>
     <p class="local-note">数据保存在当前浏览器。跨设备使用时请手动导出并导入 JSON 文件；尚未连接账号或云同步。</p>

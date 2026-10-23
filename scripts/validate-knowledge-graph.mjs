@@ -3,13 +3,16 @@ import { access, readFile } from 'node:fs/promises'
 const graphPath = new URL('../Data/knowledge_graph.json', import.meta.url)
 const catalogPath = new URL('../Data/lessons.json', import.meta.url)
 const queuePath = new URL('../Data/srs_queue.json', import.meta.url)
-const assessmentPath = new URL('../Data/n5_assessment.json', import.meta.url)
+const assessmentPaths = [
+  ['N5', new URL('../Data/n5_assessment.json', import.meta.url)],
+  ['N4', new URL('../Data/n4_assessment.json', import.meta.url)]
+]
 const vocabularyPath = new URL('../Data/vocabulary.json', import.meta.url)
 const kanjiPath = new URL('../Data/kanji.json', import.meta.url)
 const graph = JSON.parse(await readFile(graphPath, 'utf8'))
 const catalog = JSON.parse(await readFile(catalogPath, 'utf8'))
 const queue = JSON.parse(await readFile(queuePath, 'utf8'))
-const assessment = JSON.parse(await readFile(assessmentPath, 'utf8'))
+const assessments = await Promise.all(assessmentPaths.map(async ([level, path]) => [level, JSON.parse(await readFile(path, 'utf8'))]))
 const vocabulary = JSON.parse(await readFile(vocabularyPath, 'utf8'))
 const kanji = JSON.parse(await readFile(kanjiPath, 'utf8'))
 const errors = []
@@ -82,14 +85,16 @@ const targetSets = {
   reading: new Set([...nodes.keys()]),
   lesson: new Set(lessonIds)
 }
-const questionIds = new Set()
-for (const question of assessment.questions ?? []) {
-  if (!/^q_[0-9]{3}$/.test(question.id ?? '')) errors.push(`Invalid assessment question ID: ${question.id}`)
-  if (questionIds.has(question.id)) errors.push(`Duplicate assessment question ID: ${question.id}`)
-  questionIds.add(question.id)
-  if (!targetSets[question.category]?.has(question.target)) errors.push(`${question.id} has invalid ${question.category} target ${question.target}`)
-  if (!Array.isArray(question.choices) || question.choices.length < 2 || !Number.isInteger(question.answer) || question.answer < 0 || question.answer >= question.choices.length) errors.push(`${question.id} has an invalid answer key`)
-  if (!question.prompt || !question.explanation) errors.push(`${question.id} is missing its prompt or explanation`)
+for (const [level, assessment] of assessments) {
+  const questionIds = new Set()
+  for (const question of assessment.questions ?? []) {
+    if (!/^q_[0-9]{3}$/.test(question.id ?? '')) errors.push(`Invalid ${level} assessment question ID: ${question.id}`)
+    if (questionIds.has(question.id)) errors.push(`Duplicate ${level} assessment question ID: ${question.id}`)
+    questionIds.add(question.id)
+    if (!targetSets[question.category]?.has(question.target)) errors.push(`${level} ${question.id} has invalid ${question.category} target ${question.target}`)
+    if (!Array.isArray(question.choices) || question.choices.length < 2 || !Number.isInteger(question.answer) || question.answer < 0 || question.answer >= question.choices.length) errors.push(`${level} ${question.id} has an invalid answer key`)
+    if (!question.prompt || !question.explanation) errors.push(`${level} ${question.id} is missing its prompt or explanation`)
+  }
 }
 
 const visiting = new Set()

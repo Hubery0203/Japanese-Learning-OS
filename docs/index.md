@@ -19,7 +19,9 @@
 ## 课程与报告
 
 - [原子课程索引](/06-lessons/)
+- [N4 学习里程碑](/07-milestones/n4)
 - [N5 综合自测](/08-assessment/)
+- [N4 综合自测](/08-assessment/n4)
 - [词汇与汉字库](/09-lexicon/)
 - [N5 学习里程碑](/07-milestones/n5)
 - 学习记录应按 [记录模板](https://github.com/Hubery0203/Japanese-Learning-OS/blob/main/Reviews/TEMPLATE.md) 保存；仪表板的浏览器数据暂不自动写入仓库。

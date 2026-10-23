@@ -14,6 +14,7 @@ The JSON files in `Data/` are the canonical machine-readable learner state. JSON
 | `vocabulary.json` | Stable word IDs, reading, Chinese meaning and JLPT label | Learner mastery |
 | `kanji.json` | Stable character IDs, meaning and common readings | Learner mastery |
 | `n5_assessment.json` | Self-test questions, answer keys, explanations and target IDs | Official JLPT exam content or official score |
+| `n4_assessment.json` | N4 practice questions, answer keys, explanations and target IDs | Official JLPT exam content or official score |
 
 ## Compatibility and follow-up migration
 

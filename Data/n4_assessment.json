@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "title": "N4 综合自测",
+  "questions": [
+    {"id":"q_001","category":"grammar","target":"grammarcard_013","prompt":"表示“我曾经去过京都”时，哪句正确？","choices":["京都へ行ったことがあります。","京都へ行くことがあります。","京都へ行ってみます。","京都へ行くそうです。"],"answer":0,"explanation":"经历使用动词た形 + ことがある。"},
+    {"id":"q_002","category":"grammar","target":"grammarcard_013","prompt":"「一度も食べたことが（　）」表示“从来没吃过”。","choices":["ありません","いません","なりません","しません"],"answer":0,"explanation":"经历句的否定形式是「Vたことがありません」。"},
+    {"id":"q_003","category":"grammar","target":"grammarcard_014","prompt":"「试着问了老师」应该说：","choices":["先生に聞いてみました。","先生に聞くみました。","先生に聞いておきました。","先生に聞いたことです。"],"answer":0,"explanation":"尝试做某事使用「て形 + みる」。"},
+    {"id":"q_004","category":"grammar","target":"grammarcard_015","prompt":"为了明天，先把资料读好。","choices":["明日のために資料を読んでおきます。","明日のために資料を読んでしまいます。","明日のために資料を読んでみます。","明日のために資料を読むことがあります。"],"answer":0,"explanation":"「ておく」表示提前准备。"},
+    {"id":"q_005","category":"grammar","target":"grammarcard_016","prompt":"「忘れてしまいました」最可能表达什么？","choices":["忘了，带有遗憾或意外","正在忘记","试着忘记","决定忘记"],"answer":0,"explanation":"「てしまう」可表示不希望发生的结果，也可强调完成。"},
+    {"id":"q_006","category":"grammar","target":"grammarcard_017","prompt":"公司安排我下个月去大阪工作：","choices":["大阪で働くことになりました。","大阪で働くことにしました。","大阪で働いてみました。","大阪で働いたことがあります。"],"answer":0,"explanation":"「ことになる」表示外部安排或决定；「ことにする」是自己决定。"},
+    {"id":"q_007","category":"grammar","target":"grammarcard_018","prompt":"「明天必须早起」的正确表达是：","choices":["明日は早く起きなければなりません。","明日は早く起きなくてもいいです。","明日は早く起きたことがあります。","明日は早く起きてみます。"],"answer":0,"explanation":"「ない形去い + ければならない」表达义务。"},
+    {"id":"q_008","category":"grammar","target":"grammarcard_019","prompt":"「我打算周末做饭」的自然表达是：","choices":["週末に料理をしようと思っています。","週末に料理をすることになっています。","週末に料理をしたことがあります。","週末に料理をしておきました。"],"answer":0,"explanation":"意向形 + と思う表达说话人的计划。"},
+    {"id":"q_009","category":"grammar","target":"grammarcard_020","prompt":"名词接「んです」时，哪句正确？","choices":["学生なんです。","学生んです。","学生なです。","学生のんです。"],"answer":0,"explanation":"名词和な形容词通常接「なんです」。"},
+    {"id":"q_010","category":"grammar","target":"grammarcard_020","prompt":"电车停运了，所以迟到了。用于解释背景：","choices":["電車が止まったんです。","電車が止まってんです。","電車が止まるなんです。","電車が止まったのでんです。"],"answer":0,"explanation":"动词普通形后接「んです」。"},
+    {"id":"q_011","category":"grammar","target":"grammarcard_021","prompt":"“我不知道他来不来”是：","choices":["彼が来るかどうか分かりません。","彼が来るどうか分かりません。","彼が来てどうか分かりません。","彼が来たか分かりませんでした。"],"answer":0,"explanation":"是非疑问嵌入句子时可用「普通形 + かどうか」。"},
+    {"id":"q_012","category":"grammar","target":"grammarcard_022","prompt":"妈妈购物期间，我打扫了房间（期间内完成的一次动作）：","choices":["母が買い物をしている間に、部屋を掃除しました。","母が買い物をしている間、部屋を掃除しました。","母が買い物をしている間で、部屋を掃除しました。","母が買い物をしている時から、部屋を掃除しました。"],"answer":0,"explanation":"「間に」表示在一段期间内发生的动作。"},
+    {"id":"q_013","category":"grammar","target":"grammarcard_023","prompt":"天气预报说“明天会下雨”（转述听到的信息）：","choices":["明日は雨が降るそうです。","明日は雨が降りそうです。","明日は雨が降ったそうなです。","明日は雨が降るらしいそうです。"],"answer":0,"explanation":"传闻「そうだ」接普通形；「降りそう」是外观或迹象推测。"},
+    {"id":"q_014","category":"grammar","target":"grammarcard_023","prompt":"样态「看起来好吃」应该说：","choices":["おいしそうです。","おいしいそうです。","おいしくそうです。","おいしだそうです。"],"answer":0,"explanation":"样态そうだ接い形容词去い；传闻そうだ接完整普通形。"},
+    {"id":"q_015","category":"grammar","target":"grammarcard_024","prompt":"「听说那家店的拉面很好吃」最自然的是：","choices":["あの店のラーメンはおいしいらしいです。","あの店のラーメンはおいしくらしいです。","あの店のラーメンはおいしいらしくです。","あの店のラーメンはおいしいだらしいです。"],"answer":0,"explanation":"い形容词普通形可直接接らしい。"},
+    {"id":"q_016","category":"reading","target":"lesson_023","prompt":"阅读：A「どうして会社を休んだんですか。」B「熱があったんです。」B 在做什么？","choices":["解释请假的背景","询问是否发烧","报告未来计划","转述公司规定"],"answer":0,"explanation":"「んです」在这里补充说明缺勤的原因。"},
+    {"id":"q_017","category":"reading","target":"lesson_020","prompt":"阅读：来月から支店で働くことになりました。最合理的理解是：","choices":["已经有了外部安排","说话人正在尝试工作","说话人曾在那里工作","说话人还没决定"],"answer":0,"explanation":"「ことになりました」常描述已确定的安排或决定。"},
+    {"id":"q_018","category":"reading","target":"lesson_026","prompt":"对话：A「このケーキ、おいしそうですね。」B「はい。友達もおいしいと言っていました。」哪句是外观判断？","choices":["おいしそうですね","おいしいと言っていました","友達も","はい"],"answer":0,"explanation":"「おいしそう」由外观判断；朋友说过则是信息来源。"}
+  ]
+}

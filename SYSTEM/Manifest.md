@@ -26,6 +26,7 @@ This repository is Hubery's Japanese learning system: a VitePress knowledge site
 - Lesson IDs and file mapping: `Data/lessons.json`.
 - Word and character inventories: `Data/vocabulary.json` and `Data/kanji.json`.
 - Practice assessment: `Data/n5_assessment.json`.
+- N4 practice assessment: `Data/n4_assessment.json`.
 - Teaching behavior: `Teacher_Engine/rules.md`.
 - Human-readable session records: `Reviews/`.
 - Website configuration: `.vitepress/`; build and deployment configuration: `package.json` and `.github/workflows/`.
