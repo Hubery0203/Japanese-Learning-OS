@@ -6,7 +6,10 @@
   "scripts": {
     "docs:dev": "vitepress docs --config .vitepress/config.ts --host 0.0.0.0",
     "docs:build": "vitepress build docs --config .vitepress/config.ts",
-    "docs:preview": "vitepress preview docs --config .vitepress/config.ts --host 0.0.0.0"
+    "docs:preview": "vitepress preview docs --config .vitepress/config.ts --host 0.0.0.0",
+    "data:validate": "node scripts/validate-knowledge-graph.mjs",
+    "srs:due": "node scripts/srs.mjs due",
+    "srs:grade": "node scripts/srs.mjs grade"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.17",

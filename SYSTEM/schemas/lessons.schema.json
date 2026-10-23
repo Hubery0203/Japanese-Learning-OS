@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://japanese-learning-os.local/schemas/lessons.schema.json",
+  "title": "Japanese Learning OS lesson catalog",
+  "type": "object",
+  "required": ["version", "lessons"],
+  "properties": {
+    "version": { "type": "string" },
+    "lessons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "level", "path", "knowledge_nodes", "prerequisites", "estimated_minutes"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^lesson_[0-9]{3}$" },
+          "title": { "type": "string", "minLength": 1 },
+          "level": { "type": "string" },
+          "path": { "type": "string", "pattern": "^docs/.*\\.md$" },
+          "knowledge_nodes": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z][a-z0-9]*_[0-9]{3}$" } },
+          "prerequisites": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^lesson_[0-9]{3}$" } },
+          "estimated_minutes": { "type": "integer", "minimum": 1 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

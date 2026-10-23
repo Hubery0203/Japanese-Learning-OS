@@ -11,3 +11,12 @@
 5. **外部资源**：配合词典、音调工具和简易新闻进行输入训练。
 
 > 建议每次学习一个小节，并把例句大声读出三遍：第一遍看假名，第二遍看汉字，第三遍尝试不看中文翻译。
+
+<ClientOnly>
+  <LearningDashboard />
+</ClientOnly>
+
+## 课程与报告
+
+- [原子课程索引](/06-lessons/)
+- 学习记录应按 [记录模板](https://github.com/Hubery0203/Japanese-Learning-OS/blob/main/Reviews/TEMPLATE.md) 保存；仪表板的浏览器数据暂不自动写入仓库。

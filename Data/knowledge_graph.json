@@ -1,6 +1,9 @@
 {
   "version": "2.1.0",
   "nodes": [
+    {"id": "mora_001", "type": "grammar", "label": "Japanese mora and special sounds", "depends_on": []},
+    {"id": "verbgroup_001", "type": "grammar", "label": "Verb groups", "depends_on": []},
+    {"id": "verbmasu_001", "type": "grammar", "label": "ます form", "depends_on": ["verbgroup_001"]},
     {"id": "grammar_001", "type": "grammar", "label": "は topic marker", "depends_on": []},
     {"id": "grammar_002", "type": "grammar", "label": "が preference marker", "depends_on": []},
     {"id": "grammar_003", "type": "grammar", "label": "を object marker", "depends_on": []},
@@ -11,7 +14,10 @@
     {"id": "grammar_034", "type": "grammar", "label": "たいです desire pattern", "depends_on": ["grammar_003"]},
     {"id": "grammar_041", "type": "grammar", "label": "から reason", "depends_on": ["grammar_001", "grammar_002"]},
     {"id": "grammar_042", "type": "grammar", "label": "ので soft reason", "depends_on": ["grammar_001", "grammar_002"]},
-    {"id": "conversation_012", "type": "conversation", "label": "Travel and study goals", "depends_on": ["grammar_004", "grammar_005", "grammar_021", "grammar_034", "grammar_042"]}
+    {"id": "conversation_012", "type": "conversation", "label": "Travel and study goals", "depends_on": ["grammar_004", "grammar_005", "grammar_021", "grammar_034", "grammar_042"]},
+    {"id": "lesson_001", "type": "lesson", "label": "Mora and special sounds", "depends_on": ["mora_001"]},
+    {"id": "lesson_002", "type": "lesson", "label": "Verb groups and ます form", "depends_on": ["verbgroup_001", "verbmasu_001"]},
+    {"id": "lesson_003", "type": "lesson", "label": "Desire with たいです", "depends_on": ["lesson_002", "grammar_034"]}
   ],
   "teaching_policy": {
     "must_check_dependencies": true,

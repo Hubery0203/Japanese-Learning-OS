@@ -23,6 +23,7 @@ export default defineConfig({
       { text: 'Verb Conjugation', link: '/02-vocabulary/verb-conjugation' },
       { text: 'Grammar', link: '/03-grammar/n5-n4-core' },
       { text: 'Kanji', link: '/04-kanji/phonetic-rules' },
+      { text: 'Lessons', link: '/06-lessons/' },
       { text: 'Resources', link: '/05-resources/' }
     ],
     sidebar: [
@@ -49,6 +50,16 @@ export default defineConfig({
         text: '04 Kanji',
         collapsed: false,
         items: [{ text: 'Phonetic Rules', link: '/04-kanji/phonetic-rules' }]
+      },
+      {
+        text: '06 Lessons',
+        collapsed: false,
+        items: [
+          { text: 'Lesson Index', link: '/06-lessons/' },
+          { text: 'L001 Mora and Special Sounds', link: '/06-lessons/L001-mora-and-long-vowels' },
+          { text: 'L002 Verb Groups and ます', link: '/06-lessons/L002-verb-groups-and-masu' },
+          { text: 'L003 たいです', link: '/06-lessons/L003-desire-tai-desu' }
+        ]
       },
       {
         text: '05 Resources',

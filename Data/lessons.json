@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "lessons": [
+    {
+      "id": "lesson_001",
+      "title": "日语拍与特殊音",
+      "level": "N5",
+      "path": "docs/06-lessons/L001-mora-and-long-vowels.md",
+      "knowledge_nodes": ["mora_001"],
+      "prerequisites": [],
+      "estimated_minutes": 10
+    },
+    {
+      "id": "lesson_002",
+      "title": "识别动词类别并变ます形",
+      "level": "N5",
+      "path": "docs/06-lessons/L002-verb-groups-and-masu.md",
+      "knowledge_nodes": ["verbgroup_001", "verbmasu_001"],
+      "prerequisites": [],
+      "estimated_minutes": 12
+    },
+    {
+      "id": "lesson_003",
+      "title": "用「たいです」表达愿望",
+      "level": "N5",
+      "path": "docs/06-lessons/L003-desire-tai-desu.md",
+      "knowledge_nodes": ["grammar_034"],
+      "prerequisites": ["lesson_002"],
+      "estimated_minutes": 10
+    }
+  ]
+}
