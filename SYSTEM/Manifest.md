@@ -13,7 +13,8 @@ This repository is Hubery's Japanese learning system: a VitePress knowledge site
 5. Read `Data/srs_queue.json` for reviews due in the current session.
 6. Read `Data/lessons.json` to find lesson files and their prerequisites.
 7. Use `Data/knowledge_graph.json` to check knowledge-point prerequisites before introducing a target.
-8. After a lesson, update the relevant canonical state file and add a dated learning record under `Reviews/`.
+8. Use `Data/vocabulary.json` and `Data/kanji.json` as the curated study inventories; their coverage metadata distinguishes a starter set from the full goal.
+9. After a lesson, update the relevant canonical state file and add a dated learning record under `Reviews/`.
 
 ## Sources of truth
 
@@ -23,6 +24,8 @@ This repository is Hubery's Japanese learning system: a VitePress knowledge site
 - Scheduled review items: `Data/srs_queue.json`.
 - Knowledge dependencies: `Data/knowledge_graph.json`.
 - Lesson IDs and file mapping: `Data/lessons.json`.
+- Word and character inventories: `Data/vocabulary.json` and `Data/kanji.json`.
+- Practice assessment: `Data/n5_assessment.json`.
 - Teaching behavior: `Teacher_Engine/rules.md`.
 - Human-readable session records: `Reviews/`.
 - Website configuration: `.vitepress/`; build and deployment configuration: `package.json` and `.github/workflows/`.
@@ -40,7 +43,7 @@ Dashboard and analytics files are derived views. They must not become a second w
 
 ## Current scope and boundaries
 
-The current site is a static VitePress website. The dashboard stores new learner events and browser SRS scheduling in local storage; export/import JSON supports manual transfer between browsers. CLI SRS grading updates `Data/srs_queue.json`. There is no account service or automatic cloud sync. Dashboard reports summarize only events recorded by that browser, not the legacy self-reported totals.
+The current site is a static VitePress website. The dashboard stores new learner events and browser SRS scheduling in local storage; export/import JSON supports manual transfer between browsers. CLI SRS grading updates `Data/srs_queue.json`. There is no account service or automatic cloud sync. Dashboard reports summarize only events recorded by that browser, not the legacy self-reported totals. The JLPT does not publish fixed vocabulary and kanji specifications; imported N5 lists are study candidates, not an official syllabus.
 
 ## Change checklist
 

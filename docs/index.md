@@ -19,4 +19,11 @@
 ## 课程与报告
 
 - [原子课程索引](/06-lessons/)
+- [N5 综合自测](/08-assessment/)
+- [词汇与汉字库](/09-lexicon/)
+- [N5 学习里程碑](/07-milestones/n5)
 - 学习记录应按 [记录模板](https://github.com/Hubery0203/Japanese-Learning-OS/blob/main/Reviews/TEMPLATE.md) 保存；仪表板的浏览器数据暂不自动写入仓库。
+
+## 使用方式
+
+课程练习、综合自测和复习记录保存在当前浏览器。可在首页仪表板导出 JSON 备份，并在另一台设备手动导入；清除浏览器数据前请先导出。词汇与汉字列表提供搜索和筛选，内容是学习用候选清单，不代表 JLPT 官方词汇范围。

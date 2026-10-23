@@ -47,6 +47,11 @@
 
 </details>
 
+
+<ClientOnly>
+  <LessonStudy lesson-id="lesson_003" />
+</ClientOnly>
+
 ## 掌握标准
 
 - 能正确构成肯定和否定形式。

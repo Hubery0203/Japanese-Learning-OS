@@ -1,0 +1,5550 @@
+{
+  "version": "1.0.0",
+  "coverage": "OpenJLPT N5 CC BY-SA 4.0 plus curated additions",
+  "target_count": 800,
+  "items": [
+    {
+      "id": "vocab_001",
+      "word": "会う",
+      "reading": "あう",
+      "meaning_en": "to meet",
+      "level": "N5",
+      "part_of_speech": "v5u; vi"
+    },
+    {
+      "id": "vocab_002",
+      "word": "青",
+      "reading": "あお",
+      "meaning_en": "blue",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_003",
+      "word": "青い",
+      "reading": "あおい",
+      "meaning_en": "blue",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_004",
+      "word": "赤",
+      "reading": "あか",
+      "meaning_en": "red",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_005",
+      "word": "赤い",
+      "reading": "あかい",
+      "meaning_en": "red",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_006",
+      "word": "明るい",
+      "reading": "あかるい",
+      "meaning_en": "bright",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_007",
+      "word": "秋",
+      "reading": "あき",
+      "meaning_en": "autumn",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_008",
+      "word": "開く",
+      "reading": "あく",
+      "meaning_en": "to open; to become open",
+      "level": "N5",
+      "part_of_speech": "v5k; vi"
+    },
+    {
+      "id": "vocab_009",
+      "word": "開ける",
+      "reading": "あける",
+      "meaning_en": "to open",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_010",
+      "word": "上げる",
+      "reading": "あげる",
+      "meaning_en": "to give",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_011",
+      "word": "朝",
+      "reading": "あさ",
+      "meaning_zh": "早晨",
+      "meaning_en": "morning",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_012",
+      "word": "朝ごはん",
+      "reading": "あさごはん",
+      "meaning_en": "breakfast",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_013",
+      "word": "あさって",
+      "reading": "あさって",
+      "meaning_en": "day after tomorrow",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_014",
+      "word": "足",
+      "reading": "あし",
+      "meaning_en": "foot; leg",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_015",
+      "word": "明日",
+      "reading": "あした",
+      "meaning_zh": "明天",
+      "meaning_en": "tomorrow",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_016",
+      "word": "あそこ",
+      "reading": "あそこ",
+      "meaning_zh": "那里（远处）",
+      "meaning_en": "over there",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_017",
+      "word": "遊ぶ",
+      "reading": "あそぶ",
+      "meaning_en": "to play; to make a visit",
+      "level": "N5",
+      "part_of_speech": "v5b; vi"
+    },
+    {
+      "id": "vocab_018",
+      "word": "暖かい",
+      "reading": "あたたかい",
+      "meaning_en": "warm",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_019",
+      "word": "頭",
+      "reading": "あたま",
+      "meaning_en": "head",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_020",
+      "word": "新しい",
+      "reading": "あたらしい",
+      "meaning_zh": "新",
+      "meaning_en": "new",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_021",
+      "word": "あちら",
+      "reading": "あちら",
+      "meaning_en": "there",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_022",
+      "word": "厚い",
+      "reading": "あつい",
+      "meaning_en": "kind; deep; thick",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_023",
+      "word": "暑い",
+      "reading": "あつい",
+      "meaning_en": "hot",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_024",
+      "word": "熱い",
+      "reading": "あつい",
+      "meaning_en": "hot to the touch",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_025",
+      "word": "あっち",
+      "reading": "あっち",
+      "meaning_en": "over there",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_026",
+      "word": "後",
+      "reading": "あと",
+      "meaning_zh": "后面/之后",
+      "meaning_en": "afterwards",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_027",
+      "word": "あなた",
+      "reading": "あなた",
+      "meaning_en": "you",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_028",
+      "word": "兄",
+      "reading": "あに",
+      "meaning_en": "(humble) older brother",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_029",
+      "word": "姉",
+      "reading": "あね",
+      "meaning_en": "(humble) older sister",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_030",
+      "word": "あの",
+      "reading": "あの",
+      "meaning_en": "that over there",
+      "level": "N5",
+      "part_of_speech": "adj-pn"
+    },
+    {
+      "id": "vocab_031",
+      "word": "アパート",
+      "reading": "アパート",
+      "meaning_en": "apartment",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_032",
+      "word": "あびる",
+      "reading": "あびる",
+      "meaning_en": "to bathe; to shower",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_033",
+      "word": "危ない",
+      "reading": "あぶない",
+      "meaning_en": "dangerous",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_034",
+      "word": "甘い",
+      "reading": "あまい",
+      "meaning_en": "sweet",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_035",
+      "word": "あまり",
+      "reading": "あまり",
+      "meaning_en": "not very",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_036",
+      "word": "飴",
+      "reading": "あめ",
+      "meaning_en": "candy",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_037",
+      "word": "雨",
+      "reading": "あめ",
+      "meaning_zh": "雨",
+      "meaning_en": "rain",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_038",
+      "word": "洗う",
+      "reading": "あらう",
+      "meaning_en": "to wash",
+      "level": "N5",
+      "part_of_speech": "v5u; vt"
+    },
+    {
+      "id": "vocab_039",
+      "word": "ありがとう",
+      "reading": "ありがとう",
+      "meaning_zh": "谢谢",
+      "meaning_en": "Thank you",
+      "level": "N5",
+      "part_of_speech": "int"
+    },
+    {
+      "id": "vocab_040",
+      "word": "ある",
+      "reading": "ある",
+      "meaning_en": "to be; to have (used for inanimate objects)",
+      "level": "N5",
+      "part_of_speech": "v5r-i; vi"
+    },
+    {
+      "id": "vocab_041",
+      "word": "歩く",
+      "reading": "あるく",
+      "meaning_en": "to walk",
+      "level": "N5",
+      "part_of_speech": "v5k; vi"
+    },
+    {
+      "id": "vocab_042",
+      "word": "あれ",
+      "reading": "あれ",
+      "meaning_zh": "那个（远处）",
+      "meaning_en": "that",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_043",
+      "word": "いい",
+      "reading": "いい",
+      "meaning_en": "good",
+      "level": "N5",
+      "part_of_speech": "adj-ix"
+    },
+    {
+      "id": "vocab_044",
+      "word": "いいえ",
+      "reading": "いいえ",
+      "meaning_zh": "不是",
+      "meaning_en": "no",
+      "level": "N5",
+      "part_of_speech": "int"
+    },
+    {
+      "id": "vocab_045",
+      "word": "言う",
+      "reading": "いう",
+      "meaning_en": "to say",
+      "level": "N5",
+      "part_of_speech": "v5u; vt"
+    },
+    {
+      "id": "vocab_046",
+      "word": "家",
+      "reading": "いえ",
+      "meaning_zh": "家",
+      "meaning_en": "house",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_047",
+      "word": "いかが",
+      "reading": "いかが",
+      "meaning_en": "how",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_048",
+      "word": "行く",
+      "reading": "いく",
+      "meaning_zh": "去",
+      "meaning_en": "to go",
+      "level": "N5",
+      "part_of_speech": "v5k-s; vi"
+    },
+    {
+      "id": "vocab_049",
+      "word": "いくつ",
+      "reading": "いくつ",
+      "meaning_en": "how many?; how old?",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_050",
+      "word": "いくら",
+      "reading": "いくら",
+      "meaning_zh": "多少钱",
+      "meaning_en": "how much?",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_051",
+      "word": "池",
+      "reading": "いけ",
+      "meaning_en": "pond",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_052",
+      "word": "医者",
+      "reading": "いしゃ",
+      "meaning_en": "medical doctor",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_053",
+      "word": "いす",
+      "reading": "いす",
+      "meaning_en": "chair",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_054",
+      "word": "忙しい",
+      "reading": "いそがしい",
+      "meaning_zh": "忙",
+      "meaning_en": "busy; irritated",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_055",
+      "word": "痛い",
+      "reading": "いたい",
+      "meaning_en": "painful",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_056",
+      "word": "いただきます",
+      "reading": "いただきます",
+      "meaning_en": "expression of gratitude before meals",
+      "level": "N5",
+      "part_of_speech": "exp"
+    },
+    {
+      "id": "vocab_057",
+      "word": "一",
+      "reading": "いち",
+      "meaning_zh": "一",
+      "meaning_en": "one",
+      "level": "N5",
+      "part_of_speech": "num; pref"
+    },
+    {
+      "id": "vocab_058",
+      "word": "一日",
+      "reading": "いちにち",
+      "meaning_en": "one day; first of month",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_059",
+      "word": "いちばん",
+      "reading": "いちばん",
+      "meaning_en": "best; first",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_060",
+      "word": "いつ",
+      "reading": "いつ",
+      "meaning_zh": "什么时候",
+      "meaning_en": "when",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_061",
+      "word": "五日",
+      "reading": "いつか",
+      "meaning_en": "five days; fifth day",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_062",
+      "word": "一緒",
+      "reading": "いっしょ",
+      "meaning_zh": "一起",
+      "meaning_en": "together",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_063",
+      "word": "五つ",
+      "reading": "いつつ",
+      "meaning_en": "five",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_064",
+      "word": "いつも",
+      "reading": "いつも",
+      "meaning_en": "always",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_065",
+      "word": "犬",
+      "reading": "いぬ",
+      "meaning_zh": "狗",
+      "meaning_en": "dog",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_066",
+      "word": "今",
+      "reading": "いま",
+      "meaning_en": "now",
+      "level": "N5",
+      "part_of_speech": "n; adj-no; adv"
+    },
+    {
+      "id": "vocab_067",
+      "word": "意味",
+      "reading": "いみ",
+      "meaning_en": "meaning",
+      "level": "N5",
+      "part_of_speech": "n; vs; vt"
+    },
+    {
+      "id": "vocab_068",
+      "word": "妹",
+      "reading": "いもうと",
+      "meaning_en": "(humble) younger sister",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_069",
+      "word": "嫌",
+      "reading": "いや",
+      "meaning_en": "unpleasant",
+      "level": "N5",
+      "part_of_speech": "adj-na"
+    },
+    {
+      "id": "vocab_070",
+      "word": "入口",
+      "reading": "いりぐち",
+      "meaning_en": "entrance",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_071",
+      "word": "いる",
+      "reading": "いる",
+      "meaning_en": "to be; to have (used for people and animals)",
+      "level": "N5",
+      "part_of_speech": "aux-v; v1"
+    },
+    {
+      "id": "vocab_072",
+      "word": "要る",
+      "reading": "いる",
+      "meaning_en": "to need",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_073",
+      "word": "入れる",
+      "reading": "いれる",
+      "meaning_en": "to put in",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_074",
+      "word": "色",
+      "reading": "いろ",
+      "meaning_en": "colour",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_075",
+      "word": "いろいろ",
+      "reading": "いろいろ",
+      "meaning_en": "various",
+      "level": "N5",
+      "part_of_speech": "adj-na; adj-no"
+    },
+    {
+      "id": "vocab_076",
+      "word": "上",
+      "reading": "うえ",
+      "meaning_zh": "上面",
+      "meaning_en": "on top of",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_077",
+      "word": "後ろ",
+      "reading": "うしろ",
+      "meaning_en": "behind",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_078",
+      "word": "薄い",
+      "reading": "うすい",
+      "meaning_en": "thin; weak",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_079",
+      "word": "歌",
+      "reading": "うた",
+      "meaning_en": "song",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_080",
+      "word": "歌う",
+      "reading": "うたう",
+      "meaning_en": "to sing",
+      "level": "N5",
+      "part_of_speech": "v5u; vt; vi"
+    },
+    {
+      "id": "vocab_081",
+      "word": "生まれる",
+      "reading": "うまれる",
+      "meaning_en": "to be born",
+      "level": "N5",
+      "part_of_speech": "v1; vi"
+    },
+    {
+      "id": "vocab_082",
+      "word": "海",
+      "reading": "うみ",
+      "meaning_en": "sea",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_083",
+      "word": "売る",
+      "reading": "うる",
+      "meaning_en": "to sell",
+      "level": "N5",
+      "part_of_speech": "v5r; vt"
+    },
+    {
+      "id": "vocab_084",
+      "word": "煩い",
+      "reading": "うるさい",
+      "meaning_en": "noisy; annoying",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_085",
+      "word": "上着",
+      "reading": "うわぎ",
+      "meaning_en": "jacket",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_086",
+      "word": "絵",
+      "reading": "え",
+      "meaning_en": "picture",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_087",
+      "word": "映画",
+      "reading": "えいが",
+      "meaning_zh": "电影",
+      "meaning_en": "movie",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_088",
+      "word": "映画館",
+      "reading": "えいがかん",
+      "meaning_en": "cinema",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_089",
+      "word": "英語",
+      "reading": "えいご",
+      "meaning_en": "English language",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_090",
+      "word": "ええ",
+      "reading": "ええ",
+      "meaning_en": "yes",
+      "level": "N5",
+      "part_of_speech": "int"
+    },
+    {
+      "id": "vocab_091",
+      "word": "駅",
+      "reading": "えき",
+      "meaning_zh": "车站",
+      "meaning_en": "station",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_092",
+      "word": "エレベーター",
+      "reading": "エレベーター",
+      "meaning_en": "elevator",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_093",
+      "word": "鉛筆",
+      "reading": "えんぴつ",
+      "meaning_en": "pencil",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_094",
+      "word": "おいしい",
+      "reading": "おいしい",
+      "meaning_en": "delicious",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_095",
+      "word": "多い",
+      "reading": "おおい",
+      "meaning_en": "many",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_096",
+      "word": "大きい",
+      "reading": "おおきい",
+      "meaning_zh": "大",
+      "meaning_en": "big",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_097",
+      "word": "大きな",
+      "reading": "おおきな",
+      "meaning_en": "big",
+      "level": "N5",
+      "part_of_speech": "adj-pn"
+    },
+    {
+      "id": "vocab_098",
+      "word": "大勢",
+      "reading": "おおぜい",
+      "meaning_en": "great number of people",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_099",
+      "word": "お母さん",
+      "reading": "おかあさん",
+      "meaning_en": "(honorable) mother",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_100",
+      "word": "お菓子",
+      "reading": "おかし",
+      "meaning_en": "sweets; candy",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_101",
+      "word": "お金",
+      "reading": "おかね",
+      "meaning_en": "money",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_102",
+      "word": "起きる",
+      "reading": "おきる",
+      "meaning_en": "to get up",
+      "level": "N5",
+      "part_of_speech": "v1; vi"
+    },
+    {
+      "id": "vocab_103",
+      "word": "置く",
+      "reading": "おく",
+      "meaning_en": "to put",
+      "level": "N5",
+      "part_of_speech": "v5k; vt"
+    },
+    {
+      "id": "vocab_104",
+      "word": "奥さん",
+      "reading": "おくさん",
+      "meaning_en": "(honorable) wife",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_105",
+      "word": "お酒",
+      "reading": "おさけ",
+      "meaning_en": "alcohol; rice wine",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_106",
+      "word": "お皿",
+      "reading": "おさら",
+      "meaning_en": "plate; dish",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_107",
+      "word": "お祖父さん",
+      "reading": "おじいさん",
+      "meaning_en": "grandfather; male senior citizen",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_108",
+      "word": "教える",
+      "reading": "おしえる",
+      "meaning_en": "to teach; to tell",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_109",
+      "word": "押す",
+      "reading": "おす",
+      "meaning_en": "to push; to stamp something",
+      "level": "N5",
+      "part_of_speech": "v5s; vt"
+    },
+    {
+      "id": "vocab_110",
+      "word": "遅い",
+      "reading": "おそい",
+      "meaning_en": "late; slow",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_111",
+      "word": "お茶",
+      "reading": "おちゃ",
+      "meaning_zh": "茶",
+      "meaning_en": "green tea",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_112",
+      "word": "お手洗い",
+      "reading": "おてあらい",
+      "meaning_en": "bathroom",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_113",
+      "word": "お父さん",
+      "reading": "おとうさん",
+      "meaning_en": "(honorable) father",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_114",
+      "word": "弟",
+      "reading": "おとうと",
+      "meaning_en": "younger brother",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_115",
+      "word": "男",
+      "reading": "おとこ",
+      "meaning_en": "man",
+      "level": "N5",
+      "part_of_speech": "n; n-pref"
+    },
+    {
+      "id": "vocab_116",
+      "word": "男の子",
+      "reading": "おとこのこ",
+      "meaning_en": "boy",
+      "level": "N5",
+      "part_of_speech": "exp; n"
+    },
+    {
+      "id": "vocab_117",
+      "word": "一昨日",
+      "reading": "おととい",
+      "meaning_en": "day before yesterday",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_118",
+      "word": "一昨年",
+      "reading": "おととし",
+      "meaning_en": "year before last",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_119",
+      "word": "大人",
+      "reading": "おとな",
+      "meaning_en": "adult",
+      "level": "N5",
+      "part_of_speech": "n; adj-no; adj-na"
+    },
+    {
+      "id": "vocab_120",
+      "word": "おなか",
+      "reading": "おなか",
+      "meaning_en": "stomach",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_121",
+      "word": "同じ",
+      "reading": "おなじ",
+      "meaning_en": "same",
+      "level": "N5",
+      "part_of_speech": "adj-f; adj-na"
+    },
+    {
+      "id": "vocab_122",
+      "word": "お兄さん",
+      "reading": "おにいさん",
+      "meaning_en": "(honorable) older brother",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_123",
+      "word": "お姉さん",
+      "reading": "おねえさん",
+      "meaning_en": "(honorable) older sister",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_124",
+      "word": "お願いします",
+      "reading": "おねがいします",
+      "meaning_en": "please",
+      "level": "N5",
+      "part_of_speech": "exp"
+    },
+    {
+      "id": "vocab_125",
+      "word": "おばあさん",
+      "reading": "おばあさん",
+      "meaning_en": "grandmother; female senior-citizen",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_126",
+      "word": "伯母さん",
+      "reading": "おばさん",
+      "meaning_en": "aunt",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_127",
+      "word": "おはよう",
+      "reading": "おはよう",
+      "meaning_en": "(abbreviation) Good morning",
+      "level": "N5",
+      "part_of_speech": "int"
+    },
+    {
+      "id": "vocab_128",
+      "word": "お風呂",
+      "reading": "おふろ",
+      "meaning_en": "bath",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_129",
+      "word": "お弁当",
+      "reading": "おべんとう",
+      "meaning_en": "boxed lunch",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_130",
+      "word": "覚える",
+      "reading": "おぼえる",
+      "meaning_en": "to remember",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_131",
+      "word": "おまわりさん",
+      "reading": "おまわりさん",
+      "meaning_en": "friendly term for policeman",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_132",
+      "word": "重い",
+      "reading": "おもい",
+      "meaning_en": "heavy",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_133",
+      "word": "おもしろい",
+      "reading": "おもしろい",
+      "meaning_en": "interesting",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_134",
+      "word": "泳ぐ",
+      "reading": "およぐ",
+      "meaning_en": "to swim",
+      "level": "N5",
+      "part_of_speech": "v5g; vi"
+    },
+    {
+      "id": "vocab_135",
+      "word": "降りる",
+      "reading": "おりる",
+      "meaning_en": "to get off; to descend",
+      "level": "N5",
+      "part_of_speech": "v1; vi"
+    },
+    {
+      "id": "vocab_136",
+      "word": "終る",
+      "reading": "おわる",
+      "meaning_en": "to finish",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_137",
+      "word": "音楽",
+      "reading": "おんがく",
+      "meaning_zh": "音乐",
+      "meaning_en": "music",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_138",
+      "word": "女",
+      "reading": "おんな",
+      "meaning_en": "woman",
+      "level": "N5",
+      "part_of_speech": "n; n-pref"
+    },
+    {
+      "id": "vocab_139",
+      "word": "女の子",
+      "reading": "おんなのこ",
+      "meaning_en": "girl",
+      "level": "N5",
+      "part_of_speech": "exp; n"
+    },
+    {
+      "id": "vocab_140",
+      "word": "外国",
+      "reading": "がいこく",
+      "meaning_en": "foreign country",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_141",
+      "word": "外国人",
+      "reading": "がいこくじん",
+      "meaning_en": "foreigner",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_142",
+      "word": "会社",
+      "reading": "かいしゃ",
+      "meaning_en": "company",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_143",
+      "word": "階段",
+      "reading": "かいだん",
+      "meaning_en": "stairs",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_144",
+      "word": "買い物",
+      "reading": "かいもの",
+      "meaning_en": "shopping",
+      "level": "N5",
+      "part_of_speech": "n; vs; vi"
+    },
+    {
+      "id": "vocab_145",
+      "word": "買う",
+      "reading": "かう",
+      "meaning_zh": "买",
+      "meaning_en": "to buy",
+      "level": "N5",
+      "part_of_speech": "v5u; vt"
+    },
+    {
+      "id": "vocab_146",
+      "word": "返す",
+      "reading": "かえす",
+      "meaning_en": "to return something",
+      "level": "N5",
+      "part_of_speech": "v5s; vt"
+    },
+    {
+      "id": "vocab_147",
+      "word": "帰る",
+      "reading": "かえる",
+      "meaning_zh": "回家",
+      "meaning_en": "to go back",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_148",
+      "word": "かかる",
+      "reading": "かかる",
+      "meaning_en": "to take time or money",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_149",
+      "word": "かぎ",
+      "reading": "かぎ",
+      "meaning_en": "key",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_150",
+      "word": "書く",
+      "reading": "かく",
+      "meaning_zh": "写",
+      "meaning_en": "to write",
+      "level": "N5",
+      "part_of_speech": "v5k; vt"
+    },
+    {
+      "id": "vocab_151",
+      "word": "学生",
+      "reading": "がくせい",
+      "meaning_zh": "学生",
+      "meaning_en": "student",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_152",
+      "word": "かける",
+      "reading": "かける",
+      "meaning_en": "to call by phone",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_153",
+      "word": "傘",
+      "reading": "かさ",
+      "meaning_en": "umbrella",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_154",
+      "word": "貸す",
+      "reading": "かす",
+      "meaning_en": "to lend",
+      "level": "N5",
+      "part_of_speech": "v5s; vt"
+    },
+    {
+      "id": "vocab_155",
+      "word": "風",
+      "reading": "かぜ",
+      "meaning_en": "wind",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_156",
+      "word": "風邪",
+      "reading": "かぜ",
+      "meaning_en": "a cold",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_157",
+      "word": "家族",
+      "reading": "かぞく",
+      "meaning_en": "family",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_158",
+      "word": "方",
+      "reading": "かた",
+      "meaning_en": "person; way of doing",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_159",
+      "word": "学校",
+      "reading": "がっこう",
+      "meaning_zh": "学校",
+      "meaning_en": "school",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_160",
+      "word": "カップ",
+      "reading": "カップ",
+      "meaning_en": "cup",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_161",
+      "word": "家庭",
+      "reading": "かてい",
+      "meaning_en": "household",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_162",
+      "word": "角",
+      "reading": "かど",
+      "meaning_en": "a corner",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_163",
+      "word": "かばん",
+      "reading": "かばん",
+      "meaning_en": "bag; basket",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_164",
+      "word": "花瓶",
+      "reading": "かびん",
+      "meaning_en": "a vase",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_165",
+      "word": "紙",
+      "reading": "かみ",
+      "meaning_en": "paper",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_166",
+      "word": "カメラ",
+      "reading": "カメラ",
+      "meaning_en": "camera",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_167",
+      "word": "火曜日",
+      "reading": "かようび",
+      "meaning_zh": "星期二",
+      "meaning_en": "Tuesday",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_168",
+      "word": "辛い",
+      "reading": "からい",
+      "meaning_en": "spicy",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_169",
+      "word": "体",
+      "reading": "からだ",
+      "meaning_en": "body",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_170",
+      "word": "借りる",
+      "reading": "かりる",
+      "meaning_en": "to borrow",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_171",
+      "word": "軽い",
+      "reading": "かるい",
+      "meaning_en": "light",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_172",
+      "word": "カレー",
+      "reading": "カレー",
+      "meaning_en": "curry",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_173",
+      "word": "カレンダー",
+      "reading": "カレンダー",
+      "meaning_en": "calendar",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_174",
+      "word": "川",
+      "reading": "かわ",
+      "meaning_en": "river",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_175",
+      "word": "かわいい",
+      "reading": "かわいい",
+      "meaning_en": "cute",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_176",
+      "word": "漢字",
+      "reading": "かんじ",
+      "meaning_en": "Chinese character",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_177",
+      "word": "木",
+      "reading": "き",
+      "meaning_en": "tree; wood",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_178",
+      "word": "黄色",
+      "reading": "きいろ",
+      "meaning_en": "yellow",
+      "level": "N5",
+      "part_of_speech": "n; adj-no; adj-na"
+    },
+    {
+      "id": "vocab_179",
+      "word": "黄色い",
+      "reading": "きいろい",
+      "meaning_en": "yellow",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_180",
+      "word": "消える",
+      "reading": "きえる",
+      "meaning_en": "to disappear",
+      "level": "N5",
+      "part_of_speech": "v1; vi"
+    },
+    {
+      "id": "vocab_181",
+      "word": "聞く",
+      "reading": "きく",
+      "meaning_zh": "听/问",
+      "meaning_en": "to hear; to listen to; to ask",
+      "level": "N5",
+      "part_of_speech": "v5k; vt"
+    },
+    {
+      "id": "vocab_182",
+      "word": "北",
+      "reading": "きた",
+      "meaning_zh": "北",
+      "meaning_en": "north",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_183",
+      "word": "ギター",
+      "reading": "ギター",
+      "meaning_en": "guitar",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_184",
+      "word": "汚い",
+      "reading": "きたない",
+      "meaning_en": "dirty",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_185",
+      "word": "喫茶店",
+      "reading": "きっさてん",
+      "meaning_en": "coffee lounge",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_186",
+      "word": "切手",
+      "reading": "きって",
+      "meaning_en": "postage stamp",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_187",
+      "word": "切符",
+      "reading": "きっぷ",
+      "meaning_en": "ticket",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_188",
+      "word": "昨日",
+      "reading": "きのう",
+      "meaning_zh": "昨天",
+      "meaning_en": "yesterday",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_189",
+      "word": "九",
+      "reading": "きゅう",
+      "meaning_zh": "九",
+      "meaning_en": "nine",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_190",
+      "word": "牛肉",
+      "reading": "ぎゅうにく",
+      "meaning_en": "beef",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_191",
+      "word": "牛乳",
+      "reading": "ぎゅうにゅう",
+      "meaning_en": "milk",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_192",
+      "word": "今日",
+      "reading": "きょう",
+      "meaning_zh": "今天",
+      "meaning_en": "today",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_193",
+      "word": "教室",
+      "reading": "きょうしつ",
+      "meaning_en": "classroom",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_194",
+      "word": "兄弟",
+      "reading": "きょうだい",
+      "meaning_en": "(humble) siblings",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_195",
+      "word": "去年",
+      "reading": "きょねん",
+      "meaning_en": "last year",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_196",
+      "word": "嫌い",
+      "reading": "きらい",
+      "meaning_en": "hate",
+      "level": "N5",
+      "part_of_speech": "adj-na; n"
+    },
+    {
+      "id": "vocab_197",
+      "word": "切る",
+      "reading": "きる",
+      "meaning_en": "to cut",
+      "level": "N5",
+      "part_of_speech": "v5r; vt"
+    },
+    {
+      "id": "vocab_198",
+      "word": "着る",
+      "reading": "きる",
+      "meaning_en": "to put on from the shoulders down",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_199",
+      "word": "きれい",
+      "reading": "きれい",
+      "meaning_zh": "漂亮/干净",
+      "meaning_en": "pretty; clean",
+      "level": "N5",
+      "part_of_speech": "adj-na"
+    },
+    {
+      "id": "vocab_200",
+      "word": "キロ",
+      "reading": "キロ",
+      "meaning_en": "kilometre; kilogram",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_201",
+      "word": "銀行",
+      "reading": "ぎんこう",
+      "meaning_en": "bank",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_202",
+      "word": "金曜日",
+      "reading": "きんようび",
+      "meaning_zh": "星期五",
+      "meaning_en": "Friday",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_203",
+      "word": "薬",
+      "reading": "くすり",
+      "meaning_en": "medicine",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_204",
+      "word": "ください",
+      "reading": "ください",
+      "meaning_zh": "请给/请",
+      "meaning_en": "please",
+      "level": "N5",
+      "part_of_speech": "exp"
+    },
+    {
+      "id": "vocab_205",
+      "word": "果物",
+      "reading": "くだもの",
+      "meaning_en": "fruit",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_206",
+      "word": "口",
+      "reading": "くち",
+      "meaning_en": "mouth; opening",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_207",
+      "word": "靴",
+      "reading": "くつ",
+      "meaning_en": "shoes",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_208",
+      "word": "靴下",
+      "reading": "くつした",
+      "meaning_en": "socks",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_209",
+      "word": "国",
+      "reading": "くに",
+      "meaning_en": "country",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_210",
+      "word": "曇り",
+      "reading": "くもり",
+      "meaning_en": "cloudy weather",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_211",
+      "word": "曇る",
+      "reading": "くもる",
+      "meaning_en": "to become cloudy; to become dim",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_212",
+      "word": "暗い",
+      "reading": "くらい",
+      "meaning_en": "gloomy",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_213",
+      "word": "クラス",
+      "reading": "クラス",
+      "meaning_en": "class",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_214",
+      "word": "グラム",
+      "reading": "グラム",
+      "meaning_en": "gram",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_215",
+      "word": "来る",
+      "reading": "くる",
+      "meaning_zh": "来",
+      "meaning_en": "to come",
+      "level": "N5",
+      "part_of_speech": "vk; vi"
+    },
+    {
+      "id": "vocab_216",
+      "word": "車",
+      "reading": "くるま",
+      "meaning_zh": "汽车",
+      "meaning_en": "car; vehicle",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_217",
+      "word": "黒",
+      "reading": "くろ",
+      "meaning_en": "black",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_218",
+      "word": "黒い",
+      "reading": "くろい",
+      "meaning_en": "black",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_219",
+      "word": "警官",
+      "reading": "けいかん",
+      "meaning_en": "policeman",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_220",
+      "word": "今朝",
+      "reading": "けさ",
+      "meaning_en": "this morning",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_221",
+      "word": "消す",
+      "reading": "けす",
+      "meaning_en": "to erase; to turn off power",
+      "level": "N5",
+      "part_of_speech": "v5s; vt"
+    },
+    {
+      "id": "vocab_222",
+      "word": "結構",
+      "reading": "けっこう",
+      "meaning_en": "splendid; enough",
+      "level": "N5",
+      "part_of_speech": "adj-na"
+    },
+    {
+      "id": "vocab_223",
+      "word": "結婚",
+      "reading": "けっこん",
+      "meaning_en": "marriage",
+      "level": "N5",
+      "part_of_speech": "n; vs; vi"
+    },
+    {
+      "id": "vocab_224",
+      "word": "月曜日",
+      "reading": "げつようび",
+      "meaning_zh": "星期一",
+      "meaning_en": "Monday",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_225",
+      "word": "玄関",
+      "reading": "げんかん",
+      "meaning_en": "entry hall",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_226",
+      "word": "元気",
+      "reading": "げんき",
+      "meaning_zh": "精神/健康",
+      "meaning_en": "health; vitality",
+      "level": "N5",
+      "part_of_speech": "adj-na; n"
+    },
+    {
+      "id": "vocab_227",
+      "word": "五",
+      "reading": "ご",
+      "meaning_zh": "五",
+      "meaning_en": "five",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_228",
+      "word": "公園",
+      "reading": "こうえん",
+      "meaning_en": "park",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_229",
+      "word": "交差点",
+      "reading": "こうさてん",
+      "meaning_en": "intersection",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_230",
+      "word": "紅茶",
+      "reading": "こうちゃ",
+      "meaning_en": "black tea",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_231",
+      "word": "交番",
+      "reading": "こうばん",
+      "meaning_en": "police box",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_232",
+      "word": "声",
+      "reading": "こえ",
+      "meaning_en": "voice",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_233",
+      "word": "コート",
+      "reading": "コート",
+      "meaning_en": "coat; tennis court",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_234",
+      "word": "コーヒー",
+      "reading": "コーヒー",
+      "meaning_en": "coffee",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_235",
+      "word": "ここ",
+      "reading": "ここ",
+      "meaning_zh": "这里",
+      "meaning_en": "here",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_236",
+      "word": "午後",
+      "reading": "ごご",
+      "meaning_zh": "下午",
+      "meaning_en": "afternoon",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_237",
+      "word": "九日",
+      "reading": "ここのか",
+      "meaning_en": "nine days; ninth day",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_238",
+      "word": "九つ",
+      "reading": "ここのつ",
+      "meaning_en": "nine",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_239",
+      "word": "午前",
+      "reading": "ごぜん",
+      "meaning_zh": "上午",
+      "meaning_en": "morning",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_240",
+      "word": "答える",
+      "reading": "こたえる",
+      "meaning_en": "to answer",
+      "level": "N5",
+      "part_of_speech": "v1; vi"
+    },
+    {
+      "id": "vocab_241",
+      "word": "ごちそうさま",
+      "reading": "ごちそうさま",
+      "meaning_en": "feast",
+      "level": "N5",
+      "part_of_speech": "int"
+    },
+    {
+      "id": "vocab_242",
+      "word": "こちら",
+      "reading": "こちら",
+      "meaning_en": "this person or way",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_243",
+      "word": "こっち",
+      "reading": "こっち",
+      "meaning_en": "this person or way",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_244",
+      "word": "コップ",
+      "reading": "コップ",
+      "meaning_en": "a glass",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_245",
+      "word": "今年",
+      "reading": "ことし",
+      "meaning_en": "this year",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_246",
+      "word": "言葉",
+      "reading": "ことば",
+      "meaning_en": "word; language",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_247",
+      "word": "子供",
+      "reading": "こども",
+      "meaning_en": "child",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_248",
+      "word": "この",
+      "reading": "この",
+      "meaning_en": "this",
+      "level": "N5",
+      "part_of_speech": "adj-pn"
+    },
+    {
+      "id": "vocab_249",
+      "word": "御飯",
+      "reading": "ごはん",
+      "meaning_en": "cooked rice; meal",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_250",
+      "word": "コピーする",
+      "reading": "コピーする",
+      "meaning_en": "to copy",
+      "level": "N5",
+      "part_of_speech": "n; vs; vt"
+    },
+    {
+      "id": "vocab_251",
+      "word": "困る",
+      "reading": "こまる",
+      "meaning_en": "to be worried",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_252",
+      "word": "ごめんなさい",
+      "reading": "ごめんなさい",
+      "meaning_en": "I beg your pardon; excuse me",
+      "level": "N5",
+      "part_of_speech": "exp"
+    },
+    {
+      "id": "vocab_253",
+      "word": "これ",
+      "reading": "これ",
+      "meaning_zh": "这个",
+      "meaning_en": "this",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_254",
+      "word": "今月",
+      "reading": "こんげつ",
+      "meaning_en": "this month",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_255",
+      "word": "今週",
+      "reading": "こんしゅう",
+      "meaning_en": "this week",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_256",
+      "word": "こんな",
+      "reading": "こんな",
+      "meaning_en": "such",
+      "level": "N5",
+      "part_of_speech": "adj-pn"
+    },
+    {
+      "id": "vocab_257",
+      "word": "こんにちは",
+      "reading": "こんにちは",
+      "meaning_zh": "你好",
+      "meaning_en": "hello; good day (daytime greeting, id)",
+      "level": "N5",
+      "part_of_speech": "int"
+    },
+    {
+      "id": "vocab_258",
+      "word": "今晩",
+      "reading": "こんばん",
+      "meaning_en": "this evening",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_259",
+      "word": "こんばんは",
+      "reading": "こんばんは",
+      "meaning_en": "good evening",
+      "level": "N5",
+      "part_of_speech": "int"
+    },
+    {
+      "id": "vocab_260",
+      "word": "さあ",
+      "reading": "さあ",
+      "meaning_en": "well…",
+      "level": "N5",
+      "part_of_speech": "int"
+    },
+    {
+      "id": "vocab_261",
+      "word": "財布",
+      "reading": "さいふ",
+      "meaning_en": "wallet",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_262",
+      "word": "魚",
+      "reading": "さかな",
+      "meaning_en": "fish",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_263",
+      "word": "先",
+      "reading": "さき",
+      "meaning_en": "the future; previous",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_264",
+      "word": "咲く",
+      "reading": "さく",
+      "meaning_en": "to bloom",
+      "level": "N5",
+      "part_of_speech": "v5k; vi"
+    },
+    {
+      "id": "vocab_265",
+      "word": "作文",
+      "reading": "さくぶん",
+      "meaning_en": "composition; writing",
+      "level": "N5",
+      "part_of_speech": "n; vs; vi"
+    },
+    {
+      "id": "vocab_266",
+      "word": "差す",
+      "reading": "さす",
+      "meaning_en": "to stretch out hands; to raise an umbrella",
+      "level": "N5",
+      "part_of_speech": "v5s; vt"
+    },
+    {
+      "id": "vocab_267",
+      "word": "雑誌",
+      "reading": "ざっし",
+      "meaning_en": "magazine",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_268",
+      "word": "砂糖",
+      "reading": "さとう",
+      "meaning_en": "sugar",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_269",
+      "word": "寒い",
+      "reading": "さむい",
+      "meaning_en": "cold",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_270",
+      "word": "さようなら",
+      "reading": "さようなら",
+      "meaning_en": "good-bye",
+      "level": "N5",
+      "part_of_speech": "int"
+    },
+    {
+      "id": "vocab_271",
+      "word": "再来年",
+      "reading": "さらいねん",
+      "meaning_en": "year after next",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_272",
+      "word": "三",
+      "reading": "さん",
+      "meaning_zh": "三",
+      "meaning_en": "three",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_273",
+      "word": "散歩",
+      "reading": "さんぽ",
+      "meaning_en": "to stroll",
+      "level": "N5",
+      "part_of_speech": "n; vs; vi"
+    },
+    {
+      "id": "vocab_274",
+      "word": "四",
+      "reading": "し",
+      "meaning_zh": "四",
+      "meaning_en": "four",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_275",
+      "word": "塩",
+      "reading": "しお",
+      "meaning_en": "salt",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_276",
+      "word": "しかし",
+      "reading": "しかし",
+      "meaning_en": "however",
+      "level": "N5",
+      "part_of_speech": "conj"
+    },
+    {
+      "id": "vocab_277",
+      "word": "時間",
+      "reading": "じかん",
+      "meaning_zh": "时间",
+      "meaning_en": "time",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_278",
+      "word": "仕事",
+      "reading": "しごと",
+      "meaning_zh": "工作",
+      "meaning_en": "job",
+      "level": "N5",
+      "part_of_speech": "n; vs; vi"
+    },
+    {
+      "id": "vocab_279",
+      "word": "辞書",
+      "reading": "じしょ",
+      "meaning_en": "dictionary",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_280",
+      "word": "静か",
+      "reading": "しずか",
+      "meaning_zh": "安静",
+      "meaning_en": "quiet",
+      "level": "N5",
+      "part_of_speech": "adj-na"
+    },
+    {
+      "id": "vocab_281",
+      "word": "下",
+      "reading": "した",
+      "meaning_zh": "下面",
+      "meaning_en": "below",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_282",
+      "word": "七",
+      "reading": "しち",
+      "meaning_zh": "七",
+      "meaning_en": "seven",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_283",
+      "word": "質問",
+      "reading": "しつもん",
+      "meaning_en": "question",
+      "level": "N5",
+      "part_of_speech": "n; vs; vt; vi; adj-no"
+    },
+    {
+      "id": "vocab_284",
+      "word": "自転車",
+      "reading": "じてんしゃ",
+      "meaning_en": "bicycle",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_285",
+      "word": "自動車",
+      "reading": "じどうしゃ",
+      "meaning_en": "automobile",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_286",
+      "word": "死ぬ",
+      "reading": "しぬ",
+      "meaning_en": "to die",
+      "level": "N5",
+      "part_of_speech": "v5n; vi"
+    },
+    {
+      "id": "vocab_287",
+      "word": "字引",
+      "reading": "じびき",
+      "meaning_en": "dictionary",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_288",
+      "word": "自分",
+      "reading": "じぶん",
+      "meaning_en": "oneself",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_289",
+      "word": "閉まる",
+      "reading": "しまる",
+      "meaning_en": "to close; to be closed",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_290",
+      "word": "締める",
+      "reading": "しめる",
+      "meaning_en": "to tie",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_291",
+      "word": "閉める",
+      "reading": "しめる",
+      "meaning_en": "to close something",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_292",
+      "word": "じゃ",
+      "reading": "じゃ",
+      "meaning_en": "well then…",
+      "level": "N5",
+      "part_of_speech": "conj"
+    },
+    {
+      "id": "vocab_293",
+      "word": "写真",
+      "reading": "しゃしん",
+      "meaning_en": "photograph",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_294",
+      "word": "シャツ",
+      "reading": "シャツ",
+      "meaning_en": "shirt",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_295",
+      "word": "シャワー",
+      "reading": "シャワー",
+      "meaning_en": "shower",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_296",
+      "word": "十",
+      "reading": "じゅう",
+      "meaning_zh": "十",
+      "meaning_en": "ten",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_297",
+      "word": "授業",
+      "reading": "じゅぎょう",
+      "meaning_en": "lesson; class work",
+      "level": "N5",
+      "part_of_speech": "n; vs; vi"
+    },
+    {
+      "id": "vocab_298",
+      "word": "宿題",
+      "reading": "しゅくだい",
+      "meaning_en": "homework",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_299",
+      "word": "上手",
+      "reading": "じょうず",
+      "meaning_en": "skillful",
+      "level": "N5",
+      "part_of_speech": "adj-na; n"
+    },
+    {
+      "id": "vocab_300",
+      "word": "丈夫",
+      "reading": "じょうぶ",
+      "meaning_en": "strong; durable",
+      "level": "N5",
+      "part_of_speech": "adj-na"
+    },
+    {
+      "id": "vocab_301",
+      "word": "しょうゆ",
+      "reading": "しょうゆ",
+      "meaning_en": "soy sauce",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_302",
+      "word": "食堂",
+      "reading": "しょくどう",
+      "meaning_en": "dining hall",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_303",
+      "word": "知る",
+      "reading": "しる",
+      "meaning_en": "to know",
+      "level": "N5",
+      "part_of_speech": "v5r; vt"
+    },
+    {
+      "id": "vocab_304",
+      "word": "白",
+      "reading": "しろ",
+      "meaning_en": "white",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_305",
+      "word": "白い",
+      "reading": "しろい",
+      "meaning_en": "white",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_306",
+      "word": "新聞",
+      "reading": "しんぶん",
+      "meaning_en": "newspaper",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_307",
+      "word": "水曜日",
+      "reading": "すいようび",
+      "meaning_zh": "星期三",
+      "meaning_en": "Wednesday",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_308",
+      "word": "吸う",
+      "reading": "すう",
+      "meaning_en": "to smoke; to suck",
+      "level": "N5",
+      "part_of_speech": "v5u; vt"
+    },
+    {
+      "id": "vocab_309",
+      "word": "スカート",
+      "reading": "スカート",
+      "meaning_en": "skirt",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_310",
+      "word": "好き",
+      "reading": "すき",
+      "meaning_zh": "喜欢",
+      "meaning_en": "likeable",
+      "level": "N5",
+      "part_of_speech": "adj-na; n"
+    },
+    {
+      "id": "vocab_311",
+      "word": "すぐ",
+      "reading": "すぐ",
+      "meaning_en": "immediately; soon; easily; right (near); honest; upright",
+      "level": "N5",
+      "part_of_speech": "adv; n"
+    },
+    {
+      "id": "vocab_312",
+      "word": "少ない",
+      "reading": "すくない",
+      "meaning_en": "a few",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_313",
+      "word": "すぐに",
+      "reading": "すぐに",
+      "meaning_en": "instantly",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_314",
+      "word": "少し",
+      "reading": "すこし",
+      "meaning_zh": "一点",
+      "meaning_en": "few",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_315",
+      "word": "涼しい",
+      "reading": "すずしい",
+      "meaning_en": "refreshing",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_316",
+      "word": "ストーブ",
+      "reading": "ストーブ",
+      "meaning_en": "heater",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_317",
+      "word": "スプーン",
+      "reading": "スプーン",
+      "meaning_en": "spoon",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_318",
+      "word": "スポーツ",
+      "reading": "スポーツ",
+      "meaning_en": "sport",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_319",
+      "word": "ズボン",
+      "reading": "ズボン",
+      "meaning_en": "trousers",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_320",
+      "word": "すみません",
+      "reading": "すみません",
+      "meaning_zh": "不好意思/对不起",
+      "meaning_en": "sorry; excuse me",
+      "level": "N5",
+      "part_of_speech": "exp; int"
+    },
+    {
+      "id": "vocab_321",
+      "word": "住む",
+      "reading": "すむ",
+      "meaning_en": "to live in",
+      "level": "N5",
+      "part_of_speech": "v5m; vi"
+    },
+    {
+      "id": "vocab_322",
+      "word": "スリッパ",
+      "reading": "スリッパ",
+      "meaning_en": "slippers",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_323",
+      "word": "する",
+      "reading": "する",
+      "meaning_en": "to do",
+      "level": "N5",
+      "part_of_speech": "vs-i"
+    },
+    {
+      "id": "vocab_324",
+      "word": "座る",
+      "reading": "すわる",
+      "meaning_en": "to sit",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_325",
+      "word": "背",
+      "reading": "せ",
+      "meaning_en": "height; stature",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_326",
+      "word": "生徒",
+      "reading": "せいと",
+      "meaning_en": "pupil",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_327",
+      "word": "セーター",
+      "reading": "セーター",
+      "meaning_en": "sweater; jumper",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_328",
+      "word": "せっけん",
+      "reading": "せっけん",
+      "meaning_en": "economy",
+      "level": "N5",
+      "part_of_speech": "n; vs; vt; vi"
+    },
+    {
+      "id": "vocab_329",
+      "word": "背広",
+      "reading": "せびろ",
+      "meaning_en": "business suit",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_330",
+      "word": "狭い",
+      "reading": "せまい",
+      "meaning_en": "narrow",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_331",
+      "word": "ゼロ",
+      "reading": "ゼロ",
+      "meaning_en": "zero",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_332",
+      "word": "千",
+      "reading": "せん",
+      "meaning_zh": "千",
+      "meaning_en": "thousand",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_333",
+      "word": "先月",
+      "reading": "せんげつ",
+      "meaning_en": "last month",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_334",
+      "word": "先週",
+      "reading": "せんしゅう",
+      "meaning_en": "last week",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_335",
+      "word": "先生",
+      "reading": "せんせい",
+      "meaning_zh": "老师",
+      "meaning_en": "teacher; doctor",
+      "level": "N5",
+      "part_of_speech": "n; n-suf"
+    },
+    {
+      "id": "vocab_336",
+      "word": "洗濯",
+      "reading": "せんたく",
+      "meaning_en": "washing",
+      "level": "N5",
+      "part_of_speech": "n; vs; vt"
+    },
+    {
+      "id": "vocab_337",
+      "word": "全部",
+      "reading": "ぜんぶ",
+      "meaning_en": "all",
+      "level": "N5",
+      "part_of_speech": "n; adj-no; adv"
+    },
+    {
+      "id": "vocab_338",
+      "word": "掃除",
+      "reading": "そうじ",
+      "meaning_en": "to clean; to sweep",
+      "level": "N5",
+      "part_of_speech": "n; vs; vt"
+    },
+    {
+      "id": "vocab_339",
+      "word": "そうして",
+      "reading": "そうして",
+      "meaning_en": "and",
+      "level": "N5",
+      "part_of_speech": "conj"
+    },
+    {
+      "id": "vocab_340",
+      "word": "そこ",
+      "reading": "そこ",
+      "meaning_zh": "那里",
+      "meaning_en": "that place",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_341",
+      "word": "そちら",
+      "reading": "そちら",
+      "meaning_en": "over there",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_342",
+      "word": "そっち",
+      "reading": "そっち",
+      "meaning_en": "over there",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_343",
+      "word": "外",
+      "reading": "そと",
+      "meaning_en": "outside",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_344",
+      "word": "その",
+      "reading": "その",
+      "meaning_en": "that",
+      "level": "N5",
+      "part_of_speech": "adj-pn"
+    },
+    {
+      "id": "vocab_345",
+      "word": "そば",
+      "reading": "そば",
+      "meaning_en": "near; beside",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_346",
+      "word": "空",
+      "reading": "そら",
+      "meaning_en": "sky",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_347",
+      "word": "それ",
+      "reading": "それ",
+      "meaning_zh": "那个",
+      "meaning_en": "that",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_348",
+      "word": "それから",
+      "reading": "それから",
+      "meaning_en": "after that",
+      "level": "N5",
+      "part_of_speech": "exp"
+    },
+    {
+      "id": "vocab_349",
+      "word": "それでは",
+      "reading": "それでは",
+      "meaning_en": "in that situation",
+      "level": "N5",
+      "part_of_speech": "exp"
+    },
+    {
+      "id": "vocab_350",
+      "word": "大学",
+      "reading": "だいがく",
+      "meaning_en": "university",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_351",
+      "word": "大使館",
+      "reading": "たいしかん",
+      "meaning_en": "embassy",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_352",
+      "word": "大丈夫",
+      "reading": "だいじょうぶ",
+      "meaning_zh": "没关系",
+      "meaning_en": "all right",
+      "level": "N5",
+      "part_of_speech": "adj-na"
+    },
+    {
+      "id": "vocab_353",
+      "word": "大好き",
+      "reading": "だいすき",
+      "meaning_en": "to be very likeable",
+      "level": "N5",
+      "part_of_speech": "adj-na"
+    },
+    {
+      "id": "vocab_354",
+      "word": "大切",
+      "reading": "たいせつ",
+      "meaning_en": "important",
+      "level": "N5",
+      "part_of_speech": "adj-na"
+    },
+    {
+      "id": "vocab_355",
+      "word": "台所",
+      "reading": "だいどころ",
+      "meaning_en": "kitchen",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_356",
+      "word": "たいへん",
+      "reading": "たいへん",
+      "meaning_en": "very",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_357",
+      "word": "高い",
+      "reading": "たかい",
+      "meaning_zh": "高/贵",
+      "meaning_en": "tall; expensive",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_358",
+      "word": "たくさん",
+      "reading": "たくさん",
+      "meaning_en": "many",
+      "level": "N5",
+      "part_of_speech": "adj-no; adj-na; n; adv"
+    },
+    {
+      "id": "vocab_359",
+      "word": "タクシー",
+      "reading": "タクシー",
+      "meaning_en": "taxi",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_360",
+      "word": "出す",
+      "reading": "だす",
+      "meaning_en": "to put out",
+      "level": "N5",
+      "part_of_speech": "v5s; vt"
+    },
+    {
+      "id": "vocab_361",
+      "word": "立つ",
+      "reading": "たつ",
+      "meaning_en": "to stand",
+      "level": "N5",
+      "part_of_speech": "v5t; vi"
+    },
+    {
+      "id": "vocab_362",
+      "word": "たて",
+      "reading": "たて",
+      "meaning_en": "length; height",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_363",
+      "word": "建物",
+      "reading": "たてもの",
+      "meaning_en": "building",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_364",
+      "word": "楽しい",
+      "reading": "たのしい",
+      "meaning_zh": "愉快",
+      "meaning_en": "enjoyable",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_365",
+      "word": "頼む",
+      "reading": "たのむ",
+      "meaning_en": "to ask",
+      "level": "N5",
+      "part_of_speech": "v5m; vt"
+    },
+    {
+      "id": "vocab_366",
+      "word": "たばこ",
+      "reading": "たばこ",
+      "meaning_en": "tobacco; cigarettes",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_367",
+      "word": "たぶん",
+      "reading": "たぶん",
+      "meaning_en": "probably",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_368",
+      "word": "食べ物",
+      "reading": "たべもの",
+      "meaning_en": "food",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_369",
+      "word": "食べる",
+      "reading": "たべる",
+      "meaning_zh": "吃",
+      "meaning_en": "to eat",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_370",
+      "word": "卵",
+      "reading": "たまご",
+      "meaning_en": "egg",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_371",
+      "word": "誰",
+      "reading": "だれ",
+      "meaning_zh": "谁",
+      "meaning_en": "who",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_372",
+      "word": "誕生日",
+      "reading": "たんじょうび",
+      "meaning_en": "birthday",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_373",
+      "word": "だんだん",
+      "reading": "だんだん",
+      "meaning_en": "gradually",
+      "level": "N5",
+      "part_of_speech": "adv; adv-to"
+    },
+    {
+      "id": "vocab_374",
+      "word": "小さい",
+      "reading": "ちいさい",
+      "meaning_zh": "小",
+      "meaning_en": "little",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_375",
+      "word": "小さな",
+      "reading": "ちいさな",
+      "meaning_en": "little",
+      "level": "N5",
+      "part_of_speech": "adj-pn"
+    },
+    {
+      "id": "vocab_376",
+      "word": "近い",
+      "reading": "ちかい",
+      "meaning_en": "near",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_377",
+      "word": "違う",
+      "reading": "ちがう",
+      "meaning_en": "to differ",
+      "level": "N5",
+      "part_of_speech": "v5u; vi"
+    },
+    {
+      "id": "vocab_378",
+      "word": "近く",
+      "reading": "ちかく",
+      "meaning_en": "near",
+      "level": "N5",
+      "part_of_speech": "n; adj-no; adv"
+    },
+    {
+      "id": "vocab_379",
+      "word": "地下鉄",
+      "reading": "ちかてつ",
+      "meaning_en": "underground train",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_380",
+      "word": "地図",
+      "reading": "ちず",
+      "meaning_en": "map",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_381",
+      "word": "茶色",
+      "reading": "ちゃいろ",
+      "meaning_en": "brown",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_382",
+      "word": "ちゃわん",
+      "reading": "ちゃわん",
+      "meaning_en": "rice bowl",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_383",
+      "word": "ちょうど",
+      "reading": "ちょうど",
+      "meaning_en": "exactly",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_384",
+      "word": "ちょっと",
+      "reading": "ちょっと",
+      "meaning_en": "somewhat",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_385",
+      "word": "使う",
+      "reading": "つかう",
+      "meaning_en": "to use",
+      "level": "N5",
+      "part_of_speech": "v5u; vt"
+    },
+    {
+      "id": "vocab_386",
+      "word": "疲れる",
+      "reading": "つかれる",
+      "meaning_en": "to get tired",
+      "level": "N5",
+      "part_of_speech": "v1; vi"
+    },
+    {
+      "id": "vocab_387",
+      "word": "次",
+      "reading": "つぎ",
+      "meaning_en": "next",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_388",
+      "word": "着く",
+      "reading": "つく",
+      "meaning_en": "to arrive at",
+      "level": "N5",
+      "part_of_speech": "v5k; vi"
+    },
+    {
+      "id": "vocab_389",
+      "word": "机",
+      "reading": "つくえ",
+      "meaning_en": "desk",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_390",
+      "word": "作る",
+      "reading": "つくる",
+      "meaning_en": "to make",
+      "level": "N5",
+      "part_of_speech": "v5r; vt"
+    },
+    {
+      "id": "vocab_391",
+      "word": "つける",
+      "reading": "つける",
+      "meaning_en": "to turn on",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_392",
+      "word": "勤める",
+      "reading": "つとめる",
+      "meaning_en": "to work for someone",
+      "level": "N5",
+      "part_of_speech": "v1; vt; vi"
+    },
+    {
+      "id": "vocab_393",
+      "word": "つまらない",
+      "reading": "つまらない",
+      "meaning_en": "boring",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_394",
+      "word": "冷たい",
+      "reading": "つめたい",
+      "meaning_en": "cold to the touch",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_395",
+      "word": "強い",
+      "reading": "つよい",
+      "meaning_en": "powerful",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_396",
+      "word": "手",
+      "reading": "て",
+      "meaning_en": "hand",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_397",
+      "word": "テープ",
+      "reading": "テープ",
+      "meaning_en": "tape",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_398",
+      "word": "テーブル",
+      "reading": "テーブル",
+      "meaning_en": "table",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_399",
+      "word": "テープレコーダー",
+      "reading": "テープレコーダー",
+      "meaning_en": "tape recorder",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_400",
+      "word": "出かける",
+      "reading": "でかける",
+      "meaning_en": "to go out",
+      "level": "N5",
+      "part_of_speech": "v1; vi"
+    },
+    {
+      "id": "vocab_401",
+      "word": "手紙",
+      "reading": "てがみ",
+      "meaning_en": "letter",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_402",
+      "word": "できる",
+      "reading": "できる",
+      "meaning_en": "to be able to",
+      "level": "N5",
+      "part_of_speech": "v1; vi"
+    },
+    {
+      "id": "vocab_403",
+      "word": "出口",
+      "reading": "でぐち",
+      "meaning_en": "exit",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_404",
+      "word": "テスト",
+      "reading": "テスト",
+      "meaning_en": "test",
+      "level": "N5",
+      "part_of_speech": "n; vs; vt"
+    },
+    {
+      "id": "vocab_405",
+      "word": "では",
+      "reading": "では",
+      "meaning_en": "with that...",
+      "level": "N5",
+      "part_of_speech": "exp"
+    },
+    {
+      "id": "vocab_406",
+      "word": "デパート",
+      "reading": "デパート",
+      "meaning_en": "department store",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_407",
+      "word": "でも",
+      "reading": "でも",
+      "meaning_en": "but",
+      "level": "N5",
+      "part_of_speech": "conj"
+    },
+    {
+      "id": "vocab_408",
+      "word": "出る",
+      "reading": "でる",
+      "meaning_en": "to appear; to leave",
+      "level": "N5",
+      "part_of_speech": "v1; vi"
+    },
+    {
+      "id": "vocab_409",
+      "word": "テレビ",
+      "reading": "テレビ",
+      "meaning_en": "television",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_410",
+      "word": "天気",
+      "reading": "てんき",
+      "meaning_zh": "天气",
+      "meaning_en": "weather",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_411",
+      "word": "電気",
+      "reading": "でんき",
+      "meaning_en": "electricity; electric light",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_412",
+      "word": "電車",
+      "reading": "でんしゃ",
+      "meaning_zh": "电车",
+      "meaning_en": "electric train",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_413",
+      "word": "電話",
+      "reading": "でんわ",
+      "meaning_en": "telephone",
+      "level": "N5",
+      "part_of_speech": "n; vs; vt; vi"
+    },
+    {
+      "id": "vocab_414",
+      "word": "戸",
+      "reading": "と",
+      "meaning_en": "Japanese style door",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_415",
+      "word": "ドア",
+      "reading": "ドア",
+      "meaning_en": "Western style door",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_416",
+      "word": "トイレ",
+      "reading": "トイレ",
+      "meaning_en": "toilet",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_417",
+      "word": "どう",
+      "reading": "どう",
+      "meaning_en": "how; in what way",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_418",
+      "word": "どうして",
+      "reading": "どうして",
+      "meaning_en": "for what reason",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_419",
+      "word": "どうぞ",
+      "reading": "どうぞ",
+      "meaning_en": "please",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_420",
+      "word": "どうぞよろしく",
+      "reading": "どうぞよろしく",
+      "meaning_en": "pleased to meet you",
+      "level": "N5",
+      "part_of_speech": "exp"
+    },
+    {
+      "id": "vocab_421",
+      "word": "動物",
+      "reading": "どうぶつ",
+      "meaning_en": "animal",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_422",
+      "word": "どうも",
+      "reading": "どうも",
+      "meaning_en": "thanks",
+      "level": "N5",
+      "part_of_speech": "int"
+    },
+    {
+      "id": "vocab_423",
+      "word": "遠い",
+      "reading": "とおい",
+      "meaning_en": "far",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_424",
+      "word": "十日",
+      "reading": "とおか",
+      "meaning_en": "ten days; the tenth day",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_425",
+      "word": "時々",
+      "reading": "ときどき",
+      "meaning_en": "sometimes",
+      "level": "N5",
+      "part_of_speech": "adv; adj-no"
+    },
+    {
+      "id": "vocab_426",
+      "word": "時計",
+      "reading": "とけい",
+      "meaning_en": "watch; clock",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_427",
+      "word": "どこ",
+      "reading": "どこ",
+      "meaning_zh": "哪里",
+      "meaning_en": "where",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_428",
+      "word": "所",
+      "reading": "ところ",
+      "meaning_en": "place",
+      "level": "N5",
+      "part_of_speech": "n; adv; suf"
+    },
+    {
+      "id": "vocab_429",
+      "word": "年",
+      "reading": "とし",
+      "meaning_en": "year",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_430",
+      "word": "図書館",
+      "reading": "としょかん",
+      "meaning_en": "library",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_431",
+      "word": "どちら",
+      "reading": "どちら",
+      "meaning_en": "which of two",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_432",
+      "word": "どっち",
+      "reading": "どっち",
+      "meaning_en": "which",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_433",
+      "word": "とても",
+      "reading": "とても",
+      "meaning_en": "very",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_434",
+      "word": "どなた",
+      "reading": "どなた",
+      "meaning_en": "who",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_435",
+      "word": "隣",
+      "reading": "となり",
+      "meaning_en": "next door to",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_436",
+      "word": "どの",
+      "reading": "どの",
+      "meaning_en": "which",
+      "level": "N5",
+      "part_of_speech": "adj-pn"
+    },
+    {
+      "id": "vocab_437",
+      "word": "飛ぶ",
+      "reading": "とぶ",
+      "meaning_en": "to fly; to hop",
+      "level": "N5",
+      "part_of_speech": "v5b; vi"
+    },
+    {
+      "id": "vocab_438",
+      "word": "止まる",
+      "reading": "とまる",
+      "meaning_en": "to come to a halt",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_439",
+      "word": "友達",
+      "reading": "ともだち",
+      "meaning_zh": "朋友",
+      "meaning_en": "friend",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_440",
+      "word": "土曜日",
+      "reading": "どようび",
+      "meaning_zh": "星期六",
+      "meaning_en": "Saturday",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_441",
+      "word": "鳥",
+      "reading": "とり",
+      "meaning_en": "bird",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_442",
+      "word": "鶏肉",
+      "reading": "とりにく",
+      "meaning_en": "chicken meat",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_443",
+      "word": "撮る",
+      "reading": "とる",
+      "meaning_en": "to take a photo or record a film",
+      "level": "N5",
+      "part_of_speech": "v5r; vt"
+    },
+    {
+      "id": "vocab_444",
+      "word": "取る",
+      "reading": "とる",
+      "meaning_en": "to take something",
+      "level": "N5",
+      "part_of_speech": "v5r; vt"
+    },
+    {
+      "id": "vocab_445",
+      "word": "どれ",
+      "reading": "どれ",
+      "meaning_en": "which (of three or more)",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_446",
+      "word": "ナイフ",
+      "reading": "ナイフ",
+      "meaning_en": "knife",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_447",
+      "word": "中",
+      "reading": "なか",
+      "meaning_zh": "里面",
+      "meaning_en": "middle",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_448",
+      "word": "長い",
+      "reading": "ながい",
+      "meaning_en": "long",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_449",
+      "word": "鳴く",
+      "reading": "なく",
+      "meaning_en": "to make a sound (of an animal); to cry; to chirp; to sing (of birds)",
+      "level": "N5",
+      "part_of_speech": "v5k; vi"
+    },
+    {
+      "id": "vocab_450",
+      "word": "無くす",
+      "reading": "なくす",
+      "meaning_en": "to lose something",
+      "level": "N5",
+      "part_of_speech": "v5s; vt"
+    },
+    {
+      "id": "vocab_451",
+      "word": "なぜ",
+      "reading": "なぜ",
+      "meaning_en": "why",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_452",
+      "word": "夏",
+      "reading": "なつ",
+      "meaning_en": "summer",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_453",
+      "word": "夏休み",
+      "reading": "なつやすみ",
+      "meaning_en": "summer holiday",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_454",
+      "word": "など",
+      "reading": "など",
+      "meaning_en": "et cetera",
+      "level": "N5",
+      "part_of_speech": "prt"
+    },
+    {
+      "id": "vocab_455",
+      "word": "七つ",
+      "reading": "ななつ",
+      "meaning_en": "seven",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_456",
+      "word": "七日",
+      "reading": "なのか",
+      "meaning_en": "seven days; the seventh day",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_457",
+      "word": "名前",
+      "reading": "なまえ",
+      "meaning_zh": "名字",
+      "meaning_en": "name",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_458",
+      "word": "習う",
+      "reading": "ならう",
+      "meaning_en": "to learn",
+      "level": "N5",
+      "part_of_speech": "v5u; vt"
+    },
+    {
+      "id": "vocab_459",
+      "word": "並ぶ",
+      "reading": "ならぶ",
+      "meaning_en": "to line up; to stand in a line",
+      "level": "N5",
+      "part_of_speech": "v5b; vi"
+    },
+    {
+      "id": "vocab_460",
+      "word": "並べる",
+      "reading": "ならべる",
+      "meaning_en": "to line up; to set up",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_461",
+      "word": "なる",
+      "reading": "なる",
+      "meaning_en": "to become",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_462",
+      "word": "何",
+      "reading": "なん",
+      "meaning_zh": "什么",
+      "meaning_en": "what",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_463",
+      "word": "二",
+      "reading": "に",
+      "meaning_zh": "二",
+      "meaning_en": "two",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_464",
+      "word": "賑やか",
+      "reading": "にぎやか",
+      "meaning_en": "bustling; busy",
+      "level": "N5",
+      "part_of_speech": "adj-na"
+    },
+    {
+      "id": "vocab_465",
+      "word": "肉",
+      "reading": "にく",
+      "meaning_en": "meat",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_466",
+      "word": "西",
+      "reading": "にし",
+      "meaning_zh": "西",
+      "meaning_en": "west",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_467",
+      "word": "日曜日",
+      "reading": "にちようび",
+      "meaning_zh": "星期日",
+      "meaning_en": "Sunday",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_468",
+      "word": "荷物",
+      "reading": "にもつ",
+      "meaning_en": "luggage",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_469",
+      "word": "ニュース",
+      "reading": "ニュース",
+      "meaning_en": "news",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_470",
+      "word": "庭",
+      "reading": "にわ",
+      "meaning_en": "garden",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_471",
+      "word": "脱ぐ",
+      "reading": "ぬぐ",
+      "meaning_en": "to take off clothes",
+      "level": "N5",
+      "part_of_speech": "v5g; vt"
+    },
+    {
+      "id": "vocab_472",
+      "word": "温い",
+      "reading": "ぬるい",
+      "meaning_en": "luke warm",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_473",
+      "word": "ネクタイ",
+      "reading": "ネクタイ",
+      "meaning_en": "tie; necktie",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_474",
+      "word": "猫",
+      "reading": "ねこ",
+      "meaning_zh": "猫",
+      "meaning_en": "cat",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_475",
+      "word": "寝る",
+      "reading": "ねる",
+      "meaning_en": "to go to bed; to sleep",
+      "level": "N5",
+      "part_of_speech": "v1; vi"
+    },
+    {
+      "id": "vocab_476",
+      "word": "ノート",
+      "reading": "ノート",
+      "meaning_en": "notebook; exercise book",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_477",
+      "word": "登る",
+      "reading": "のぼる",
+      "meaning_en": "to climb",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_478",
+      "word": "飲み物",
+      "reading": "のみもの",
+      "meaning_en": "a drink",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_479",
+      "word": "飲む",
+      "reading": "のむ",
+      "meaning_zh": "喝",
+      "meaning_en": "to drink",
+      "level": "N5",
+      "part_of_speech": "v5m; vt"
+    },
+    {
+      "id": "vocab_480",
+      "word": "乗る",
+      "reading": "のる",
+      "meaning_en": "to get on; to ride",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_481",
+      "word": "歯",
+      "reading": "は",
+      "meaning_en": "tooth",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_482",
+      "word": "パーティー",
+      "reading": "パーティー",
+      "meaning_en": "party",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_483",
+      "word": "はい",
+      "reading": "はい",
+      "meaning_zh": "是",
+      "meaning_en": "yes",
+      "level": "N5",
+      "part_of_speech": "int"
+    },
+    {
+      "id": "vocab_484",
+      "word": "灰皿",
+      "reading": "はいざら",
+      "meaning_en": "ashtray",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_485",
+      "word": "入る",
+      "reading": "はいる",
+      "meaning_en": "to enter; to contain",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_486",
+      "word": "葉書",
+      "reading": "はがき",
+      "meaning_en": "postcard",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_487",
+      "word": "はく",
+      "reading": "はく",
+      "meaning_en": "to wear; to put on trousers",
+      "level": "N5",
+      "part_of_speech": "v5k; vt"
+    },
+    {
+      "id": "vocab_488",
+      "word": "箱",
+      "reading": "はこ",
+      "meaning_en": "box",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_489",
+      "word": "はし",
+      "reading": "はし",
+      "meaning_en": "chopsticks",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_490",
+      "word": "橋",
+      "reading": "はし",
+      "meaning_en": "bridge",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_491",
+      "word": "始まる",
+      "reading": "はじまる",
+      "meaning_en": "to begin",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_492",
+      "word": "初め",
+      "reading": "はじめ",
+      "meaning_en": "beginning",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_493",
+      "word": "初めて",
+      "reading": "はじめて",
+      "meaning_en": "for the first time",
+      "level": "N5",
+      "part_of_speech": "adv; adj-no"
+    },
+    {
+      "id": "vocab_494",
+      "word": "はじめまして",
+      "reading": "はじめまして",
+      "meaning_en": "How do you do?; I am glad to meet you",
+      "level": "N5",
+      "part_of_speech": "exp"
+    },
+    {
+      "id": "vocab_495",
+      "word": "走る",
+      "reading": "はしる",
+      "meaning_en": "to run",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_496",
+      "word": "バス",
+      "reading": "バス",
+      "meaning_en": "bus",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_497",
+      "word": "バター",
+      "reading": "バター",
+      "meaning_en": "butter",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_498",
+      "word": "二十歳",
+      "reading": "はたち",
+      "meaning_en": "20 years old; 20th year",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_499",
+      "word": "働く",
+      "reading": "はたらく",
+      "meaning_en": "to work",
+      "level": "N5",
+      "part_of_speech": "v5k; vi"
+    },
+    {
+      "id": "vocab_500",
+      "word": "八",
+      "reading": "はち",
+      "meaning_zh": "八",
+      "meaning_en": "eight",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_501",
+      "word": "二十日",
+      "reading": "はつか",
+      "meaning_en": "twenty days; twentieth",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_502",
+      "word": "花",
+      "reading": "はな",
+      "meaning_zh": "花",
+      "meaning_en": "flower",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_503",
+      "word": "鼻",
+      "reading": "はな",
+      "meaning_en": "nose",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_504",
+      "word": "話",
+      "reading": "はなし",
+      "meaning_en": "talk; story",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_505",
+      "word": "話す",
+      "reading": "はなす",
+      "meaning_zh": "说",
+      "meaning_en": "to speak",
+      "level": "N5",
+      "part_of_speech": "v5s; vt"
+    },
+    {
+      "id": "vocab_506",
+      "word": "早い",
+      "reading": "はやい",
+      "meaning_en": "early",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_507",
+      "word": "速い",
+      "reading": "はやい",
+      "meaning_en": "quick",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_508",
+      "word": "春",
+      "reading": "はる",
+      "meaning_en": "spring",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_509",
+      "word": "貼る",
+      "reading": "はる",
+      "meaning_en": "to stick",
+      "level": "N5",
+      "part_of_speech": "v5r; vt"
+    },
+    {
+      "id": "vocab_510",
+      "word": "晴れ",
+      "reading": "はれ",
+      "meaning_en": "clear weather",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_511",
+      "word": "晴れる",
+      "reading": "はれる",
+      "meaning_en": "to be sunny",
+      "level": "N5",
+      "part_of_speech": "v1; vi"
+    },
+    {
+      "id": "vocab_512",
+      "word": "半",
+      "reading": "はん",
+      "meaning_en": "half",
+      "level": "N5",
+      "part_of_speech": "n-pref; n"
+    },
+    {
+      "id": "vocab_513",
+      "word": "晩",
+      "reading": "ばん",
+      "meaning_en": "evening",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_514",
+      "word": "パン",
+      "reading": "パン",
+      "meaning_en": "bread",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_515",
+      "word": "ハンカチ",
+      "reading": "ハンカチ",
+      "meaning_en": "handkerchief",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_516",
+      "word": "番号",
+      "reading": "ばんごう",
+      "meaning_en": "number",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_517",
+      "word": "晩御飯",
+      "reading": "ばんごはん",
+      "meaning_en": "evening meal",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_518",
+      "word": "半分",
+      "reading": "はんぶん",
+      "meaning_en": "half minute",
+      "level": "N5",
+      "part_of_speech": "adv; n"
+    },
+    {
+      "id": "vocab_519",
+      "word": "東",
+      "reading": "ひがし",
+      "meaning_zh": "东",
+      "meaning_en": "east",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_520",
+      "word": "引く",
+      "reading": "ひく",
+      "meaning_en": "to pull",
+      "level": "N5",
+      "part_of_speech": "v5k; vt"
+    },
+    {
+      "id": "vocab_521",
+      "word": "弾く",
+      "reading": "ひく",
+      "meaning_en": "to play an instrument with strings; including piano",
+      "level": "N5",
+      "part_of_speech": "v5k; vt"
+    },
+    {
+      "id": "vocab_522",
+      "word": "低い",
+      "reading": "ひくい",
+      "meaning_en": "short; low",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_523",
+      "word": "飛行機",
+      "reading": "ひこうき",
+      "meaning_en": "aeroplane",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_524",
+      "word": "左",
+      "reading": "ひだり",
+      "meaning_zh": "左边",
+      "meaning_en": "left hand side",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_525",
+      "word": "人",
+      "reading": "ひと",
+      "meaning_zh": "人",
+      "meaning_en": "person",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_526",
+      "word": "一つ",
+      "reading": "ひとつ",
+      "meaning_en": "one",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_527",
+      "word": "一月",
+      "reading": "ひとつき",
+      "meaning_en": "one month",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_528",
+      "word": "一人",
+      "reading": "ひとり",
+      "meaning_en": "one person",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_529",
+      "word": "暇",
+      "reading": "ひま",
+      "meaning_en": "free time",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_530",
+      "word": "百",
+      "reading": "ひゃく",
+      "meaning_zh": "百",
+      "meaning_en": "hundred",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_531",
+      "word": "病院",
+      "reading": "びょういん",
+      "meaning_en": "hospital",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_532",
+      "word": "病気",
+      "reading": "びょうき",
+      "meaning_en": "illness",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_533",
+      "word": "昼",
+      "reading": "ひる",
+      "meaning_zh": "白天",
+      "meaning_en": "noon; daytime",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_534",
+      "word": "昼御飯",
+      "reading": "ひるごはん",
+      "meaning_en": "midday meal",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_535",
+      "word": "広い",
+      "reading": "ひろい",
+      "meaning_en": "spacious; wide",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_536",
+      "word": "フィルム",
+      "reading": "フィルム",
+      "meaning_en": "roll of film",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_537",
+      "word": "封筒",
+      "reading": "ふうとう",
+      "meaning_en": "envelope",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_538",
+      "word": "プール",
+      "reading": "プール",
+      "meaning_en": "swimming pool",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_539",
+      "word": "フォーク",
+      "reading": "フォーク",
+      "meaning_en": "fork",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_540",
+      "word": "吹く",
+      "reading": "ふく",
+      "meaning_en": "to blow",
+      "level": "N5",
+      "part_of_speech": "v5k; vi"
+    },
+    {
+      "id": "vocab_541",
+      "word": "服",
+      "reading": "ふく",
+      "meaning_en": "clothes",
+      "level": "N5",
+      "part_of_speech": "n; n-suf"
+    },
+    {
+      "id": "vocab_542",
+      "word": "二つ",
+      "reading": "ふたつ",
+      "meaning_en": "two",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_543",
+      "word": "豚肉",
+      "reading": "ぶたにく",
+      "meaning_en": "pork",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_544",
+      "word": "二人",
+      "reading": "ふたり",
+      "meaning_en": "two people",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_545",
+      "word": "二日",
+      "reading": "ふつか",
+      "meaning_en": "two days; second day of the month",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_546",
+      "word": "太い",
+      "reading": "ふとい",
+      "meaning_en": "fat",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_547",
+      "word": "冬",
+      "reading": "ふゆ",
+      "meaning_en": "winter",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_548",
+      "word": "降る",
+      "reading": "ふる",
+      "meaning_en": "to fall (e.g. rain or snow)",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_549",
+      "word": "古い",
+      "reading": "ふるい",
+      "meaning_zh": "旧",
+      "meaning_en": "old (not used for people)",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_550",
+      "word": "ふろ",
+      "reading": "ふろ",
+      "meaning_en": "bath",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_551",
+      "word": "文章",
+      "reading": "ぶんしょう",
+      "meaning_en": "sentence; text",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_552",
+      "word": "ページ",
+      "reading": "ページ",
+      "meaning_en": "page",
+      "level": "N5",
+      "part_of_speech": "n; ctr"
+    },
+    {
+      "id": "vocab_553",
+      "word": "下手",
+      "reading": "へた",
+      "meaning_en": "unskillful",
+      "level": "N5",
+      "part_of_speech": "adj-na; n"
+    },
+    {
+      "id": "vocab_554",
+      "word": "ベッド",
+      "reading": "ベッド",
+      "meaning_en": "bed",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_555",
+      "word": "ペット",
+      "reading": "ペット",
+      "meaning_en": "pet",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_556",
+      "word": "部屋",
+      "reading": "へや",
+      "meaning_en": "room",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_557",
+      "word": "辺",
+      "reading": "へん",
+      "meaning_en": "area",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_558",
+      "word": "ペン",
+      "reading": "ペン",
+      "meaning_en": "pen",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_559",
+      "word": "勉強",
+      "reading": "べんきょう",
+      "meaning_zh": "学习",
+      "meaning_en": "to study",
+      "level": "N5",
+      "part_of_speech": "n; vs; vt"
+    },
+    {
+      "id": "vocab_560",
+      "word": "便利",
+      "reading": "べんり",
+      "meaning_en": "useful; convenient",
+      "level": "N5",
+      "part_of_speech": "adj-na"
+    },
+    {
+      "id": "vocab_561",
+      "word": "帽子",
+      "reading": "ぼうし",
+      "meaning_en": "hat",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_562",
+      "word": "ボールペン",
+      "reading": "ボールペン",
+      "meaning_en": "ball-point pen",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_563",
+      "word": "ほか",
+      "reading": "ほか",
+      "meaning_en": "other; the rest",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_564",
+      "word": "ポケット",
+      "reading": "ポケット",
+      "meaning_en": "pocket",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_565",
+      "word": "欲しい",
+      "reading": "ほしい",
+      "meaning_en": "want",
+      "level": "N5",
+      "part_of_speech": "adj-i; aux-adj"
+    },
+    {
+      "id": "vocab_566",
+      "word": "ポスト",
+      "reading": "ポスト",
+      "meaning_en": "post",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_567",
+      "word": "細い",
+      "reading": "ほそい",
+      "meaning_en": "thin",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_568",
+      "word": "ボタン",
+      "reading": "ボタン",
+      "meaning_en": "button",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_569",
+      "word": "ホテル",
+      "reading": "ホテル",
+      "meaning_en": "hotel",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_570",
+      "word": "本",
+      "reading": "ほん",
+      "meaning_zh": "书",
+      "meaning_en": "book",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_571",
+      "word": "本棚",
+      "reading": "ほんだな",
+      "meaning_en": "bookshelves",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_572",
+      "word": "ほんとう",
+      "reading": "ほんとう",
+      "meaning_en": "truth",
+      "level": "N5",
+      "part_of_speech": "n; adj-no; adj-na"
+    },
+    {
+      "id": "vocab_573",
+      "word": "毎朝",
+      "reading": "まいあさ",
+      "meaning_en": "every morning",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_574",
+      "word": "毎月",
+      "reading": "まいげつ",
+      "meaning_en": "every month",
+      "level": "N5",
+      "part_of_speech": "adv; n"
+    },
+    {
+      "id": "vocab_575",
+      "word": "毎週",
+      "reading": "まいしゅう",
+      "meaning_en": "every week",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_576",
+      "word": "毎日",
+      "reading": "まいにち",
+      "meaning_zh": "每天",
+      "meaning_en": "every day",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_577",
+      "word": "毎年",
+      "reading": "まいねん",
+      "meaning_en": "every year",
+      "level": "N5",
+      "part_of_speech": "adv; n"
+    },
+    {
+      "id": "vocab_578",
+      "word": "毎晩",
+      "reading": "まいばん",
+      "meaning_en": "every night",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_579",
+      "word": "前",
+      "reading": "まえ",
+      "meaning_zh": "前面/之前",
+      "meaning_en": "before",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_580",
+      "word": "曲る",
+      "reading": "まがる",
+      "meaning_en": "to turn; to bend",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_581",
+      "word": "まずい",
+      "reading": "まずい",
+      "meaning_en": "unpleasant",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_582",
+      "word": "また",
+      "reading": "また",
+      "meaning_en": "again; and",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_583",
+      "word": "まだ",
+      "reading": "まだ",
+      "meaning_en": "yet; still",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_584",
+      "word": "町",
+      "reading": "まち",
+      "meaning_en": "town; city",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_585",
+      "word": "待つ",
+      "reading": "まつ",
+      "meaning_en": "to wait",
+      "level": "N5",
+      "part_of_speech": "v5t; vt; vi"
+    },
+    {
+      "id": "vocab_586",
+      "word": "まっすぐ",
+      "reading": "まっすぐ",
+      "meaning_en": "straight ahead; direct",
+      "level": "N5",
+      "part_of_speech": "adj-na; adv; n"
+    },
+    {
+      "id": "vocab_587",
+      "word": "マッチ",
+      "reading": "マッチ",
+      "meaning_en": "match",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_588",
+      "word": "窓",
+      "reading": "まど",
+      "meaning_en": "window",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_589",
+      "word": "丸い",
+      "reading": "まるい",
+      "meaning_en": "round; circular",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_590",
+      "word": "万",
+      "reading": "まん",
+      "meaning_zh": "万",
+      "meaning_en": "ten thousand",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_591",
+      "word": "万年筆",
+      "reading": "まんねんひつ",
+      "meaning_en": "fountain pen",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_592",
+      "word": "磨く",
+      "reading": "みがく",
+      "meaning_en": "to brush teeth; to polish",
+      "level": "N5",
+      "part_of_speech": "v5k; vt"
+    },
+    {
+      "id": "vocab_593",
+      "word": "右",
+      "reading": "みぎ",
+      "meaning_zh": "右边",
+      "meaning_en": "right side",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_594",
+      "word": "短い",
+      "reading": "みじかい",
+      "meaning_en": "short",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_595",
+      "word": "水",
+      "reading": "みず",
+      "meaning_zh": "水",
+      "meaning_en": "water",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_596",
+      "word": "店",
+      "reading": "みせ",
+      "meaning_zh": "商店",
+      "meaning_en": "shop",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_597",
+      "word": "見せる",
+      "reading": "みせる",
+      "meaning_en": "to show",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_598",
+      "word": "道",
+      "reading": "みち",
+      "meaning_en": "street",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_599",
+      "word": "三日",
+      "reading": "みっか",
+      "meaning_en": "three days; third day of the month",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_600",
+      "word": "三つ",
+      "reading": "みっつ",
+      "meaning_en": "three",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_601",
+      "word": "緑",
+      "reading": "みどり",
+      "meaning_en": "green",
+      "level": "N5",
+      "part_of_speech": "n; adj-no"
+    },
+    {
+      "id": "vocab_602",
+      "word": "皆さん",
+      "reading": "みなさん",
+      "meaning_en": "everyone",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_603",
+      "word": "南",
+      "reading": "みなみ",
+      "meaning_zh": "南",
+      "meaning_en": "south",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_604",
+      "word": "耳",
+      "reading": "みみ",
+      "meaning_en": "ear",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_605",
+      "word": "見る",
+      "reading": "みる",
+      "meaning_zh": "看",
+      "meaning_en": "to see; to watch",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_606",
+      "word": "みんな",
+      "reading": "みんな",
+      "meaning_en": "everyone",
+      "level": "N5",
+      "part_of_speech": "n; pn; adv"
+    },
+    {
+      "id": "vocab_607",
+      "word": "六日",
+      "reading": "むいか",
+      "meaning_en": "six days; sixth day of the month",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_608",
+      "word": "向こう",
+      "reading": "むこう",
+      "meaning_en": "over there",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_609",
+      "word": "難しい",
+      "reading": "むずかしい",
+      "meaning_en": "difficult",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_610",
+      "word": "六つ",
+      "reading": "むっつ",
+      "meaning_en": "six",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_611",
+      "word": "村",
+      "reading": "むら",
+      "meaning_en": "village",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_612",
+      "word": "目",
+      "reading": "め",
+      "meaning_en": "eye",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_613",
+      "word": "メートル",
+      "reading": "メートル",
+      "meaning_en": "metre",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_614",
+      "word": "眼鏡",
+      "reading": "めがね",
+      "meaning_en": "glasses",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_615",
+      "word": "もう",
+      "reading": "もう",
+      "meaning_en": "already",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_616",
+      "word": "もう一度",
+      "reading": "もういちど",
+      "meaning_en": "again",
+      "level": "N5",
+      "part_of_speech": "exp; adv"
+    },
+    {
+      "id": "vocab_617",
+      "word": "木曜日",
+      "reading": "もくようび",
+      "meaning_zh": "星期四",
+      "meaning_en": "Thursday",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_618",
+      "word": "持つ",
+      "reading": "もつ",
+      "meaning_en": "to hold",
+      "level": "N5",
+      "part_of_speech": "v5t; vt"
+    },
+    {
+      "id": "vocab_619",
+      "word": "もっと",
+      "reading": "もっと",
+      "meaning_en": "more",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_620",
+      "word": "物",
+      "reading": "もの",
+      "meaning_en": "thing",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_621",
+      "word": "門",
+      "reading": "もん",
+      "meaning_en": "gate",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_622",
+      "word": "問題",
+      "reading": "もんだい",
+      "meaning_en": "problem",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_623",
+      "word": "八百屋",
+      "reading": "やおや",
+      "meaning_en": "greengrocer",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_624",
+      "word": "野菜",
+      "reading": "やさい",
+      "meaning_en": "vegetable",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_625",
+      "word": "易しい",
+      "reading": "やさしい",
+      "meaning_en": "easy; simple",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_626",
+      "word": "安い",
+      "reading": "やすい",
+      "meaning_zh": "便宜",
+      "meaning_en": "cheap",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_627",
+      "word": "休み",
+      "reading": "やすみ",
+      "meaning_en": "rest; holiday",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_628",
+      "word": "休む",
+      "reading": "やすむ",
+      "meaning_zh": "休息",
+      "meaning_en": "to rest",
+      "level": "N5",
+      "part_of_speech": "v5m; vi"
+    },
+    {
+      "id": "vocab_629",
+      "word": "八つ",
+      "reading": "やっつ",
+      "meaning_en": "eight",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_630",
+      "word": "山",
+      "reading": "やま",
+      "meaning_en": "mountain",
+      "level": "N5",
+      "part_of_speech": "n; ctr"
+    },
+    {
+      "id": "vocab_631",
+      "word": "やる",
+      "reading": "やる",
+      "meaning_en": "to do",
+      "level": "N5",
+      "part_of_speech": "v5r; vt"
+    },
+    {
+      "id": "vocab_632",
+      "word": "夕方",
+      "reading": "ゆうがた",
+      "meaning_en": "evening",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_633",
+      "word": "夕飯",
+      "reading": "ゆうはん",
+      "meaning_en": "dinner",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_634",
+      "word": "郵便局",
+      "reading": "ゆうびんきょく",
+      "meaning_en": "post office",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_635",
+      "word": "昨夜",
+      "reading": "ゆうべ",
+      "meaning_en": "last night",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_636",
+      "word": "有名",
+      "reading": "ゆうめい",
+      "meaning_en": "famous",
+      "level": "N5",
+      "part_of_speech": "adj-na"
+    },
+    {
+      "id": "vocab_637",
+      "word": "雪",
+      "reading": "ゆき",
+      "meaning_en": "snow",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_638",
+      "word": "ゆっくりと",
+      "reading": "ゆっくりと",
+      "meaning_en": "slowly",
+      "level": "N5",
+      "part_of_speech": "adv; adv-to; vs"
+    },
+    {
+      "id": "vocab_639",
+      "word": "八日",
+      "reading": "ようか",
+      "meaning_en": "eight days; eighth day of the month",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_640",
+      "word": "洋服",
+      "reading": "ようふく",
+      "meaning_en": "western-style clothes",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_641",
+      "word": "よく",
+      "reading": "よく",
+      "meaning_en": "often; well",
+      "level": "N5",
+      "part_of_speech": "adv"
+    },
+    {
+      "id": "vocab_642",
+      "word": "横",
+      "reading": "よこ",
+      "meaning_en": "beside; side; width",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_643",
+      "word": "四日",
+      "reading": "よっか",
+      "meaning_en": "four days; fouth day of the month",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_644",
+      "word": "四つ",
+      "reading": "よっつ",
+      "meaning_en": "four",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_645",
+      "word": "呼ぶ",
+      "reading": "よぶ",
+      "meaning_en": "to call out; to invite",
+      "level": "N5",
+      "part_of_speech": "v5b; vt"
+    },
+    {
+      "id": "vocab_646",
+      "word": "読む",
+      "reading": "よむ",
+      "meaning_zh": "读",
+      "meaning_en": "to read",
+      "level": "N5",
+      "part_of_speech": "v5m; vt"
+    },
+    {
+      "id": "vocab_647",
+      "word": "より",
+      "reading": "より",
+      "meaning_en": "than; (used for comparison)",
+      "level": "N5",
+      "part_of_speech": "prt"
+    },
+    {
+      "id": "vocab_648",
+      "word": "夜",
+      "reading": "よる",
+      "meaning_zh": "夜晚",
+      "meaning_en": "evening; night",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_649",
+      "word": "弱い",
+      "reading": "よわい",
+      "meaning_en": "weak",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_650",
+      "word": "来月",
+      "reading": "らいげつ",
+      "meaning_en": "next month",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_651",
+      "word": "来週",
+      "reading": "らいしゅう",
+      "meaning_en": "next week",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_652",
+      "word": "来年",
+      "reading": "らいねん",
+      "meaning_en": "next year",
+      "level": "N5",
+      "part_of_speech": "n; adv"
+    },
+    {
+      "id": "vocab_653",
+      "word": "ラジオ",
+      "reading": "ラジオ",
+      "meaning_en": "radio",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_654",
+      "word": "ラジカセ",
+      "reading": "ラジカセ",
+      "meaning_en": "radio cassette player",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_655",
+      "word": "りっぱ",
+      "reading": "りっぱ",
+      "meaning_en": "splendid",
+      "level": "N5",
+      "part_of_speech": "adj-na"
+    },
+    {
+      "id": "vocab_656",
+      "word": "留学生",
+      "reading": "りゅうがくせい",
+      "meaning_en": "overseas student",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_657",
+      "word": "両親",
+      "reading": "りょうしん",
+      "meaning_en": "both parents",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_658",
+      "word": "料理",
+      "reading": "りょうり",
+      "meaning_en": "cuisine",
+      "level": "N5",
+      "part_of_speech": "n; vs; vt"
+    },
+    {
+      "id": "vocab_659",
+      "word": "旅行",
+      "reading": "りょこう",
+      "meaning_en": "travel",
+      "level": "N5",
+      "part_of_speech": "n; vs; vi"
+    },
+    {
+      "id": "vocab_660",
+      "word": "零",
+      "reading": "れい",
+      "meaning_en": "zero",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_661",
+      "word": "冷蔵庫",
+      "reading": "れいぞうこ",
+      "meaning_en": "refrigerator",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_662",
+      "word": "レコード",
+      "reading": "レコード",
+      "meaning_en": "record",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_663",
+      "word": "レストラン",
+      "reading": "レストラン",
+      "meaning_en": "restaurant",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_664",
+      "word": "練習",
+      "reading": "れんしゅう",
+      "meaning_en": "to practice",
+      "level": "N5",
+      "part_of_speech": "n; vs; vt"
+    },
+    {
+      "id": "vocab_665",
+      "word": "廊下",
+      "reading": "ろうか",
+      "meaning_en": "corridor",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_666",
+      "word": "六",
+      "reading": "ろく",
+      "meaning_zh": "六",
+      "meaning_en": "six",
+      "level": "N5",
+      "part_of_speech": "num"
+    },
+    {
+      "id": "vocab_667",
+      "word": "ワイシャツ",
+      "reading": "ワイシャツ",
+      "meaning_en": "business shirt",
+      "level": "N5",
+      "part_of_speech": "n"
+    },
+    {
+      "id": "vocab_668",
+      "word": "若い",
+      "reading": "わかい",
+      "meaning_en": "young",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_669",
+      "word": "分かる",
+      "reading": "わかる",
+      "meaning_en": "to be understood",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_670",
+      "word": "忘れる",
+      "reading": "わすれる",
+      "meaning_en": "to forget",
+      "level": "N5",
+      "part_of_speech": "v1; vt"
+    },
+    {
+      "id": "vocab_671",
+      "word": "私",
+      "reading": "わたくし",
+      "meaning_zh": "我",
+      "meaning_en": "(humble) I; myself",
+      "level": "N5",
+      "part_of_speech": "pn"
+    },
+    {
+      "id": "vocab_672",
+      "word": "渡す",
+      "reading": "わたす",
+      "meaning_en": "to hand over",
+      "level": "N5",
+      "part_of_speech": "v5s; vt"
+    },
+    {
+      "id": "vocab_673",
+      "word": "渡る",
+      "reading": "わたる",
+      "meaning_en": "to go across",
+      "level": "N5",
+      "part_of_speech": "v5r; vi"
+    },
+    {
+      "id": "vocab_674",
+      "word": "悪い",
+      "reading": "わるい",
+      "meaning_en": "bad",
+      "level": "N5",
+      "part_of_speech": "adj-i"
+    },
+    {
+      "id": "vocab_675",
+      "word": "日本",
+      "reading": "にほん",
+      "meaning_zh": "日本",
+      "level": "N5"
+    },
+    {
+      "id": "vocab_676",
+      "word": "日本語",
+      "reading": "にほんご",
+      "meaning_zh": "日语",
+      "level": "N5"
+    },
+    {
+      "id": "vocab_677",
+      "word": "ご飯",
+      "reading": "ごはん",
+      "meaning_zh": "米饭/饭",
+      "level": "N5"
+    },
+    {
+      "id": "vocab_678",
+      "word": "寿司",
+      "reading": "すし",
+      "meaning_zh": "寿司",
+      "level": "N5"
+    },
+    {
+      "id": "vocab_679",
+      "word": "東京",
+      "reading": "とうきょう",
+      "meaning_zh": "东京",
+      "level": "N5"
+    },
+    {
+      "id": "vocab_680",
+      "word": "円",
+      "reading": "えん",
+      "meaning_zh": "日元",
+      "level": "N5"
+    }
+  ]
+}

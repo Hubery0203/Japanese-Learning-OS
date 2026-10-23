@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://japanese-learning-os.local/schemas/lexicon.schema.json",
+  "title": "Japanese Learning OS vocabulary or kanji list",
+  "type": "object",
+  "required": ["version", "coverage", "target_count", "items"],
+  "properties": {
+    "version": { "type": "string" },
+    "coverage": { "type": "string" },
+    "target_count": { "type": "integer", "minimum": 1 },
+    "items": { "type": "array", "items": { "type": "object", "required": ["id"], "properties": { "id": { "type": "string", "pattern": "^[a-z]+_[0-9]{3}$" }, "word": { "type": "string" }, "reading": { "type": "string" }, "meaning_zh": { "type": "string" }, "meaning_en": { "type": "string" }, "part_of_speech": { "type": "string" }, "level": { "type": "string" }, "character": { "type": "string", "minLength": 1, "maxLength": 1 }, "meaning": { "type": "string" }, "on_reading": { "type": "string" }, "kun_reading": { "type": "string" } }, "additionalProperties": false } }
+  },
+  "additionalProperties": false
+}

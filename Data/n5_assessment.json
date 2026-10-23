@@ -1,0 +1,258 @@
+{
+  "version": "1.0.0",
+  "title": "N5 综合自测",
+  "questions": [
+    {
+      "id": "q_001",
+      "category": "grammar",
+      "target": "grammar_001",
+      "prompt": "わたし（　）学生です。",
+      "choices": [
+        "は",
+        "を",
+        "で",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "は 标记句子的主题。"
+    },
+    {
+      "id": "q_002",
+      "category": "grammar",
+      "target": "grammar_003",
+      "prompt": "水（　）飲みます。",
+      "choices": [
+        "が",
+        "を",
+        "へ",
+        "の"
+      ],
+      "answer": 1,
+      "explanation": "を 标记「飲む」的对象。"
+    },
+    {
+      "id": "q_003",
+      "category": "grammar",
+      "target": "verbmasu_001",
+      "prompt": "「読む」的ます形是？",
+      "choices": [
+        "読みます",
+        "読みるます",
+        "読ます",
+        "読むます"
+      ],
+      "answer": 0,
+      "explanation": "五段动词む移到み段，再加ます。"
+    },
+    {
+      "id": "q_004",
+      "category": "grammar",
+      "target": "grammar_034",
+      "prompt": "“我想吃寿司”选哪句？",
+      "choices": [
+        "寿司を食べたいです。",
+        "寿司を食べますたい。",
+        "寿司が食べます。",
+        "寿司食べたいます。"
+      ],
+      "answer": 0,
+      "explanation": "ます形去ます后接たいです。"
+    },
+    {
+      "id": "q_005",
+      "category": "grammar",
+      "target": "lesson_004",
+      "prompt": "这里不可以拍照。",
+      "choices": [
+        "ここで写真を撮ってはいけません。",
+        "ここで写真を撮りたいです。",
+        "ここで写真を撮ってから。",
+        "ここで写真を撮るそうです。"
+      ],
+      "answer": 0,
+      "explanation": "て形 + はいけません表示禁止。"
+    },
+    {
+      "id": "q_006",
+      "category": "grammar",
+      "target": "lesson_005",
+      "prompt": "“明天不用早来”选哪句？",
+      "choices": [
+        "明日は早く来なくてもいいです。",
+        "明日は早く来てはいけません。",
+        "明日は早く来たいです。",
+        "明日は早く来ると思います。"
+      ],
+      "answer": 0,
+      "explanation": "ない形去い + くてもいい表示不必做。"
+    },
+    {
+      "id": "q_007",
+      "category": "grammar",
+      "target": "lesson_010",
+      "prompt": "“做完作业之后看电影”选哪句？",
+      "choices": [
+        "宿題をしてから映画を見ます。",
+        "宿題をしながら映画を見ます。",
+        "宿題をしたい映画を見ます。",
+        "宿題をするそう映画を見ます。"
+      ],
+      "answer": 0,
+      "explanation": "て形 + から表示前项完成后再进行后项。"
+    },
+    {
+      "id": "q_008",
+      "category": "grammar",
+      "target": "lesson_012",
+      "prompt": "“下午可能会下雨”选哪句？",
+      "choices": [
+        "午後から雨が降るかもしれません。",
+        "午後から雨が降ってはいけません。",
+        "午後から雨を降りたいです。",
+        "午後から雨が降ることにします。"
+      ],
+      "answer": 0,
+      "explanation": "普通形 + かもしれません表示不确定推测。"
+    },
+    {
+      "id": "q_009",
+      "category": "vocabulary",
+      "target": "vocab_439",
+      "prompt": "「友達」是什么意思？",
+      "choices": [
+        "朋友",
+        "老师",
+        "学生",
+        "家"
+      ],
+      "answer": 0,
+      "explanation": "友達（ともだち）是朋友。"
+    },
+    {
+      "id": "q_010",
+      "category": "vocabulary",
+      "target": "vocab_091",
+      "prompt": "「駅」的读音和意思是？",
+      "choices": [
+        "えき，车站",
+        "いえ，家",
+        "みせ，商店",
+        "まち，城镇"
+      ],
+      "answer": 0,
+      "explanation": "駅读作えき，意思是车站。"
+    },
+    {
+      "id": "q_011",
+      "category": "vocabulary",
+      "target": "vocab_188",
+      "prompt": "「昨日」是什么意思？",
+      "choices": [
+        "昨天",
+        "今天",
+        "明天",
+        "每天"
+      ],
+      "answer": 0,
+      "explanation": "昨日读作きのう，意思是昨天。"
+    },
+    {
+      "id": "q_012",
+      "category": "vocabulary",
+      "target": "vocab_145",
+      "prompt": "「買う」是什么意思？",
+      "choices": [
+        "买",
+        "卖",
+        "写",
+        "读"
+      ],
+      "answer": 0,
+      "explanation": "買う读作かう，意思是买。"
+    },
+    {
+      "id": "q_013",
+      "category": "kanji",
+      "target": "kanji_043",
+      "prompt": "「山」的常见训读是？",
+      "choices": [
+        "やま",
+        "かわ",
+        "た",
+        "しま"
+      ],
+      "answer": 0,
+      "explanation": "山的常见训读是やま。"
+    },
+    {
+      "id": "q_014",
+      "category": "kanji",
+      "target": "kanji_004",
+      "prompt": "「人」在「三人」中读作？",
+      "choices": [
+        "にん",
+        "ひと",
+        "じん",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "三人读作さんにん。"
+    },
+    {
+      "id": "q_015",
+      "category": "kanji",
+      "target": "kanji_031",
+      "prompt": "「学校」的读音是？",
+      "choices": [
+        "がっこう",
+        "がくせい",
+        "こうがく",
+        "まなびや"
+      ],
+      "answer": 0,
+      "explanation": "学校读作がっこう，く在复合词中发生促音化。"
+    },
+    {
+      "id": "q_016",
+      "category": "kanji",
+      "target": "kanji_054",
+      "prompt": "「水曜日」中的「水」读作？",
+      "choices": [
+        "すい",
+        "みず",
+        "さん",
+        "かわ"
+      ],
+      "answer": 0,
+      "explanation": "星期名称中的水读作すい。"
+    },
+    {
+      "id": "q_017",
+      "category": "reading",
+      "target": "lesson_003",
+      "prompt": "田中さんは毎朝六時に起きます。七時に朝ごはんを食べて、学校へ行きます。田中さんは何時に起きますか。",
+      "choices": [
+        "六時",
+        "七時",
+        "八時",
+        "九時"
+      ],
+      "answer": 0,
+      "explanation": "第一句说明每天早上六点起床。"
+    },
+    {
+      "id": "q_018",
+      "category": "reading",
+      "target": "lesson_010",
+      "prompt": "今日は雨ですから、家で本を読みます。作者今天在哪里读书？",
+      "choices": [
+        "家里",
+        "学校",
+        "车站",
+        "公园"
+      ],
+      "answer": 0,
+      "explanation": "家で表示在家里进行读书这个动作。"
+    }
+  ]
+}

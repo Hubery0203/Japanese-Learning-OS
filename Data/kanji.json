@@ -1,0 +1,805 @@
+{
+  "version": "1.0.0",
+  "coverage": "OpenJLPT N5 CC BY-SA 4.0 plus curated additions",
+  "target_count": 100,
+  "items": [
+    {
+      "id": "kanji_001",
+      "character": "日",
+      "meaning": "日/太阳",
+      "on_reading": "ニチ; ジツ",
+      "kun_reading": "ひ; -び; -か"
+    },
+    {
+      "id": "kanji_002",
+      "character": "一",
+      "meaning": "一",
+      "on_reading": "イチ; イツ",
+      "kun_reading": "ひと-; ひと.つ"
+    },
+    {
+      "id": "kanji_003",
+      "character": "国",
+      "meaning": "国家",
+      "on_reading": "コク",
+      "kun_reading": "くに"
+    },
+    {
+      "id": "kanji_004",
+      "character": "人",
+      "meaning": "人",
+      "on_reading": "ジン; ニン",
+      "kun_reading": "ひと; -り; -と"
+    },
+    {
+      "id": "kanji_005",
+      "character": "年",
+      "meaning": "年",
+      "on_reading": "ネン",
+      "kun_reading": "とし"
+    },
+    {
+      "id": "kanji_006",
+      "character": "大",
+      "meaning": "大",
+      "on_reading": "ダイ; タイ",
+      "kun_reading": "おお-; おお.きい; -おお.いに"
+    },
+    {
+      "id": "kanji_007",
+      "character": "十",
+      "meaning": "十",
+      "on_reading": "ジュウ; ジッ; ジュッ",
+      "kun_reading": "とお; と; そ"
+    },
+    {
+      "id": "kanji_008",
+      "character": "二",
+      "meaning": "二",
+      "on_reading": "ニ; ジ",
+      "kun_reading": "ふた; ふた.つ; ふたたび"
+    },
+    {
+      "id": "kanji_009",
+      "character": "本",
+      "meaning": "书/本",
+      "on_reading": "ホン",
+      "kun_reading": "もと"
+    },
+    {
+      "id": "kanji_010",
+      "character": "中",
+      "meaning": "中间",
+      "on_reading": "チュウ",
+      "kun_reading": "なか; うち; あた.る"
+    },
+    {
+      "id": "kanji_011",
+      "character": "長",
+      "meaning": "long; leader; superior; senior",
+      "on_reading": "チョウ",
+      "kun_reading": "なが.い; おさ"
+    },
+    {
+      "id": "kanji_012",
+      "character": "出",
+      "meaning": "出去/出",
+      "on_reading": "シュツ; スイ",
+      "kun_reading": "で.る; -で; だ.す; -だ.す; い.でる; い.だす"
+    },
+    {
+      "id": "kanji_013",
+      "character": "三",
+      "meaning": "三",
+      "on_reading": "サン; ゾウ",
+      "kun_reading": "み; み.つ; みっ.つ"
+    },
+    {
+      "id": "kanji_014",
+      "character": "時",
+      "meaning": "时间/时",
+      "on_reading": "ジ",
+      "kun_reading": "とき; -どき"
+    },
+    {
+      "id": "kanji_015",
+      "character": "行",
+      "meaning": "去",
+      "on_reading": "コウ; ギョウ; アン",
+      "kun_reading": "い.く; ゆ.く; -ゆ.き; -ゆき; -い.き; -いき; おこな.う; おこ.なう"
+    },
+    {
+      "id": "kanji_016",
+      "character": "見",
+      "meaning": "看",
+      "on_reading": "ケン",
+      "kun_reading": "み.る; み.える; み.せる"
+    },
+    {
+      "id": "kanji_017",
+      "character": "月",
+      "meaning": "月",
+      "on_reading": "ゲツ; ガツ",
+      "kun_reading": "つき"
+    },
+    {
+      "id": "kanji_018",
+      "character": "分",
+      "meaning": "分钟/部分",
+      "on_reading": "ブン; フン; ブ",
+      "kun_reading": "わ.ける; わ.け; わ.かれる; わ.かる; わ.かつ"
+    },
+    {
+      "id": "kanji_019",
+      "character": "後",
+      "meaning": "后",
+      "on_reading": "ゴ; コウ",
+      "kun_reading": "のち; うし.ろ; うしろ; あと; おく.れる"
+    },
+    {
+      "id": "kanji_020",
+      "character": "前",
+      "meaning": "前",
+      "on_reading": "ゼン",
+      "kun_reading": "まえ; -まえ"
+    },
+    {
+      "id": "kanji_021",
+      "character": "生",
+      "meaning": "生/学生",
+      "on_reading": "セイ; ショウ",
+      "kun_reading": "い.きる; い.かす; い.ける; う.まれる; うま.れる; う.まれ; うまれ; う.む; お.う; は.える; は.やす; き; なま; なま-; な.る; な.す; む.す; -う"
+    },
+    {
+      "id": "kanji_022",
+      "character": "五",
+      "meaning": "五",
+      "on_reading": "ゴ",
+      "kun_reading": "いつ; いつ.つ"
+    },
+    {
+      "id": "kanji_023",
+      "character": "間",
+      "meaning": "interval; space",
+      "on_reading": "カン; ケン",
+      "kun_reading": "あいだ; ま; あい"
+    },
+    {
+      "id": "kanji_024",
+      "character": "上",
+      "meaning": "上",
+      "on_reading": "ジョウ; ショウ; シャン",
+      "kun_reading": "うえ; -うえ; うわ-; かみ; あ.げる; -あ.げる; あ.がる; -あ.がる; あ.がり; -あ.がり; のぼ.る; のぼ.り; のぼ.せる; のぼ.す; たてまつ.る"
+    },
+    {
+      "id": "kanji_025",
+      "character": "東",
+      "meaning": "东",
+      "on_reading": "トウ",
+      "kun_reading": "ひがし"
+    },
+    {
+      "id": "kanji_026",
+      "character": "四",
+      "meaning": "四",
+      "on_reading": "シ",
+      "kun_reading": "よ; よ.つ; よっ.つ; よん"
+    },
+    {
+      "id": "kanji_027",
+      "character": "今",
+      "meaning": "现在",
+      "on_reading": "コン; キン",
+      "kun_reading": "いま"
+    },
+    {
+      "id": "kanji_028",
+      "character": "金",
+      "meaning": "金/钱",
+      "on_reading": "キン; コン; ゴン",
+      "kun_reading": "かね; かな-; -がね"
+    },
+    {
+      "id": "kanji_029",
+      "character": "九",
+      "meaning": "九",
+      "on_reading": "キュウ; ク",
+      "kun_reading": "ここの; ここの.つ"
+    },
+    {
+      "id": "kanji_030",
+      "character": "入",
+      "meaning": "进入",
+      "on_reading": "ニュウ; ジュ",
+      "kun_reading": "い.る; -い.る; -い.り; い.れる; -い.れ; はい.る"
+    },
+    {
+      "id": "kanji_031",
+      "character": "学",
+      "meaning": "学习",
+      "on_reading": "ガク",
+      "kun_reading": "まな.ぶ"
+    },
+    {
+      "id": "kanji_032",
+      "character": "高",
+      "meaning": "tall; high; expensive",
+      "on_reading": "コウ",
+      "kun_reading": "たか.い; たか; -だか; たか.まる; たか.める"
+    },
+    {
+      "id": "kanji_033",
+      "character": "円",
+      "meaning": "日元/圆",
+      "on_reading": "エン",
+      "kun_reading": "まる.い; まる; まど; まど.か; まろ.やか"
+    },
+    {
+      "id": "kanji_034",
+      "character": "子",
+      "meaning": "孩子",
+      "on_reading": "シ; ス; ツ",
+      "kun_reading": "こ; -こ; ね"
+    },
+    {
+      "id": "kanji_035",
+      "character": "外",
+      "meaning": "外面",
+      "on_reading": "ガイ; ゲ",
+      "kun_reading": "そと; ほか; はず.す; はず.れる; と-"
+    },
+    {
+      "id": "kanji_036",
+      "character": "八",
+      "meaning": "八",
+      "on_reading": "ハチ; ハツ",
+      "kun_reading": "や; や.つ; やっ.つ; よう"
+    },
+    {
+      "id": "kanji_037",
+      "character": "六",
+      "meaning": "六",
+      "on_reading": "ロク; リク",
+      "kun_reading": "む; む.つ; むっ.つ; むい"
+    },
+    {
+      "id": "kanji_038",
+      "character": "下",
+      "meaning": "下",
+      "on_reading": "カ; ゲ",
+      "kun_reading": "した; しも; もと; さ.げる; さ.がる; くだ.る; くだ.り; くだ.す; -くだ.す; くだ.さる; お.ろす; お.りる"
+    },
+    {
+      "id": "kanji_039",
+      "character": "来",
+      "meaning": "来",
+      "on_reading": "ライ; タイ",
+      "kun_reading": "く.る; きた.る; きた.す; き.たす; き.たる; き; こ"
+    },
+    {
+      "id": "kanji_040",
+      "character": "気",
+      "meaning": "气/精神",
+      "on_reading": "キ; ケ",
+      "kun_reading": "いき; き"
+    },
+    {
+      "id": "kanji_041",
+      "character": "小",
+      "meaning": "小",
+      "on_reading": "ショウ",
+      "kun_reading": "ちい.さい; こ-; お-; さ-"
+    },
+    {
+      "id": "kanji_042",
+      "character": "七",
+      "meaning": "七",
+      "on_reading": "シチ",
+      "kun_reading": "なな; なな.つ; なの"
+    },
+    {
+      "id": "kanji_043",
+      "character": "山",
+      "meaning": "山",
+      "on_reading": "サン; セン",
+      "kun_reading": "やま"
+    },
+    {
+      "id": "kanji_044",
+      "character": "話",
+      "meaning": "说话",
+      "on_reading": "ワ",
+      "kun_reading": "はな.す; はなし"
+    },
+    {
+      "id": "kanji_045",
+      "character": "女",
+      "meaning": "女",
+      "on_reading": "ジョ; ニョ; ニョウ",
+      "kun_reading": "おんな; め"
+    },
+    {
+      "id": "kanji_046",
+      "character": "北",
+      "meaning": "北",
+      "on_reading": "ホク",
+      "kun_reading": "きた"
+    },
+    {
+      "id": "kanji_047",
+      "character": "午",
+      "meaning": "中午",
+      "on_reading": "ゴ",
+      "kun_reading": "うま"
+    },
+    {
+      "id": "kanji_048",
+      "character": "百",
+      "meaning": "百",
+      "on_reading": "ヒャク; ビャク",
+      "kun_reading": "もも"
+    },
+    {
+      "id": "kanji_049",
+      "character": "書",
+      "meaning": "写",
+      "on_reading": "ショ",
+      "kun_reading": "か.く; -が.き; -がき"
+    },
+    {
+      "id": "kanji_050",
+      "character": "先",
+      "meaning": "前/先",
+      "on_reading": "セン",
+      "kun_reading": "さき; ま.ず"
+    },
+    {
+      "id": "kanji_051",
+      "character": "名",
+      "meaning": "名字",
+      "on_reading": "メイ; ミョウ",
+      "kun_reading": "な; -な"
+    },
+    {
+      "id": "kanji_052",
+      "character": "川",
+      "meaning": "河",
+      "on_reading": "セン",
+      "kun_reading": "かわ"
+    },
+    {
+      "id": "kanji_053",
+      "character": "千",
+      "meaning": "千",
+      "on_reading": "セン",
+      "kun_reading": "ち"
+    },
+    {
+      "id": "kanji_054",
+      "character": "水",
+      "meaning": "水",
+      "on_reading": "スイ",
+      "kun_reading": "みず; みず-"
+    },
+    {
+      "id": "kanji_055",
+      "character": "半",
+      "meaning": "一半",
+      "on_reading": "ハン",
+      "kun_reading": "なか.ば"
+    },
+    {
+      "id": "kanji_056",
+      "character": "男",
+      "meaning": "男",
+      "on_reading": "ダン; ナン",
+      "kun_reading": "おとこ; お"
+    },
+    {
+      "id": "kanji_057",
+      "character": "西",
+      "meaning": "西",
+      "on_reading": "セイ; サイ; ス",
+      "kun_reading": "にし"
+    },
+    {
+      "id": "kanji_058",
+      "character": "電",
+      "meaning": "电",
+      "on_reading": "デン",
+      "kun_reading": ""
+    },
+    {
+      "id": "kanji_059",
+      "character": "無",
+      "meaning": "nothingness; none; ain't; nothing; nil; not",
+      "on_reading": "ム; ブ",
+      "kun_reading": "な.い"
+    },
+    {
+      "id": "kanji_060",
+      "character": "校",
+      "meaning": "学校",
+      "on_reading": "コウ; キョウ",
+      "kun_reading": ""
+    },
+    {
+      "id": "kanji_061",
+      "character": "語",
+      "meaning": "语言",
+      "on_reading": "ゴ",
+      "kun_reading": "かた.る; かた.らう"
+    },
+    {
+      "id": "kanji_062",
+      "character": "土",
+      "meaning": "土",
+      "on_reading": "ド; ト",
+      "kun_reading": "つち"
+    },
+    {
+      "id": "kanji_063",
+      "character": "木",
+      "meaning": "树/木",
+      "on_reading": "ボク; モク",
+      "kun_reading": "き; こ-"
+    },
+    {
+      "id": "kanji_064",
+      "character": "聞",
+      "meaning": "听/问",
+      "on_reading": "ブン; モン",
+      "kun_reading": "き.く; き.こえる"
+    },
+    {
+      "id": "kanji_065",
+      "character": "食",
+      "meaning": "吃/食物",
+      "on_reading": "ショク; ジキ",
+      "kun_reading": "く.う; く.らう; た.べる; は.む"
+    },
+    {
+      "id": "kanji_066",
+      "character": "車",
+      "meaning": "车",
+      "on_reading": "シャ",
+      "kun_reading": "くるま"
+    },
+    {
+      "id": "kanji_067",
+      "character": "何",
+      "meaning": "what",
+      "on_reading": "カ",
+      "kun_reading": "なに; なん; なに-; なん-"
+    },
+    {
+      "id": "kanji_068",
+      "character": "南",
+      "meaning": "南",
+      "on_reading": "ナン; ナ",
+      "kun_reading": "みなみ"
+    },
+    {
+      "id": "kanji_069",
+      "character": "万",
+      "meaning": "万",
+      "on_reading": "マン; バン",
+      "kun_reading": "よろず"
+    },
+    {
+      "id": "kanji_070",
+      "character": "毎",
+      "meaning": "每",
+      "on_reading": "マイ",
+      "kun_reading": "ごと; -ごと.に"
+    },
+    {
+      "id": "kanji_071",
+      "character": "白",
+      "meaning": "白",
+      "on_reading": "ハク; ビャク",
+      "kun_reading": "しろ; しら-; しろ.い"
+    },
+    {
+      "id": "kanji_072",
+      "character": "天",
+      "meaning": "天空",
+      "on_reading": "テン",
+      "kun_reading": "あまつ; あめ; あま-"
+    },
+    {
+      "id": "kanji_073",
+      "character": "母",
+      "meaning": "母亲",
+      "on_reading": "ボ",
+      "kun_reading": "はは; も"
+    },
+    {
+      "id": "kanji_074",
+      "character": "火",
+      "meaning": "火",
+      "on_reading": "カ",
+      "kun_reading": "ひ; -び; ほ-"
+    },
+    {
+      "id": "kanji_075",
+      "character": "右",
+      "meaning": "right",
+      "on_reading": "ウ; ユウ",
+      "kun_reading": "みぎ"
+    },
+    {
+      "id": "kanji_076",
+      "character": "読",
+      "meaning": "读",
+      "on_reading": "ドク; トク; トウ",
+      "kun_reading": "よ.む; -よ.み"
+    },
+    {
+      "id": "kanji_077",
+      "character": "友",
+      "meaning": "朋友",
+      "on_reading": "ユウ",
+      "kun_reading": "とも"
+    },
+    {
+      "id": "kanji_078",
+      "character": "左",
+      "meaning": "left",
+      "on_reading": "サ; シャ",
+      "kun_reading": "ひだり"
+    },
+    {
+      "id": "kanji_079",
+      "character": "休",
+      "meaning": "休息",
+      "on_reading": "キュウ",
+      "kun_reading": "やす.む; やす.まる; やす.める"
+    },
+    {
+      "id": "kanji_080",
+      "character": "父",
+      "meaning": "父亲",
+      "on_reading": "フ",
+      "kun_reading": "ちち"
+    },
+    {
+      "id": "kanji_081",
+      "character": "雨",
+      "meaning": "雨",
+      "on_reading": "ウ",
+      "kun_reading": "あめ; あま-; -さめ"
+    },
+    {
+      "id": "kanji_082",
+      "character": "丈",
+      "meaning": "length; ten shaku; measure; Mr.; Ms.; height; stature; all (one has); only; that's all; merely",
+      "on_reading": "ジョウ",
+      "kun_reading": "たけ; だけ"
+    },
+    {
+      "id": "kanji_083",
+      "character": "誰",
+      "meaning": "who; someone; somebody",
+      "on_reading": "スイ",
+      "kun_reading": "だれ; たれ; た"
+    },
+    {
+      "id": "kanji_084",
+      "character": "貼",
+      "meaning": "stick; paste; apply",
+      "on_reading": "テン; チョウ",
+      "kun_reading": "は.る; つ.く"
+    },
+    {
+      "id": "kanji_085",
+      "character": "田",
+      "meaning": "稻田",
+      "on_reading": "でん",
+      "kun_reading": "た"
+    },
+    {
+      "id": "kanji_086",
+      "character": "黒",
+      "meaning": "黑",
+      "on_reading": "こく",
+      "kun_reading": "くろ"
+    },
+    {
+      "id": "kanji_087",
+      "character": "赤",
+      "meaning": "红",
+      "on_reading": "せき",
+      "kun_reading": "あか"
+    },
+    {
+      "id": "kanji_088",
+      "character": "青",
+      "meaning": "蓝/青",
+      "on_reading": "せい",
+      "kun_reading": "あお"
+    },
+    {
+      "id": "kanji_089",
+      "character": "口",
+      "meaning": "口",
+      "on_reading": "こう・く",
+      "kun_reading": "くち"
+    },
+    {
+      "id": "kanji_090",
+      "character": "目",
+      "meaning": "眼睛",
+      "on_reading": "もく",
+      "kun_reading": "め"
+    },
+    {
+      "id": "kanji_091",
+      "character": "耳",
+      "meaning": "耳朵",
+      "on_reading": "じ",
+      "kun_reading": "みみ"
+    },
+    {
+      "id": "kanji_092",
+      "character": "手",
+      "meaning": "手",
+      "on_reading": "しゅ",
+      "kun_reading": "て"
+    },
+    {
+      "id": "kanji_093",
+      "character": "足",
+      "meaning": "脚/足",
+      "on_reading": "そく",
+      "kun_reading": "あし・た"
+    },
+    {
+      "id": "kanji_094",
+      "character": "力",
+      "meaning": "力量",
+      "on_reading": "りょく・りき",
+      "kun_reading": "ちから"
+    },
+    {
+      "id": "kanji_095",
+      "character": "花",
+      "meaning": "花",
+      "on_reading": "か",
+      "kun_reading": "はな"
+    },
+    {
+      "id": "kanji_096",
+      "character": "京",
+      "meaning": "首都",
+      "on_reading": "きょう・けい",
+      "kun_reading": "みやこ"
+    },
+    {
+      "id": "kanji_097",
+      "character": "飲",
+      "meaning": "喝",
+      "on_reading": "いん",
+      "kun_reading": "の"
+    },
+    {
+      "id": "kanji_098",
+      "character": "帰",
+      "meaning": "返回",
+      "on_reading": "き",
+      "kun_reading": "かえ"
+    },
+    {
+      "id": "kanji_099",
+      "character": "買",
+      "meaning": "买",
+      "on_reading": "ばい",
+      "kun_reading": "か"
+    },
+    {
+      "id": "kanji_100",
+      "character": "立",
+      "meaning": "站立",
+      "on_reading": "りつ",
+      "kun_reading": "た"
+    },
+    {
+      "id": "kanji_101",
+      "character": "林",
+      "meaning": "树林",
+      "on_reading": "りん",
+      "kun_reading": "はやし"
+    },
+    {
+      "id": "kanji_102",
+      "character": "森",
+      "meaning": "森林",
+      "on_reading": "しん",
+      "kun_reading": "もり"
+    },
+    {
+      "id": "kanji_103",
+      "character": "村",
+      "meaning": "村庄",
+      "on_reading": "そん",
+      "kun_reading": "むら"
+    },
+    {
+      "id": "kanji_104",
+      "character": "町",
+      "meaning": "街道",
+      "on_reading": "ちょう",
+      "kun_reading": "まち"
+    },
+    {
+      "id": "kanji_105",
+      "character": "道",
+      "meaning": "道路/方法",
+      "on_reading": "どう",
+      "kun_reading": "みち"
+    },
+    {
+      "id": "kanji_106",
+      "character": "駅",
+      "meaning": "车站",
+      "on_reading": "えき",
+      "kun_reading": ""
+    },
+    {
+      "id": "kanji_107",
+      "character": "社",
+      "meaning": "公司/神社",
+      "on_reading": "しゃ",
+      "kun_reading": ""
+    },
+    {
+      "id": "kanji_108",
+      "character": "会",
+      "meaning": "会面",
+      "on_reading": "かい",
+      "kun_reading": "あ"
+    },
+    {
+      "id": "kanji_109",
+      "character": "魚",
+      "meaning": "鱼",
+      "on_reading": "ぎょ",
+      "kun_reading": "さかな"
+    },
+    {
+      "id": "kanji_110",
+      "character": "肉",
+      "meaning": "肉",
+      "on_reading": "にく",
+      "kun_reading": ""
+    },
+    {
+      "id": "kanji_111",
+      "character": "鳥",
+      "meaning": "鸟",
+      "on_reading": "ちょう",
+      "kun_reading": "とり"
+    },
+    {
+      "id": "kanji_112",
+      "character": "犬",
+      "meaning": "狗",
+      "on_reading": "けん",
+      "kun_reading": "いぬ"
+    },
+    {
+      "id": "kanji_113",
+      "character": "猫",
+      "meaning": "猫",
+      "on_reading": "びょう",
+      "kun_reading": "ねこ"
+    },
+    {
+      "id": "kanji_114",
+      "character": "家",
+      "meaning": "家",
+      "on_reading": "か",
+      "kun_reading": "いえ"
+    }
+  ]
+}

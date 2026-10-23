@@ -3,9 +3,15 @@ import { access, readFile } from 'node:fs/promises'
 const graphPath = new URL('../Data/knowledge_graph.json', import.meta.url)
 const catalogPath = new URL('../Data/lessons.json', import.meta.url)
 const queuePath = new URL('../Data/srs_queue.json', import.meta.url)
+const assessmentPath = new URL('../Data/n5_assessment.json', import.meta.url)
+const vocabularyPath = new URL('../Data/vocabulary.json', import.meta.url)
+const kanjiPath = new URL('../Data/kanji.json', import.meta.url)
 const graph = JSON.parse(await readFile(graphPath, 'utf8'))
 const catalog = JSON.parse(await readFile(catalogPath, 'utf8'))
 const queue = JSON.parse(await readFile(queuePath, 'utf8'))
+const assessment = JSON.parse(await readFile(assessmentPath, 'utf8'))
+const vocabulary = JSON.parse(await readFile(vocabularyPath, 'utf8'))
+const kanji = JSON.parse(await readFile(kanjiPath, 'utf8'))
 const errors = []
 const nodes = new Map()
 
@@ -54,6 +60,36 @@ for (const item of queue.review_queue ?? []) {
   if (item.scheduling && (item.scheduling.interval_index < 0 || item.scheduling.interval_index >= queue.schedule_intervals_days.length)) {
     errors.push(`${item.id} has an interval index outside the configured schedule`)
   }
+  if (typeof item.target !== 'string' || !item.target) errors.push(`${item.id} has no target`)
+  if (typeof item.prompt !== 'string' || !item.prompt) errors.push(`${item.id} has no prompt`)
+}
+
+for (const [name, list, key] of [['vocabulary', vocabulary.items, 'word'], ['kanji', kanji.items, 'character']]) {
+  const ids = new Set()
+  const values = new Set()
+  for (const item of list ?? []) {
+    if (!/^[a-z]+_[0-9]{3}$/.test(item.id ?? '')) errors.push(`Invalid ${name} ID: ${item.id}`)
+    if (ids.has(item.id)) errors.push(`Duplicate ${name} ID: ${item.id}`)
+    if (values.has(item[key])) errors.push(`Duplicate ${name} value: ${item[key]}`)
+    ids.add(item.id); values.add(item[key])
+  }
+}
+
+const targetSets = {
+  grammar: new Set([...nodes.keys()].filter(id => id.startsWith('grammar_') || id.startsWith('grammarcard_') || id.startsWith('verb') || lessonIds.has(id))),
+  vocabulary: new Set((vocabulary.items ?? []).map(item => item.id)),
+  kanji: new Set((kanji.items ?? []).map(item => item.id)),
+  reading: new Set([...nodes.keys()]),
+  lesson: new Set(lessonIds)
+}
+const questionIds = new Set()
+for (const question of assessment.questions ?? []) {
+  if (!/^q_[0-9]{3}$/.test(question.id ?? '')) errors.push(`Invalid assessment question ID: ${question.id}`)
+  if (questionIds.has(question.id)) errors.push(`Duplicate assessment question ID: ${question.id}`)
+  questionIds.add(question.id)
+  if (!targetSets[question.category]?.has(question.target)) errors.push(`${question.id} has invalid ${question.category} target ${question.target}`)
+  if (!Array.isArray(question.choices) || question.choices.length < 2 || !Number.isInteger(question.answer) || question.answer < 0 || question.answer >= question.choices.length) errors.push(`${question.id} has an invalid answer key`)
+  if (!question.prompt || !question.explanation) errors.push(`${question.id} is missing its prompt or explanation`)
 }
 
 const visiting = new Set()

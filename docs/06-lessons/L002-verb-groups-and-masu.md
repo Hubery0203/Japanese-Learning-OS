@@ -50,6 +50,11 @@
 
 </details>
 
+
+<ClientOnly>
+  <LessonStudy lesson-id="lesson_002" />
+</ClientOnly>
+
 ## 掌握标准
 
 - 三题全对，并能说明五段与一段的变形差异。

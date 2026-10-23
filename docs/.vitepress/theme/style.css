@@ -47,3 +47,23 @@
 .done-label { color:var(--vp-c-brand-1); font-size:.85rem; }
 .local-note { margin:.8rem 0 0; font-size:.8rem; color:var(--vp-c-text-3); }
 @media(max-width:640px){.learning-dashboard{padding:1rem}.lesson-list li{align-items:flex-start}}
+.assessment { margin:1rem 0 3rem; }
+.lesson-study { margin:1.5rem 0; padding:1rem 1.2rem; border:1px solid var(--vp-c-divider); border-radius:12px; background:var(--vp-c-bg-soft); }
+.lesson-study textarea { box-sizing:border-box; width:100%; margin:.5rem 0; padding:.7rem; border:1px solid var(--vp-c-divider); border-radius:8px; color:var(--vp-c-text-1); background:var(--vp-c-bg); }
+.lesson-study h2 { margin:.25rem 0; border:0; }
+.question-card,.result-card { margin:1rem 0; padding:1rem 1.2rem; border:1px solid var(--vp-c-divider); border-radius:12px; background:var(--vp-c-bg-soft); }
+.choice-row { display:block; margin:.4rem 0; padding:.5rem; border-radius:8px; }
+.choice-row.correct { background:color-mix(in srgb,var(--vp-c-brand-1) 18%,transparent); }
+.choice-row.incorrect { background:color-mix(in srgb,#ef4444 15%,transparent); }
+.explanation { margin:.7rem 0 0; color:var(--vp-c-text-2); }
+.lexicon-controls,.pagination { display:flex; align-items:center; flex-wrap:wrap; gap:.6rem; margin:1rem 0; }
+.lexicon-controls button,.pagination button { border:1px solid var(--vp-c-divider); border-radius:8px; padding:.5rem .75rem; background:var(--vp-c-bg-soft); color:var(--vp-c-text-1); cursor:pointer; }
+.lexicon-controls button[aria-pressed="true"] { border-color:var(--vp-c-brand-1); color:var(--vp-c-brand-1); }
+.lexicon-controls input { flex:1; min-width:220px; padding:.6rem; border:1px solid var(--vp-c-divider); border-radius:8px; background:var(--vp-c-bg); color:var(--vp-c-text-1); }
+.lexicon-list,.kanji-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:.65rem; }
+.lexicon-list article,.kanji-grid article { display:flex; flex-direction:column; gap:.2rem; padding:.75rem; border:1px solid var(--vp-c-divider); border-radius:10px; background:var(--vp-c-bg-soft); }
+.kanji-grid { grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); }
+.kanji-grid article strong { font-size:2rem; }
+.lexicon-list small,.kanji-grid small { color:var(--vp-c-text-3); }
+.pagination { justify-content:center; }
+.pagination button:disabled { opacity:.45; cursor:not-allowed; }

@@ -45,6 +45,11 @@
 
 </details>
 
+
+<ClientOnly>
+  <LessonStudy lesson-id="lesson_001" />
+</ClientOnly>
+
 ## 掌握标准
 
 - 能准确数出促音、长音和拨音各占一拍。
